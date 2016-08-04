@@ -33,9 +33,9 @@ header p {
   align-items: center;
   background-image: url('http://cngproduction.com/wp-content/uploads/2015/08/dessin-potager-1.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: black;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.25px 0.25px 0.25px black;
 }
 
 .jumbotron h2 {
