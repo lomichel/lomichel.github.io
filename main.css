@@ -26,11 +26,12 @@ body {
           background-size: cover;
 }
 .maintitle {
-    position:"center";    color: #fff;
-    font-family: "Palatino";
-  left: 110px; 
+color: #fff;
+font-family: "Palatino";
+left: 110px; 
   position: fixed;
     }
+    
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
