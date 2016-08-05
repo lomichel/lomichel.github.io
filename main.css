@@ -1,98 +1,72 @@
+/* Initial body */
 body {
-  font-family: 'Palatino', sans-serif;
-  font-weight: 300;
-}
-
-header {
-  padding: 40px 0;
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
+  left: 0;
   margin: 0;
+  overflow: hidden;
+  position: relative;
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
+/* Basic styling */
 
 .jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('http://cngproduction.com/wp-content/uploads/2015/08/dessin-potager-1.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
-}
-
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
+.menu ul {
+  border-top: 1px solid #636366;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
 }
