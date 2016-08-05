@@ -28,9 +28,9 @@ body {
 .maintitle h2 {
 color: #fff;
 font-family: "Palatino";
-left: 600px; 
-top: 250px;
-  position: fixed;
+left: 570px; 
+top: 290px;
+  position: absolute;
     }
 
 .menu ul {
