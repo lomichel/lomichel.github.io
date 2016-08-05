@@ -20,6 +20,15 @@ var main = function() {
       left: "0px"
     }, 200);
   });
+  
+   $('.arrow-next').click(function() {
+    var currentSlide = $('.contact.html');
+    var nextSlide = currentSlide.next();
+    var currentDot = $('.active-dot');
+    if(nextSlide.length === 0) {
+      nextSlide = $('.slide').first();
+    }
+   });
 };
 
 
