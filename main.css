@@ -25,7 +25,7 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
-.maintitle h3 {
+.maintitle h1 {
 color: #fff;
 font-family: "Palatino";
 left: 570px; 
