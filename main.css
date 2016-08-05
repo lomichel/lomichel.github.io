@@ -28,7 +28,8 @@ body {
 .maintitle h2 {
 color: #fff;
 font-family: "Palatino";
-left: 110px; 
+left: 210px; 
+top:110px;
   position: fixed;
     }
 
