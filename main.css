@@ -25,6 +25,7 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
+
 .maintitle h2 {
 color: #fff;
 font-family: "Palatino";
@@ -56,6 +57,7 @@ left: 110px;
 }
 
 .icon-close {
+  color:#fff;
   cursor: pointer;
   padding-left: 10px;
   padding-top: 10px;
