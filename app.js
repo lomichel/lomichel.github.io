@@ -22,11 +22,11 @@ var main = function() {
   });
   
    $('.slidec').click(function() {
-    var currentSlide = $('.contact.html');
+    var currentSlide = $('.index.html');
     var nextSlide = currentSlide.next();
     var currentDot = $('.active-dot');
     if(nextSlide.length === 0) {
-      nextSlide = $('.slidec').first();
+      nextSlide = $('.contact.html).first();
     }
    });
 };
