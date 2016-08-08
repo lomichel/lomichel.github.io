@@ -26,7 +26,7 @@ var main = function() {
     var nextSlide = currentSlide.next();
     var currentDot = $('.active-dot');
     if(nextSlide.length === 0) {
-      nextSlide = $('.slide').first();
+      nextSlide = $('.slidec').first();
     }
    });
 };
