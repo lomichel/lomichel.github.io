@@ -21,14 +21,6 @@ var main = function() {
     }, 200);
   });
   
-   $('.slidec').click(function() {
-    var currentSlide = $('.index.html');
-    var nextSlide = currentSlide.next();
-    var currentDot = $('.active-dot');
-    if(nextSlide.length === 0) {
-      nextSlide = $('.contact.html).first();
-    }
-   });
 };
 
 
