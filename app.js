@@ -21,7 +21,7 @@ var main = function() {
     }, 200);
   });
   
-   $('.arrow-next').click(function() {
+   $('.slidec').click(function() {
     var currentSlide = $('.contact.html');
     var nextSlide = currentSlide.next();
     var currentDot = $('.active-dot');
