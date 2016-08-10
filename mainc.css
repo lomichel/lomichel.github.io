@@ -89,6 +89,11 @@ section .row p {
   position: relative;
   color: #fff;
 }
+.col-sm-6 {
+  margin-right: 5px;
+  position: relative;
+  color: #fff;
+}
 
 footer li img {
   width: 32px;
