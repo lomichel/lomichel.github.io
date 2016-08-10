@@ -21,15 +21,8 @@ var main = function() {
     }, 200);
   });
 
-  $('.jumbotron').click(function(){
-    $(this).addClass("img")
-  });
-  
-  $('.img').click(function(){
-    $(this).addClass("img2")
-  });
-
 };
 
 
 $(document).ready(main);
+
