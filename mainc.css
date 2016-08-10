@@ -79,8 +79,15 @@ position:absolute;
   margin-right: 5px;
 }
 section .row img {
+  margin-right: 5px;
   width: 100%;
   position: relative;
+}
+section .row p {
+  margin-right: 5px;
+  width: 100%;
+  position: relative;
+  color: #fff;
 }
 
 footer li img {
