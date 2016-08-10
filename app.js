@@ -24,6 +24,7 @@ var main = function() {
   $('.jumbotron').click(function(){
     $(this).addClass("img")
   });
+  
   $('.img').click(function(){
     $(this).addClass("jumbotron")
   });
