@@ -1,76 +1,75 @@
-/* Initial body */
 body {
-  left: 0;
-  margin: 0 0 30;
-  position: relative;
-}
-/* Initial menu */
-.menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
-  left: -285px;  /* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 285px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
-/* Basic styling */
+footer .row {
+  display: flex;
+  align-items: center;
+}
 
 .jumbotron {
-  background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg'); 
-  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.maintitle h1 {
-color: #fff;
-font-family: "Palatino";
-left: 570px; 
-top: 100px;
-position:absolute;
-    }
-
-.menu ul {
-  border-top: 1px solid #636366;
-  list-style: none;
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
   margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
   color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
-.icon-close {
-  cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.icon-menu {
+.jumbotron h3 {
+  margin: 0 0 20px;
   color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
-.icon-menu i {
-  margin-right: 5px;
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
 }
 
 footer li img {
