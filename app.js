@@ -20,7 +20,11 @@ var main = function() {
       left: "0px"
     }, 200);
   });
-  
+}
+  $('.jumbotron').click(function(){
+    $(this).addClass("img")
+  });
+
   
 };
 
