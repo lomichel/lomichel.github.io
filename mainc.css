@@ -26,7 +26,6 @@ body {
           background-size: cover;
 }
 
-
 .maintitle h1 {
 color: #fff;
 font-family: "Palatino";
@@ -78,6 +77,14 @@ position:absolute;
 
 .icon-menu i {
   margin-right: 5px;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
 }
 
 footer li img {
