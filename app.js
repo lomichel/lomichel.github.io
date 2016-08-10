@@ -25,7 +25,7 @@ var main = function() {
     $(this).addClass("img")
   });
   
-  $('.img').click(function(){
+  $('.jumbotron').click(function(){
     $(this).addClass("jumbotron")
   });
 
