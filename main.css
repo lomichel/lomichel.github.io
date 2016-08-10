@@ -19,7 +19,7 @@ body {
 
 .jumbotron {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup.JPG?raw=true.png'); 
-  height: 120%;
+  height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
