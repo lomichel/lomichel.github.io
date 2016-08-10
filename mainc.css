@@ -78,22 +78,6 @@ position:absolute;
 .icon-menu i {
   margin-right: 5px;
 }
-section .row img {
-  margin-right: 5px;
-  width: 100%;
-  position: relative;
-}
-section .row p {
-  margin-right: 5px;
-  width: 100%;
-  position: relative;
-  color: #fff;
-}
-.col-sm-6 {
-  margin-right: 5px;
-  position: relative;
-  color: #fff;
-}
 
 footer li img {
   width: 32px;
