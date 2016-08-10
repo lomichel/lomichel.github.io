@@ -33,6 +33,16 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
+
+.img2 {
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup.JPG?raw=true.png');
+  height:100%;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
 .maintitle h1 {
 color: #fff;
 font-family: "Palatino";
