@@ -20,10 +20,6 @@ body {
 .jumbotron {
   background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg'); 
   height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
 }
 
 .maintitle h1 {
