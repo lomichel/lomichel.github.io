@@ -25,7 +25,6 @@ var main = function() {
     $(this).addClass("img")
   });
 
-}
 };
 
 
