@@ -78,8 +78,8 @@ footer .row {
   padding-bottom: 0.25px;
   padding-left: 0.25px;
   padding-top: 0.25px;
-  position: absolute;
-  top: 120px;
+  position: fixed;
+  top: 180px;
   left: 0;
   text-decoration: none;
   text-transform: uppercase;
