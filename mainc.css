@@ -107,13 +107,33 @@ section .row img {
   background-color: #ffffff;
 }
 
-#imageDiv{
-    background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg')
+
+#toggle1{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+#toggle2{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
 
-.active{
+span{
     display: none;
 }
+
+#toggle1:checked + span{
+    display: block;
+}
+#toggle2:checked + span{
+    display: block;
+}
+
+img {
+    cursor: pointer;
+}
+
 
 .btn.btn-primary:hover {
   color: #ffffff;
