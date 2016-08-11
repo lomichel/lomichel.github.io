@@ -30,6 +30,11 @@ footer .row {
   color: #fff;
 }
 
+.jumbotron h4 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
 section .row img {
   margin: 0 0 30px;
   width: 100%;
