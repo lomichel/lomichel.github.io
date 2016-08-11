@@ -26,6 +26,30 @@ $('div').click(function(){
   $(this).addClass('active');
 });
 }; 
+$(document).ready(function()
+    {
+        setTimeout(function()
+        {
+            $("div#outer").click(function ()
+            {
+                $("div#outer img").remove();                
+                $("div#outer").html($("div#text").text());
+                $("div#outer").show();
+            });
+         }, 1000);
+     });
+$(document).ready(function()
+    {
+        setTimeout(function()
+        {
+            $("div#outer1").click(function ()
+            {
+                $("div#outer1 img").remove();                
+                $("div#outer1").html($("div#text1").text());
+                $("div#outer1").show();
+            });
+         }, 1000);
+     });
 $(document).ready(main);
 
 
