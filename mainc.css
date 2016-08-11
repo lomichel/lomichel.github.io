@@ -11,7 +11,7 @@ footer .row {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
