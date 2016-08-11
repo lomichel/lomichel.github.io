@@ -20,13 +20,17 @@ var main = function() {
       left: "0px"
     }, 200);
   });
-  
+}; 
+$(document).ready(main);
+
+var img = function() {
   $('div').click(function(){
   $('div').removeClass('active');
   $(this).addClass('active');
 });
-};
+}
+$(document).ready(img);
 
 
-$(document).ready(main);
+
 
