@@ -107,6 +107,10 @@ section .row img {
   background-color: #ffffff;
 }
 
+.active{
+    display: none;
+}
+
 .btn.btn-primary:hover {
   color: #ffffff;
   background-color: #fbd1d5;
