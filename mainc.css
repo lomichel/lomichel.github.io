@@ -107,6 +107,10 @@ section .row img {
   background-color: #ffffff;
 }
 
+#imageDiv{
+    background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg')
+}
+
 .active{
     display: none;
 }
