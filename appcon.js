@@ -20,12 +20,11 @@ var main = function() {
       left: "0px"
     }, 200);
   });
-  $('img' src="https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg").click(function () { // on a click
-  if($(this).attr('id') == '1') { // get the id attribute
-    $('#div').html('Image with 1 was clicked'); // write the text
-  } 
-}
-
+  
+  $('div').click(function(){
+  $('div').removeClass('active');
+  $(this).addClass('active');
+});
 };
 
 
