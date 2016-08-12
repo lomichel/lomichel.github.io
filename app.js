@@ -22,12 +22,11 @@ var main = function() {
   });
 
    $(document).ready(function()
-    {
-        $(".jumbotron").on("click", function(){
-            $(this).css({'background-image': "url(https://github.com/lomichel/lomichel.github.io/blob/master/Lo.jpg?raw=true.jpg?raw=true.jpg)", 
-            'background-image': "url(https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg)"});
-        });
+ {
+    $('.jumbotron').click(function () {
+        $(this).toggleClass(".img1")
     });
+});
 };
 $(document).ready(main);
 
