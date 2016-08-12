@@ -25,7 +25,7 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
-.img1 {
+.image1 {
   background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg');
   height:100%;
     -webkit-background-size: cover;
@@ -34,14 +34,6 @@ body {
           background-size: cover;
 }
 
-.img2 {
-  background-image: url('url(https://github.com/lomichel/lomichel.github.io/blob/master/Lo.jpg?raw=true.jpg?raw=true.jpg');
-  height:100%;
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-}
 
 .maintitle h1 {
 color: #fff;
