@@ -28,7 +28,7 @@ $(document).ready(function()
             $("div#outer").click(function ()
             {
                 $("div#outer img").remove();                
-                $("div#outer").html($("div#text").text());
+                $("div#outer").html($("div#text").html());
                 $("div#outer").show();
             });
          }, 1000);
@@ -40,7 +40,7 @@ $(document).ready(function()
             $("div#outer1").click(function ()
             {
                 $("div#outer1 img").toggleClass();                
-                $("div#outer1").html($("div#text1").text());
+                $("div#outer1").html($("div#text1").html());
                 $("div#outer1").show();
             });
          }, 1000);
