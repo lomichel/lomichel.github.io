@@ -20,11 +20,6 @@ var main = function() {
       left: "0px"
     }, 200);
   });
-
-$('div').click(function(){
-  $('div').removeClass('active');
-  $(this).addClass('active');
-});
 }; 
 $(document).ready(function()
     {
