@@ -22,11 +22,6 @@ var main = function() {
   });
 
  
- $(document).ready(function(){
-    $('.jumbotron').click(function(){
-        $(this).toggleClass('image1');
-    });
-});
 
 function cycleBackgrounds() {
 	var index = 0;
