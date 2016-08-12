@@ -39,7 +39,7 @@ $(document).ready(function()
         {
             $("div#outer1").click(function ()
             {
-                $("div#outer1 img").remove();                
+                $("div#outer1 img").toggleClass();                
                 $("div#outer1").html($("div#text1").text());
                 $("div#outer1").show();
             });
