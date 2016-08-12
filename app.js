@@ -21,14 +21,12 @@ var main = function() {
     }, 200);
   });
 
-  $('.jumbotron').click(function(){
-    $(this).addClass("img")
+   $(document).ready(function()
+    {
+         $('.jumbotron').click(function(){
+    $(this).toggleClass("img")
+         });
   });
-  
-  $('.img').click(function(){
-    $(this).addClass("img2")
-  });
-
 };
 
 
