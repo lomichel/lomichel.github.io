@@ -27,6 +27,7 @@ var main = function() {
             $(this).css({'background-image': "url(https://github.com/lomichel/lomichel.github.io/blob/master/Lo.jpg?raw=true.jpg?raw=true.jpg)", 
             'background-image': "url(https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg)"});
         });
+    });
 };
 $(document).ready(main);
 
