@@ -90,6 +90,13 @@ footer .row {
 }
 
 
+section{
+	background-color:#6B8E23;
+	background-size:200px fixed;
+	height:100%;
+	background-attachment: fixed;
+}
+
 section .row img {
   margin: 0 0 30px;
   width: 100%;
