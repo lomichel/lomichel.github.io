@@ -14,7 +14,7 @@ footer .row {
   background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -100,7 +100,7 @@ section{
 section .row img {
   margin: 0 0 2px;
   width: 100%;
-  height: 100px;
+  height: 450px;
 }
 
 .col-md-6 {
