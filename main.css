@@ -8,11 +8,14 @@
 }
 
 .maintitle h1 {
-color: #fff;
-font-family: "Palatino";
+
 left: 570px; 
 top: 100px;
 position:absolute;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
     }
 
 .menu ul {
