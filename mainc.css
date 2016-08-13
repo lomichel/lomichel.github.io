@@ -78,7 +78,7 @@ footer .row {
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   text-decoration: none;
