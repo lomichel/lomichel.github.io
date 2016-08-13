@@ -45,6 +45,30 @@ $(document).ready(function()
             });
          }, 1000);
      });
+     $(document).ready(function()
+    {
+        setTimeout(function()
+        {
+            $("div#outer2").click(function ()
+            {
+                $("div#outer2 img").remove();                
+                $("div#outer2").html($("div#text2").html());
+                $("div#outer2").show();
+            });
+         }, 1000);
+     });
+$(document).ready(function()
+    {
+        setTimeout(function()
+        {
+            $("div#outer3").click(function ()
+            {
+                $("div#outer3 img").toggleClass();                
+                $("div#outer3").html($("div#text3").html());
+                $("div#outer3").show();
+            });
+         }, 1000);
+     });
 $(document).ready(main);
 
 
