@@ -150,6 +150,7 @@ span{
 
 img {
     cursor: pointer;
+    position:relative;
 }
 
 
