@@ -126,56 +126,6 @@ text-align: center;
 }
 
 
-#toggle1{
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-#toggle2{
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-
-span{
-    display: none;
-}
-
-#toggle1:checked + span{
-    display: block;
-}
-#toggle2:checked + span{
-    display: block;
-}
-
-img {
-    cursor: pointer;
-}
-
-section .col-sm-6 .button {
-    background-color: #DC143C;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-	margin-top:60px;
-	border-radius: 8px;
-		
-}
-
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
 footer {
   font-size: 12px;
   padding: 20px 0;
