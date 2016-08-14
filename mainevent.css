@@ -152,6 +152,18 @@ img {
     cursor: pointer;
 }
 
+section .col-sm-6 .button {
+    background-color: #DC143C;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin-top:60px;
+	border-radius: 8px;
+		
+}
+
 
 .btn.btn-primary:hover {
   color: #ffffff;
