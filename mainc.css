@@ -109,6 +109,10 @@ section .row img {
 .col-md-6 {
   margin: 0 0 30px;
 }
+.col-sm-6 {
+
+text-align: center;
+}
 
 .btn.btn-primary {
   border-radius: 2px;
