@@ -44,6 +44,7 @@ background-image:url('http://www.leguideduciel.net/lgdc/lgdc068/Aube%20Aigoual%2
   height: 100%;
   position: fixed;
   width: 285px;
+  z-index:+1;
 }
 .menu ul {
   border-top: 1px solid #636366;
