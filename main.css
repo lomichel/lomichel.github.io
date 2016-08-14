@@ -8,12 +8,13 @@
 }
 
 .maintitle h2 {
-
+align-item:center;
 left: 570px; 
 top: 100px;
 position:absolute;
   color: #fff;
   font-weight: 700;
+  font-size: 60px;
     }
 
 .menu ul {
