@@ -24,7 +24,7 @@ var main = function() {
   });
   
   $('.btn').addClass('disabled');
-}
+
 
 $(document).ready(main);
 var post = function() {
