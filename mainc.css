@@ -35,6 +35,10 @@ footer .row {
 .jumbotron h4 {
   margin: 0 0 20px;
   color: #fff;
+.jumbotron li {
+Color:#fff;
+font-family: 'Open Sans', sans-serif;
+}
 }
 .menu {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
