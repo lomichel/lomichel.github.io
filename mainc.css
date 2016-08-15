@@ -39,6 +39,7 @@ footer .row {
 .jumbotron li {
 Color:#fff;
 font-family: 'Open Sans', sans-serif;
+text-decoration: none;
 }
 
 .menu {
