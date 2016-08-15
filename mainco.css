@@ -137,28 +137,6 @@ section{
 	height:100%;
 	background-attachment: fixed;
 }
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-
-
-
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
 
 footer {
   font-size: 12px;
