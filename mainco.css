@@ -1,10 +1,5 @@
 
 html,
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #404040;
-  background-color: #eee;
-}
 
 .container {
   width: 520px;
@@ -39,4 +34,147 @@ body {
   margin-bottom: 10px;
   word-wrap: break-word;
   min-height: 42px;
+}
+body {
+  font-family: 'Palatino', sans-serif;
+  font-weight: 400;
+  background-image:url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
+  background-size:400%;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+background-image:url('http://www.leguideduciel.net/lgdc/lgdc068/Aube%20Aigoual%20pano%20150-6700.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.jumbotron h4 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  z-index:+1;
+}
+.menu ul {
+  border-top: 1px solid #636366;m
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+section{
+
+	height:100%;
+	background-attachment: fixed;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+
+
+
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
