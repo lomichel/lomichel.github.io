@@ -24,9 +24,9 @@ var main = function() {
   });
   
   $('.btn').addClass('disabled');
+};
 
 
-$(document).ready(main);
 var post = function() {
   /* Push the body and the nav over by 285px over */
   $('.icon-menu').click(function() {
@@ -49,5 +49,6 @@ var post = function() {
       left: "0px"
     }, 200);
   });
-}
+};
 $(document).ready(post);
+$(document).ready(main);
