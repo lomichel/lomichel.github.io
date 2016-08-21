@@ -24,7 +24,7 @@ var main = function() {
  var projet = function() {
   /* Push the body and the nav over by 285px over */
   $('.button').click(function() {
-    $('.button').animate({
+    $('.projet').animate({
       Right: "0px"
     }, 200);
 
