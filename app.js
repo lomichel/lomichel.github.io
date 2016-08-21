@@ -29,12 +29,12 @@ var main = function() {
     }, 200);
 
     $('body').animate({
-      right:"-285px"
+      right:"-600px"
     }, 200);
   });
   $('.icon-ose').click(function() {
     $('.projet').animate({
-      right: "-285px"
+      right: "-600px"
    },200);
     $('body').animate({
    right:"0px"
