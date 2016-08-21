@@ -25,19 +25,19 @@ var main = function() {
   
   $('.button').click(function() {
     $('.projet').animate({
-      left: "0px"
+      right:"0px"
     }, 200);
 
     $('body').animate({
-      left: "-285px"
+      right:"-285px"
     }, 200);
   });
   $('.icon-ose').click(function() {
     $('.projet').animate({
-      left: "-285px"
+      right: "-285px"
    },200);
     $('body').animate({
-   left:"0px"
+   right:"0px"
   }, 200);
    });
    };
