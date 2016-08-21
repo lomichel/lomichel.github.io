@@ -22,17 +22,25 @@ var main = function() {
   });
 
  var projet = function() {
-  /* Push the body and the nav over by 285px over */
+  
   $('.button').click(function() {
     $('.projet').animate({
-      Right: "0px"
+      left: "0px"
     }, 200);
 
     $('body').animate({
-      Right: "285px"
+      left: "-285px"
     }, 200);
   });
-};
+  $('icon-ose').click(function() {
+    $('.projet').animate({
+      left: "-285px"
+   },200);
+    $('body').animate({
+   left:"0px"
+  }, 200);
+   });
+   };
 
 function cycleBackgrounds() {
 	var index = 0;
