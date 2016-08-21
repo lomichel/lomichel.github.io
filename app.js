@@ -21,7 +21,18 @@ var main = function() {
     }, 200);
   });
 
- 
+ var projet = function() {
+  /* Push the body and the nav over by 285px over */
+  $('.button').click(function() {
+    $('.button').animate({
+      Right: "0px"
+    }, 200);
+
+    $('body').animate({
+      Right: "285px"
+    }, 200);
+  });
+};
 
 function cycleBackgrounds() {
 	var index = 0;
@@ -46,3 +57,4 @@ $(function () {
 	
 	};
 $(document).ready(main);
+$(document).ready(projet);
