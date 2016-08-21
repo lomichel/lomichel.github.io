@@ -32,7 +32,7 @@ var main = function() {
       left: "-285px"
     }, 200);
   });
-  $('icon-ose').click(function() {
+  $('.icon-ose').click(function() {
     $('.projet').animate({
       left: "-285px"
    },200);
