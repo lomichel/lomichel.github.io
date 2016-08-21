@@ -13,9 +13,11 @@ body {
   width: 285px;
 }
 
-.button{
+.projet{
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   height: 100%;
+  Right: -285px;
+  	top:70px;/* start off behind the scenes */
   position: fixed;
   width: 285px;
 }
@@ -70,7 +72,20 @@ body {
 
   position:fixed;
 }
+.button{
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+	top:20px;
 
+  position:fixed;
+}
 .icon-menu i {
   margin-right: 5px;
   
