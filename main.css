@@ -21,6 +21,11 @@ body {
   position: fixed;
   width: 600px;
 }
+.projet p {
+Color:#fff;
+text-align: center;
+}
+
 .maintitle h2 {
   margin-top:150px;
   text-align: center;
