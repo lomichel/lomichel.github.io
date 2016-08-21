@@ -20,7 +20,7 @@ var main = function() {
       left: "0px"
     }, 200);
   });
-
+};
  var projet = function() {
   
   $('.button').click(function() {
@@ -63,6 +63,5 @@ $(function () {
 	cycleBackgrounds();
 });
 	
-	};
 $(document).ready(main);
 $(document).ready(projet);
