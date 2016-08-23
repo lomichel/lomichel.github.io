@@ -18,6 +18,7 @@ footer .row {
   color: #ffffff;
   height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  position:fixed;
 }
 
 .jumbotron h2 {
@@ -45,7 +46,7 @@ text-decoration: none;
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
-  position: absolute;
+  position: fixed;
   width: 285px;
   z-index:+1;
 }
