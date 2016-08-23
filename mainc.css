@@ -18,6 +18,7 @@ footer .row {
   color: #ffffff;
   height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  position:relative;
 }
 
 .jumbotron h2 {
@@ -37,7 +38,7 @@ footer .row {
   color: #fff;
 }
 .link {
-Color:#fff
+Color:#fff;
 text-decoration: none;
 }
 
