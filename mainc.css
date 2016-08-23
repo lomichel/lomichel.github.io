@@ -41,40 +41,20 @@ footer .row {
 Color:#fff;
 text-decoration: none;
 }
-.jumbotron button {
-    background-color: #555555; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 16px;
-    top : 0px;
-    right: 0px;
-}
-.jumbotron button span {
+.back {
+
+  color: #fff;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.jumbotron button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.jumbotron button:hover span {
-  padding-right: 25px;
-}
-
-.jumbotron button:hover span:after {
-  opacity: 1;
-  right: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  right: 30px;
+  Top: 20px;
+  position:fixed;
 }
 .menu {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
