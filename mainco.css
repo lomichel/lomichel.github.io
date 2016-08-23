@@ -32,7 +32,7 @@
 }
 body {
   font-family: 'Palatino', sans-serif;
-  font-weight: 400;
+  font-weight: 300%;
   background-image:url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
   background-size:400%;
 }
@@ -89,7 +89,7 @@ background-image:url('http://www.leguideduciel.net/lgdc/lgdc068/Aube%20Aigoual%2
 .menu li {
   border-bottom: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
+  line-height: 30px;
   padding-bottom: 3px;
   padding-left: 20px;
   padding-top: 3px;
@@ -130,7 +130,7 @@ background-image:url('http://www.leguideduciel.net/lgdc/lgdc068/Aube%20Aigoual%2
 
 section{
 
-	height:100%;
+
 	background-attachment: fixed;
 }
 
