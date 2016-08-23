@@ -41,7 +41,7 @@ footer .row {
 Color:#fff;
 text-decoration: none;
 }
-.jumbotron .button {
+.jumbotron button {
     background-color: #555555; /* Green */
     border: none;
     color: white;
@@ -52,14 +52,14 @@ text-decoration: none;
     top : 0px;
     right: 0px;
 }
-.jumbotron .button span {
+.jumbotron button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.jumbotron .button span:after {
+.jumbotron button span:after {
   content: '»';
   position: absolute;
   opacity: 0;
@@ -68,11 +68,11 @@ text-decoration: none;
   transition: 0.5s;
 }
 
-.jumbotron .button:hover span {
+.jumbotron button:hover span {
   padding-right: 25px;
 }
 
-.jumbotron .button:hover span:after {
+.jumbotron button:hover span:after {
   opacity: 1;
   right: 0;
 }
