@@ -54,6 +54,30 @@ text-decoration: none;
     top : 20px
     right: 20px;
 }
+.back span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.back span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.back:hover span {
+  padding-right: 25px;
+}
+
+.back:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .menu {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   left: -285px;  /* start off behind the scenes */
