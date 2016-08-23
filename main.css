@@ -138,6 +138,11 @@ Top: 20px;
 	z-index: -1;
 	opacity: 0;
 }
+.forth-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/ljdl.JPG?raw=true');
+	z-index:-4;
+	opacity:0;
+}
 
 .first-image.show {
 	opacity: 1;
@@ -148,5 +153,8 @@ Top: 20px;
 }
 
 .third-image.show {
+	opacity: 1;
+}
+.forth-image.show {
 	opacity: 1;
 }
