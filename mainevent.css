@@ -76,6 +76,21 @@ background-image:url('http://www.leguideduciel.net/lgdc/lgdc068/Aube%20Aigoual%2
   padding-left: 10px;
   padding-top: 10px;
 }
+.back {
+
+  Color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+   padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+  position:fixed;
+}
 
 .icon-menu {
   color: #fff;
@@ -181,7 +196,6 @@ section .button {
   color: #ffffff;
   margin: 0 0 30px;
 }
-
 footer {
   font-size: 12px;
   padding: 20px 0;
