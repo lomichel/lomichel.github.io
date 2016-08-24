@@ -1,24 +1,25 @@
- <link rel="stylesheet" href="Web2Cal/css/Web2Cal.css"/>
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-<script src="Web2Cal/Web2Cal-3.0.min.js" type="text/javascript"></script>
- <script src="Web2Cal/Web2Cal.support.js" type="text/javascript"></script>
- <script src="Web2Cal/Web2Cal.templates.js" type="text/javascript"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <title>Le moulin</title>
+  <meta charset="utf-8" />
 
-  <script>
-     jQuery(document).ready(function(){
-         iCal = new Web2Cal( "calId",
-                     {
-                          loadEvents: function(startDate, endDate, viewName){
-                             // Get events from any source. This can be a PHP/Java/.NET/Facebook or any other source
-                             // Once you have the data, invoke ical.render(data)
-                             // like shown below
-                             ical.render( eventSource.getEvents() );
-                          }
-                         , onNewEvent: function(event, groups, allDay){  }
-                         , onUpdateEvent: function(event){  }
-                     } );
-         iCal.build();
-     });
-  </script>
 
- <div id="calId"></div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- and you'll need to include equalheight -->
+<script src="simplecalendar.js"></script>
+
+<!-- and you'll need to include style.css -->
+<script src="style.css"></script>
+</head>
+<!-- and all you'll need to do is add some divs for event-->
+<div class="day-event" date-month="2" date-day="16" date-year="2016" data-number="1">
+<a href="#" class="close fontawesome-remove"></a>
+<h2 class="title">Lorem ipsum 3</h2>
+<span class="date">2014-12-16</span>
+<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+<button class="read-more">Read more</button>
+</div>
+</html>
