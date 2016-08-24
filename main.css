@@ -90,8 +90,10 @@ padding-bottom: 25px;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-	right: 30px;
-Top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+	Top: 20px;
 
   position:fixed;
 }
