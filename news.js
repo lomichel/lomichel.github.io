@@ -11,7 +11,7 @@ $(window).load(function(){
 	// this is why we are using setTimeout to make them asynchronous
 	// and improve the responsiveness of the page.
 
-	var slides = $('.slideshow li'),
+	var slides = $('#slideshow li'),
 		current = 0,
 		slideshow = {width:0,height:0};
 
@@ -20,9 +20,9 @@ $(window).load(function(){
 		window.console && window.console.time && console.time('Generated In');
 		
 		if(supportCanvas){
-			$('.slideshow img').each(function(){
+			$('#slideshow img').each(function(){
 
-				if(.slideshow.width){
+				if(!slideshow.width){
 					// Taking the dimensions of the first image:
 					slideshow.width = this.width;
 					slideshow.height = this.height;
@@ -35,7 +35,7 @@ $(window).load(function(){
 		
 		window.console && window.console.timeEnd && console.timeEnd('Generated In');
 		
-		$('.slideshow .arrow').click(function(){
+		$('#slideshow .arrow').click(function(){
 			var li			= slides.eq(current),
 				canvas		= li.find('canvas'),
 				nextIndex	= 0;
@@ -128,3 +128,4 @@ $(window).load(function(){
 	}
 	
 });
+$(document).ready(window);
