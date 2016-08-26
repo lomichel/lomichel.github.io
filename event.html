@@ -4,17 +4,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <title>Le moulin</title>
   <meta charset="utf-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Popup d'inscription</title>
-        <meta name="description" content="Popup en CSS3 et JS pour le blog webdesignweb.fr" />
-        <meta name="keywords" content="modal, window, overlay, modern, box, css transition, css animation " />
-        <meta name="author" content="Stratis BAKAS" />
-        <link rel="shortcut icon" href="../favicon.ico">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script src="js/modernizr.custom.js"></script>
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
@@ -22,58 +11,7 @@
 </head>
 
 <body>
-		
-        <!-- LE CONTENU DE LA POPUP -->
-      <div class="modal blur-effect" id="popup">
-            <div class="popup-content">
-<div class="my_background">
-
-		<div class="container">
-			<form role="form" id="register" method="post" action="SUCCESS">
-				<div class="row">
-					<div class="col-md-offset-2 col-md-8">
-						<h1> Inscription <br/> <small> Merci de renseigner vos informations </small></h1>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-offset-2 col-md-3">
-					<div class="form-group">
-						<label for="Nom">Nom</label>
-						<input type="text" class="form-control" id="nom" placeholder="Nom">
-					</div>
-					</div>
-					<div class="col-md-offset-1 col-md-3">
-						<div class="form-group">
-							<label for="Prenom">Prénom</label>
-							<input type="text" class="form-control" id="prenom" placeholder="Prénom">
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-offset-2 col-md-7">
-						<div class="form-group">
-							<label for="Email">Email address</label>
-							<input type="text" class="form-control" id="email" placeholder="Enter email">
-						</div>
-					</div>
-				</div>
-					
-					<br/>
-					<div class="row">
-						<div class="col-md-offset-5  col-md-1">
-							<button type="submit" class="btn btn-primary">S'incrire</button>
-                          <div class="close"></div>
-						</div>
-					</div>
-				
-
-			</div>
-		</form>
-	</div> </div> </div> 
-        <!-- FIN DE LA POPUP -->
-
+	
   <section class="jumbotron">
     <div class="container">
       <div class="row text-center">
@@ -115,8 +53,7 @@
 <div class ="col-sm-12">
         <b>Festival</b>  
               <div id="outer1"><img src="https://github.com/lomichel/lomichel.github.io/blob/master/mus.png?raw=true" alt="" /></div>
-<div id="text1" style="display:none"> <p> "Salut !"</p> <p> "Salut !"</p><p> "Salut !"</p><p> "Salut !"</p>   <button class="popup-button" data-modal="popup">Je m'inscris !</button></div></div>
-	<div class="overlay"></div>
+<div id="text1" style="display:none"> <p> "Salut !"</p> <p> "Salut !"</p><p> "Salut !"</p><p> "Salut !"</p>   <button class="button" type="button" onclick="parent.location='inscription.html'">inscriptions</button></div></div>
 	
 
 	
