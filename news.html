@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Le moulin/news</title>
-
-<link rel="stylesheet" type="text/css" href="news.css" />
-
-</head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <body>
 
-<div id="slideshow">
+<h2 class="w3-center">Manual Slideshow</h2>
 
-	<ul class="slides">
-    	<li><img src="https://github.com/lomichel/lomichel.github.io/blob/master/html5-slideshow/img/photos/1.jpg?raw=true" width="620" height="320" alt="Marsa Alam underawter close up" /></li>
-        <li><img src="html5-slideshow/img/photos/2.jpg" width="620" height="320" alt="Turrimetta Beach - Dawn" /></li>
-        <li><img src="html5-slideshow/img/photos/3.jpg" width="620" height="320" alt="Power Station" /></li>
-        <li><img src="html5-slideshow/img/photos/4.jpg" width="620" height="320" alt="Colors of Nature" /></li>
-    </ul>
+<div class="w3-content" style="max-width:800px;position:relative">
 
-    <span class="arrow previous"></span>
-    <span class="arrow next"></span>
+<img class="mySlides" src="img_fjords.jpg" style="width:100%">
+<img class="mySlides" src="img_lights.jpg" style="width:100%">
+<img class="mySlides" src="img_mountains.jpg" style="width:100%">
+<img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+
 </div>
 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-    
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script src="news.js"></script>
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
 </body>
 </html>
