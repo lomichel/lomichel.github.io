@@ -1,8 +1,126 @@
+body {
+  font-family: 'Palatino', sans-serif;
+  font-weight: 300;
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
+  background-size:400%;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  position:relative;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.back {
+
+  Color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+   padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+  position:fixed;
+}
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: absolute;
+  width: 285px;
+  z-index:+1;
+}
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+section{
+
+	background-size:200px fixed;
+	height:100%;
+	background-attachment: fixed;
+}
+
+.col-sm-12 {
+  position: fixed;
+}
+
 .slider {
   width: 100%;
-  overflow: hidden;
   height: 300px;
-  position: relative;
+  position: absolute;
+  z-index: +1;
 }
 
 .slider ul {
@@ -80,5 +198,25 @@
 
 .slider .content a {
   color: inherit;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
 
