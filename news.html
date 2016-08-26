@@ -7,39 +7,37 @@
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
     <link href='news.css' rel='stylesheet'>
 </head>
+<html>
+<head>
+<title>Slider</title>
+</head>
 <body>
-<section class="demo">
-  <button class="next">Next</button>
-  <button class="prev">Previous</button>
-  <div class="container">
-    <div style="display: inline-block;">
-      <img src="https://placeimg.com/400/200/people"/>
-    </div>
-    <div>
-     <img src="https://placeimg.com/400/200/any"/>
-    </div>
-    <div>
-      <img src="https://placeimg.com/400/200/nature"/>
-    </div>
-    <div>
-      <img src="https://placeimg.com/400/200/architecture"/>
-    </div>
-    <div>
-      <img src="https://placeimg.com/400/200/animals"/>
-    </div>
-    <div>
-      <img src="https://placeimg.com/400/200/people"/>
-    </div>
-    <div>
-      <img src="https://placeimg.com/400/200/tech"/>
-    </div>
-  </div>
-</section>
 
-<div class="explanation">
-  Building a slideshow like pattern that can accurately cycle through a number of unknown divs, forwards and backwards. Trying to use as little code as possible. Leave a comment if you see a way to do it better!
+<h1>Slider</h1>
+
+<div class="slider">
+<ul>
+<li>
+<img src="thermometer.jpg" />
+<div class="content">Slide One</div>
+</li>
+<li>
+<img src="building.jpg" />
+<div class="content"><a href="http://imageslidermaker.com">Slide Two</a></div>
+</li>
+<li>
+<img src="green-bottles.jpg" />
+</li>
+</ul>
+<button class="prev">prev</button>
+<button class="next">next</button>
 </div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="news.js"></script>
+
+</div>
+
 </body>
 </html>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="news.js"></script>
+
