@@ -115,22 +115,24 @@ background-attachment: fixed;
 section .row .col-sm-12{
   margin: 0 0 2px;
   width: 100%;
+  display: flex;
+  align-items: center;
  
 }
 section .row .col-md-12{
   margin: 0 0 2px;
   width: 100px;
+
 }
 
 
 
 .slider {
-  width: 90%;
-  height: 700px;
+  width: 80%;
+  height: 800px;
   position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+  left: 100px;
 }
 
 .slider ul {
@@ -181,10 +183,12 @@ section .row .col-md-12{
 
 .slider button.prev {
   left: 0;
+   height: 87%;
 }
 
 .slider button.next {
   right: 0;
+  height: 87%;
 }
 
 .slider button:hover, .slider button:active {
