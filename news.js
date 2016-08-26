@@ -1,4 +1,4 @@
-$(function() {
+var main = function() {
 
   var ul = $(".slider ul");
   var slide_count = ul.children().length;
@@ -37,4 +37,5 @@ $(function() {
 
   }
 
-});
+};
+$(document).ready(main);
