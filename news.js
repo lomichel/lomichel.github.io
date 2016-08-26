@@ -1,3 +1,4 @@
+var main = function() {
 var currentIndex = 0,
   items = $('.container div'),
   itemAmt = items.length;
@@ -33,3 +34,6 @@ $('.prev').click(function() {
   }
   cycleItems();
 });
+};
+	
+$(document).ready(main);
