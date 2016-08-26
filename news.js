@@ -29,7 +29,7 @@ var main = function() {
 
     var margin_left_pc = (new_slide_index * (-100)) + "%";
 
-    ul.animate({"margin-left": margin_left_pc}, 400, function() {
+    ul.animate({"margin-left": margin_left_pc}, 500, function() {
 
       slide_index = new_slide_index
 
@@ -38,4 +38,30 @@ var main = function() {
   }
 
 };
+
+
+var post = function() {
+  /* Push the body and the nav over by 285px over */
+  $('.icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
+};
+$(document).ready(post);
 $(document).ready(main);
