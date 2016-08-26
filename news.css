@@ -1,9 +1,8 @@
 body {
   font-family: 'Palatino', sans-serif;
-  font-weight: 300px;
+  font-weight: 400px;
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
   background-size:400%;
-  position: static;
 }
 
 footer .row {
@@ -108,8 +107,8 @@ footer .row {
 
 section{
 
-	background-size:200px fixed;
-	height:10%;
+height:100%;
+background-attachment: fixed;
 	
 }
 
