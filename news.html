@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<head>
+      <title>Le moulin</title>
+  <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='news.css' rel='stylesheet'>
+</head>
 <body>
+<section class="demo">
+  <button class="next">Next</button>
+  <button class="prev">Previous</button>
+  <div class="container">
+    <div style="display: inline-block;">
+      <img src="https://placeimg.com/400/200/people"/>
+    </div>
+    <div>
+     <img src="https://placeimg.com/400/200/any"/>
+    </div>
+    <div>
+      <img src="https://placeimg.com/400/200/nature"/>
+    </div>
+    <div>
+      <img src="https://placeimg.com/400/200/architecture"/>
+    </div>
+    <div>
+      <img src="https://placeimg.com/400/200/animals"/>
+    </div>
+    <div>
+      <img src="https://placeimg.com/400/200/people"/>
+    </div>
+    <div>
+      <img src="https://placeimg.com/400/200/tech"/>
+    </div>
+  </div>
+</section>
 
-<h2 class="w3-center">Manual Slideshow</h2>
-
-<div class="w3-content" style="max-width:800px;position:relative">
-
-<img class="mySlides" src="https://github.com/lomichel/lomichel.github.io/blob/master/Lo.jpg?raw=true" style="width:100%">
-<img class="mySlides" src="img_lights.jpg" style="width:100%">
-<img class="mySlides" src="img_mountains.jpg" style="width:100%">
-<img class="mySlides" src="img_forest.jpg" style="width:100%">
-
-<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-
+<div class="explanation">
+  Building a slideshow like pattern that can accurately cycle through a number of unknown divs, forwards and backwards. Trying to use as little code as possible. Leave a comment if you see a way to do it better!
 </div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="news.js"></script>
 </body>
 </html>
