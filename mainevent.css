@@ -196,15 +196,7 @@ img {
   margin: 10px 10px 10px;
 }
 
-section .button {
-    background-color: #DC143C;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-	margin-top:60px;
-	border-radius: 8px;
+section 
 		
 }
 
@@ -333,7 +325,18 @@ textarea {
 select {
   width: 252px;
 }
- 
+
+#envoy {
+    background-color: #DC143C;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin-top:60px;
+	border-radius: 8px;
+}
+
 input[type=checkbox] {
   width: 10px;
 }
