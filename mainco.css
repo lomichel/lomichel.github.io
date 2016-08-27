@@ -31,8 +31,7 @@
   min-height: 42px;
 }
 body {
-	 display:block;
-  align-items: center;
+
   font-family: 'Palatino', sans-serif;
   font-weight: normal;
   background-image:url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
