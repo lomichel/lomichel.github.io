@@ -31,7 +31,7 @@
   min-height: 42px;
 }
 body {
-	 
+	 display:block;
   align-items: center;
   font-family: 'Palatino', sans-serif;
   font-weight: normal;
