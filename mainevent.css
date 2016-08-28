@@ -316,6 +316,7 @@ input:focus {
  
 input, textarea {
   width: 252px;
+  color:black;
 }
  
 textarea {
