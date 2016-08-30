@@ -124,7 +124,7 @@ section .row img {
   margin: 0 0 2px;
     cursor: pointer;
     border-radius: 50%;
-    border-color: #8DC0B1;   /* Couleur de la bordure */
+    border-color: black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 4px; 
   width: 100%;
