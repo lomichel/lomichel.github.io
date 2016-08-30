@@ -144,7 +144,7 @@ right: 20px;
 }
 .first-image {
 	background-image: url('http://wallpaperbeta.com/wallpaper/tree_separation_from_soil_abstract_hd-wallpaper-330021.jpg');
-	z-index:-4;
+	z-index:-5;
 	opacity:0;
 }
 
