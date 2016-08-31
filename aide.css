@@ -164,21 +164,21 @@ border-width: 0.25px;
     color:white;
     position:absolute;
     top:12%;
-    left:40%;
+    left:53%;
 }
 #text2 {
     display:none;
     color:white;
     position:absolute;
     top:12%;
-    left:40%;
+    left:53%;
 }
 #text3 {
     display:none;
     color:white;
     position:absolute;
     top:12%;
-    left:40%;
+    left:53%;
 }
 .col-sm-6 {
 color:#fff;
@@ -323,9 +323,6 @@ footer li img {
     text-decoration:none;
 }
 
-p {
-  margin-top: 0px;
-}
  
 fieldset {
   margin-bottom: 10px;
