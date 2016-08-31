@@ -41,6 +41,7 @@ var main = function() {
   });
 
 }; 
+
 $(document).ready(function () {
     $("#outer1 img").click(function () {
         var th = $(this);
@@ -115,3 +116,4 @@ $(document).ready(function () {
    
     });
 });
+$(document).ready(main);
