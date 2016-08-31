@@ -36,62 +36,82 @@ var main = function() {
     }, 200);
 
     $('body').animate({
-      left: "0px"
+      left: "10%"
     }, 200);
   });
+
 }; 
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer").click(function ()
-            {
-                $("div#outer img").remove();                
-                $("div#outer").html($("div#text").html());
-                $("div#outer").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer1").click(function ()
-            {
-                $("div#outer1 img").toggleClass();                
-                $("div#outer1").html($("div#text1").html());
-                $("div#outer1").show();
-            });
-         }, 1000);
-     });
-     $(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer2").click(function ()
-            {
-                $("div#outer2 img").remove();                
-                $("div#outer2").html($("div#text2").html());
-                $("div#outer2").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer3").click(function ()
-            {
-                $("div#outer3 img").toggleClass();                
-                $("div#outer3").html($("div#text3").html());
-                $("div#outer3").show();
-            });
-         }, 1000);
-     });
-     
-$(document).ready(main);
+$(document).ready(function () {
+    $("#outer1 img").click(function () {
+        var th = $(this);
+          var text1 =document.querySelector("#text1");
+        if ($(th).css('left') == '0px') {
+            console.log("ret");
+            $(th).animate({
+                "left": "-300px"
+            }, 1500)
+ text1.style["display"] = "flex";
+        }  
+        else {
+      
+            console.log("sdffsdsff");
+            $(th).animate({
+                "left": "0px"
+            }, 1500)
+           
+ text1.style["display"] = "none";
+            
+        }
+   
+    });
+});
 
+$(document).ready(function () {
+    $("#outer2 img").click(function () {
+        var th = $(this);
+          var text2 =document.querySelector("#text2");
+        if ($(th).css('left') == '0px') {
+            console.log("ret");
+            $(th).animate({
+                "left": "-300px"
+            }, 1500)
+ text2.style["display"] = "flex";
+        }  
+        else {
+      
+            console.log("sdffsdsff");
+            $(th).animate({
+                "left": "0px"
+            }, 1500)
+           
+ text2.style["display"] = "none";
+            
+        }
+   
+    });
+});
 
-
-
-
+$(document).ready(function () {
+    $("#outer3 img").click(function () {
+        var th = $(this);
+          var text3 =document.querySelector("#text3");
+        if ($(th).css('left') == '0px') {
+            console.log("ret");
+            $(th).animate({
+                "left": "-300px"
+            }, 1500)
+ text3.style["display"] = "flex";
+        }  
+        else {
+      
+            console.log("sdffsdsff");
+            $(th).animate({
+                "left": "0px"
+            }, 1500)
+           
+ text3.style["display"] = "none";
+            
+        }
+   
+    });
+});
