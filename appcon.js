@@ -45,11 +45,8 @@ $(document).ready(function()
             });
          }, 1000);
      });
-$(document).ready(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-});
+     
+
 $(document).ready(main);
 
 
