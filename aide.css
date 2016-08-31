@@ -145,7 +145,7 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: #8DC0B1;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 4px; 
-  width: 75%;
+  width: 50%;
   height: 300px;
 }
 section .row .col-sm-12 img {
