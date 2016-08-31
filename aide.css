@@ -145,7 +145,7 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: #8DC0B1;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 4px; 
-  width: 50%;
+  width: 75%;
   height: 300px;
 }
 section .row .col-sm-12 img {
@@ -155,9 +155,31 @@ border-color: black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 0.25px; 
   width: 50%;
-    height: 300px;
+    height: 400px;
+    left:0px;
+    position :relative;
 }
-
+#text1 {
+    display:none;
+    color:white;
+    position:absolute;
+    top:12%;
+    left:40%;
+}
+#text2 {
+    display:none;
+    color:white;
+    position:absolute;
+    top:12%;
+    left:40%;
+}
+#text3 {
+    display:none;
+    color:white;
+    position:absolute;
+    top:12%;
+    left:40%;
+}
 .col-sm-6 {
 color:#fff;
 text-align: center; 
