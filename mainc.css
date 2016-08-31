@@ -130,7 +130,20 @@ border-width: 0.75px;
   width: 75%;
   height: 350px;
 }
-
+.flip {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
 .col-md-6 {
   margin: 0 0 30px;
 }
