@@ -1,58 +1,86 @@
-var main = function() {
-  /* Push the body and the nav over by 285px over */
-  $('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Le moulin</title>
+  <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='mainc.css' rel='stylesheet'>
+</head>
 
-    $('body').animate({
-      left: "285px"
-    }, 200);
-  });
+<body>
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Le moulin</h2>
+        <h3>Nous contacter</h3>
+<a class="link" href="mailto:lemoulindegrupont@gmail.com">Lemoulindegrupont@gmail.com</a>
+      </div>
+    </div>
+    <div
+     class="back"><i class="fa fa-home"></i> 
+        <a href="index.html" class="back">
+              Page principale</a>
+              
+      </div>
+      <div class="menu">
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="http://icdn.pro/images/fr/f/e/fermer-gtk-icone-4981-48.png">
+      </div>
+      <!-- Menu -->
+      <ul>
+        <li><a href="news.html">Les news</a></li>
+        <li><a href="event.html">Nos événements</a></li>
+        
+        <li><a href="contact.html" class = "slidec"> Nous contacter</a></li>
+  <li><a href="aider.html"> Nous aider</a></li>
+        <li><a href="comentaires.html"> vos commentaires</a></li>
+      </ul>
+      </div>
+    <!-- Main body -->
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </div>
 
-  /* Then push them back */
-  $('.icon-close').click(function() {
-    $('.menu').animate({
-      left: "-285px"
-    }, 200);
+  </section>
+  
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <b>Lewis Baudoux</b>
+      <div id="outer"><img src="https://github.com/lomichel/lomichel.github.io/blob/master/Lew2.jpg?raw=true.jpg" alt="" /></div>
+<div id="text" style="display:none">Bioingénieur de formation. il a étudié à Gembloux... blablabla
+<br>blabla</br>
+<p>blabla</p>
+<p>blabla</p>
+<p>blabla</p></div></div>
+      <div class="col-sm-6">
+        <b>Loïc Michel</b>  
+              <div id="outer1"><img src="https://github.com/lomichel/lomichel.github.io/blob/master/Lo.jpg?raw=true.jpg?raw=true.jpg" alt="" /></div>
+<div id="text1" style="display:none">Bioingénieur de formation. il a étudié à Bruxelles... blablabla
+<br>tel : 0474 ...</br>
+<br>mail : lomichel23@gmail.com</br>
+<br>blabla</br>
+<p>blabla</p>
+<p>blabla</p>
+<p>blabla</p>
+</div>
+</div> 
+  </section>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Moulin</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="appcon.js"></script>
+</body>
 
-    $('body').animate({
-      left: "0px"
-    }, 200);
-  });
-}; 
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer").click(function ()
-            {
-                $("div#outer img").remove();                
-                $("div#outer").html($("div#text").html());
-                $("div#outer").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer1").click(function ()
-            {
-                $("div#outer1 img").toggleClass();                
-                $("div#outer1").html($("div#text1").html());
-                $("div#outer1").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-});
-$(document).ready(main);
-
-
-
-
-
+</html>
