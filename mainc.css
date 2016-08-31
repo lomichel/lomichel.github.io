@@ -127,7 +127,7 @@ section .row img {
     border-color: black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 0.75px; 
-  width: 100%;
+  width: 75%;
   height: 350px;
 }
 
