@@ -360,6 +360,10 @@ input[type=submit] {
     background: #2F4F4F;
     color: #fff;
     text-align: center;
+      margin: 0 0 20px;
+  width: 50%;
+    height: 300px;
+  border-radius: 5%; 
 }
 .flip{
 	display:flex;
