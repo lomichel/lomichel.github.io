@@ -96,12 +96,12 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $(".flip1").flip({
+    $(".flip1").flip1({
         trigger: 'hover'
     });
 });
 $(document).ready(function(){
-    $(".flip2").flip({
+    $(".flip2").flip2({
         trigger: 'hover'
     });
 });
