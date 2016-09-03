@@ -365,6 +365,3 @@ input[type=submit] {
     height: 300px;
   border-radius: 5%; 
 }
-.flip{
-	display:flex;
-}
