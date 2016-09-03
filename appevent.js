@@ -40,62 +40,6 @@ var main = function() {
     }, 200);
   });
 }; 
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer").click(function ()
-            {
-                $("div#outer img").remove();                
-                $("div#outer").html($("div#text").html());
-                $("div#outer").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer1").click(function ()
-            {
-                $("div#outer1 img").toggleClass();                
-                $("div#outer1").html($("div#text1").html());
-                $("div#outer1").show();
-            });
-         }, 1000);
-     });
-     $(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer2").click(function ()
-            {
-                $("div#outer2 img").remove();                
-                $("div#outer2").html($("div#text2").html());
-                $("div#outer2").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer3").click(function ()
-            {
-                $("div#outer3 img").toggleClass();                
-                $("div#outer3").html($("div#text3").html());
-                $("div#outer3").show();
-            });
-         }, 1000);
-     });
-    
-
-$(document).ready(function(){
-    $(".flip").click.flip({
-        trigger: 'hover'
-    });
-});
-
 
  
 $(document).ready(main);
