@@ -361,3 +361,13 @@ input[type=submit] {
     color: #fff;
     text-align: center;
 }
+.flip1 .back1 {
+    background: #2F4F4F;
+    color: #fff;
+    text-align: center;
+}
+.flip2 .back2 {
+    background: #2F4F4F;
+    color: #fff;
+    text-align: center;
+}
