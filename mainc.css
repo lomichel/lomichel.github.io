@@ -41,7 +41,7 @@ footer .row {
 Color:#fff;
 text-decoration: none;
 }
-.back {
+.back1 {
 
   Color:#fff;
   text-decoration: none;
@@ -127,23 +127,10 @@ section .row img {
     border-color: black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 0.75px; 
-  width: 75%;
-  height: 350px;
+  width: 100%;
+  height: 400px;
 }
-.flip {
-    height: 199px;
-    width: 300px;
-    margin: 0 auto;
-}
-.flip img {
-    width: 300px;
-    height: auto;
-}
-.flip .back {
-    background: #2184cd;
-    color: #fff;
-    text-align: center;
-}
+
 .col-md-6 {
   margin: 0 0 30px;
 }
@@ -158,29 +145,6 @@ text-align: center;
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
-}
-
-
-#toggle1{
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-#toggle2{
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-
-span{
-    display: none;
-}
-
-#toggle1:checked + span{
-    display: block;
-}
-#toggle2:checked + span{
-    display: block;
 }
 
 img {
@@ -216,4 +180,69 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+  width: 100%;
+  height: 400px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+      margin: 0 0 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 0.75px; 
+  width: 100%;
+  height: 400px;
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+    margin: 0 0 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 0.75px; 
+  width: 100%;
+  height: 400px;
+  background-color:#2E8B57;
+}
+
+.back p,b{
+  position:relative;
+top:120px;
 }
