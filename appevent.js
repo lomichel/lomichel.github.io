@@ -95,6 +95,16 @@ $(document).ready(function(){
         trigger: 'hover'
     });
 });
+$(document).ready(function(){
+    $(".flip1").flip({
+        trigger: 'hover'
+    });
+});
+$(document).ready(function(){
+    $(".flip2").flip({
+        trigger: 'hover'
+    });
+});
 
  
 $(document).ready(main);
