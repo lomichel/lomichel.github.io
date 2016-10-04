@@ -127,13 +127,13 @@ right: 20px;
 }
 
 .second-image {
-	background-image: url('http://www.consostatic.com/wp-content/uploads/2014/12/micro-ferme-bec-helloin-agriculture-04.jpg');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup3.JPG?raw=true');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('http://s169923.gridserver.com/images/catalinaharbor.jpg');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup1.JPG?raw=true');
 	z-index: -1;
 	opacity: 0;
 }
