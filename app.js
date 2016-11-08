@@ -46,19 +46,19 @@ var main = function() {
   
   $('.buttonhist').click(function() {
     $('.histo').animate({
-      right:"0px"
+      top:"10px"
     }, 200);
 
     $('body').animate({
-      right:"-600px"
+      top:"600px"
     }, 200);
   });
   $('.icon-lose').click(function() {
     $('.histo').animate({
-      right: "-600px"
+      top: "600px"
    },200);
     $('body').animate({
-   right:"0px"
+   top:"10px"
   }, 200);
    });
    };
