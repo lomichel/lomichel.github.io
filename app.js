@@ -42,20 +42,19 @@ var main = function() {
    });
    };
 
- var Histo = function() {
+ var histo = function() {
   
-  $('.button').click(function() {
-    $('.Histo').animate({
+  $('.buttonhist').click(function() {
+    $('.histo').animate({
       right:"0px"
-	   
     }, 200);
 
     $('body').animate({
       right:"-600px"
     }, 200);
   });
-  $('.icon-ose').click(function() {
-    $('.Histo').animate({
+  $('.icon-lose').click(function() {
+    $('.histo').animate({
       right: "-600px"
    },200);
     $('body').animate({
@@ -87,4 +86,4 @@ $(function () {
 	
 $(document).ready(main);
 $(document).ready(projet);
-$(document).ready(Histo);
+$(document).ready(histo);
