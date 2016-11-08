@@ -20,6 +20,7 @@ body {
   	top: 70px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
+	z-index:3;
 }
 .histo p {
 Color:#fff;
@@ -33,6 +34,7 @@ text-align: center;
   	top:70px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
+	z-index:3;
 }
 .projet p {
 Color:#fff;
