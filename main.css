@@ -17,7 +17,7 @@ body {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   height: 100%;
   right: -600px;
-  	top:0px;/* start off behind the scenes */
+  	top:10px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
 }
