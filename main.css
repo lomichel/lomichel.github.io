@@ -13,7 +13,7 @@ body {
   width: 285px;
 }
 
-.histo {
+.Histo {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   height: 100%;
   right: -600px;
@@ -21,7 +21,7 @@ body {
   position: fixed;
   width: 600px;
 }
-.histo p {
+.Histo p {
 Color:#fff;
 text-align: center;
 }
