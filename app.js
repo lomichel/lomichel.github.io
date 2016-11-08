@@ -42,6 +42,28 @@ var main = function() {
    });
    };
 
+ var projet = function() {
+  
+  $('.button').click(function() {
+    $('.Histo').animate({
+      right:"0px"
+	    ,top:"0px"
+    }, 200);
+
+    $('body').animate({
+      right:"-600px", top:"0px"
+    }, 200);
+  });
+  $('.icon-ose').click(function() {
+    $('.Histo').animate({
+      right: "-600px", top:"0px"
+   },200);
+    $('body').animate({
+   right:"0px", top:"0px"
+  }, 200);
+   });
+   };
+
 function cycleBackgrounds() {
 	var index = 0;
 
