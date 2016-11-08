@@ -50,12 +50,12 @@ var main = function() {
     }, 200);
 
     $('body').animate({
-      top:"600px"
+      top:"700px"
     }, 200);
   });
   $('.icon-lose').click(function() {
     $('.histo').animate({
-      top: "600px"
+      top: "700px"
    },200);
     $('body').animate({
    top:"10px"
