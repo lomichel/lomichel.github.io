@@ -13,15 +13,15 @@ body {
   width: 285px;
 }
 
-.Histo {
+.histo {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
   height: 100%;
   right: -600px;
-  	top:10px;/* start off behind the scenes */
+  	top: 70px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
 }
-.Histo p {
+.histo p {
 Color:#fff;
 text-align: center;
 }
@@ -80,7 +80,11 @@ text-align: center;
   padding-left: 10px;
   padding-top: 10px;
 }
-
+.icon-lose {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
 .icon-menu {
   color: #fff;
   cursor: pointer;
@@ -107,6 +111,21 @@ padding-bottom: 25px;
   padding-right: 25px;
   padding-top: 25px;
 	Top: 20px;
+right: 20px;
+  position:fixed;
+}
+.buttonhist {
+
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+	Top: 85%;
 right: 20px;
   position:fixed;
 }
