@@ -42,24 +42,24 @@ var main = function() {
    });
    };
 
- var projet = function() {
+ var Histo = function() {
   
   $('.button').click(function() {
     $('.Histo').animate({
       right:"0px"
-	    ,top:"0px"
+	   
     }, 200);
 
     $('body').animate({
-      right:"-600px", top:"0px"
+      right:"-600px"
     }, 200);
   });
   $('.icon-ose').click(function() {
     $('.Histo').animate({
-      right: "-600px", top:"0px"
+      right: "-600px"
    },200);
     $('body').animate({
-   right:"0px", top:"0px"
+   right:"0px"
   }, 200);
    });
    };
@@ -87,3 +87,4 @@ $(function () {
 	
 $(document).ready(main);
 $(document).ready(projet);
+$(document).ready(Histo);
