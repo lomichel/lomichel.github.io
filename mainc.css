@@ -109,8 +109,6 @@ text-decoration: none;
 }
 
 .iframe_container {
-	  display: flex;
-  align-items: center;
 }
 
 .icon-menu i {
@@ -119,7 +117,8 @@ text-decoration: none;
 
 
 section{
-
+  display: flex;
+  align-items: center;
 	background-size:200px fixed;
 	height:100%;
 	background-attachment: fixed;
