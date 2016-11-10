@@ -108,6 +108,11 @@ text-decoration: none;
   text-transform: uppercase;
 }
 
+.iframe_container {
+	  display: flex;
+  align-items: center;
+}
+
 .icon-menu i {
   margin-right: 5px;
 }
@@ -190,73 +195,3 @@ footer li img {
   height: 32px;
 }
 
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-  width: 100%;
-  height: 400px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-      margin: 0 0 2px;
-    cursor: pointer;
-    border-radius: 50%;
-    border-color: black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 0.75px; 
-  width: 100%;
-  height: 400px;
-}
-.flipped {
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  transform:rotateY(180deg);
-}
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-    margin: 0 0 2px;
-    cursor: pointer;
-    border-radius: 50%;
-    border-color: black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 0.75px; 
-  width: 100%;
-  height: 400px;
-  background-color:#2E8B57;
-}
-
-.back p,b{
-  position:relative;
-top:120px;
-}
