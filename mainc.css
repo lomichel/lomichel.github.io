@@ -108,7 +108,9 @@ text-decoration: none;
   text-transform: uppercase;
 }
 
-.iframe_container {
+.prezi {
+	display:flex;
+	align-items:center;
 }
 
 .icon-menu i {
