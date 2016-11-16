@@ -271,3 +271,6 @@ border: none;
 .five-image.show {
 	opacity: 1;
 }
+.prezi {
+position: relative;
+}
