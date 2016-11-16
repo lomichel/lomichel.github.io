@@ -1,16 +1,28 @@
 /* Basic background image styling. */
-body {
-  font-family: 'Palatino', sans-serif;
-  font-weight: 300;
+
+body{
+  background-color: #000000;
+  padding: 1%;
+}
+header {
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
+  background-size: cover;
+  color: #ffffff;
+  height: 100px;
+  padding-top: 10%;
+
+ 
+  
 }
 
 .menu {
-  background: #202024 url('') repeat left top;
-  left: -285px;
+  background: #202024 ;
+  left: -300px;
   	top:70px;/* start off behind the scenes */
   height: 100%;
   position: fixed;
   width: 285px;
+  z-index: 10;
 }
 
 .histo {
@@ -41,12 +53,14 @@ Color:#fff;
 text-align: center;
 }
 
-.maintitle h2 {
-  margin-top:150px;
+.maintitle {
+  margin-top: -100px;
+    margin-bottom: -15px;
+  
   text-align: center;
   color: #fff;
-  font-weight: 700;
-  font-size: 60px;
+  font-size: 40;
+
     }
 
 .menu ul {
@@ -128,9 +142,7 @@ text-align: center;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
-  position: fixed;
-  top: 5;
-  left: 5;
+position: relative;
   text-decoration: none;
   text-transform: uppercase;
     background: #35383b;
@@ -142,7 +154,7 @@ text-align: center;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
 border: none;
@@ -156,9 +168,7 @@ border: none;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
-  position: fixed;
-  top: 5;
-  right: 5;
+position: relative;
   text-decoration: none;
   text-transform: uppercase;
     background: #35383b;
@@ -170,7 +180,7 @@ border: none;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
 border: none;
@@ -183,9 +193,7 @@ border: none;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
-  position: fixed;
-  bottom: 5;
-  right: 5;
+position: relative;
   text-decoration: none;
   text-transform: uppercase;
     background: #35383b;
@@ -197,7 +205,7 @@ border: none;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
 border: none;
@@ -209,19 +217,33 @@ border: none;
 }
 
 
+container{
+
+  background-size: cover;
+  color: #ffffff;
+  height: 100px;
+ position: relative;
+}
+
+container .col-sm-12{
+
+  padding: 10px ;
+  color: #ffffff;
+  height: 100%;
+ position: relative;
+}
+
+
 .background-image {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-/* Styles for the alternating / transition effect. */
 .toggle-image {
  	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
- 	height: 800px;
+	width: 97%;
+ 	height: 100%;
 	transition: opacity 1s ease-in-out;
 }
 
@@ -274,3 +296,29 @@ border: none;
 .prezi {
 position: relative;
 }
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  background-color: #000000;
+  position: relative;
+    color: #ffffff;
+ 
+
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
