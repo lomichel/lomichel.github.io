@@ -33,7 +33,7 @@ text-align: center;
   right: -600px;
   	top:70px;/* start off behind the scenes */
   position: fixed;
-  width: 600px;
+  width: 800px;
   z-index: 2;
 }
 .projet p {
