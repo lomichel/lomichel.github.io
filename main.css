@@ -14,10 +14,10 @@ body {
 }
 
 .histo {
-  background: #202024 url('') repeat left top;
+  background: #202024 ;
   height: 100%;
   right: 10px;
-  	top: 700px;/* start off behind the scenes */
+  	top: 900px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
 z-index: 2;
@@ -28,7 +28,7 @@ text-align: center;
 }
 
 .projet {
-  background: #202024 url('') repeat left top;
+  background: #202024;
   height: 100%;
   right: -600px;
   	top:70px;/* start off behind the scenes */
@@ -74,18 +74,20 @@ text-align: center;
 
 .icon-close {
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 150px;
+  padding-top: 0;
+
 }
 .icon-ose {
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-right: 150px;
+  padding-top: 0;
+  
 }
 .icon-lose {
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-right: 150px;
+  padding-top: 0;
 }
 
 
