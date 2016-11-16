@@ -1,27 +1,30 @@
-var main = function() {
+// Write JavaScript here var main = function() {
   /* Push the body and the nav over by 285px over */
-  $('.icon-menu').click(function() {
+ 
+var main = function() {
+$('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
     }, 200);
 
     $('body').animate({
-      left: "285px"
+      left: "300px"
     }, 200);
   });
 
   /* Then push them back */
   $('.icon-close').click(function() {
     $('.menu').animate({
-      left: "-285px"
+      left: "-300px"
     }, 200);
 
     $('body').animate({
       left: "0px"
     }, 200);
   });
-};
- var projet = function() {
+ 
+ };
+var projet = function() {
   
   $('.button').click(function() {
     $('.projet').animate({
@@ -40,8 +43,8 @@ var main = function() {
    right:"0px"
   }, 200);
    });
-   };
-
+  
+ };
  var histo = function() {
   
   $('.buttonhist').click(function() {
