@@ -1,334 +1,93 @@
-/* Basic background image styling. */
-
-body{
-  background-color: #000000;
-  padding: 1%;
-}
-header {
-  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  background-size: cover;
-  color: #ffffff;
-  height: 100px;
-  padding-top: 10%;
-
+<html>
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='main.css' rel='stylesheet'>
+<script
+	src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  </head>
  
-  
-}
+   <body>
 
-.menu {
-  background: #202024 ;
-  left: -300px;
-  	top:70px;/* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 285px;
-  z-index: 10;
-}
+<header>
+    <div class="container">
+<div class = "maintitle">
+    <h2>Les jardins du moulin</h2>
+    </div>
 
-.histo {
-  background: #202024 ;
-  height: 100%;
-  right: 10px;
-  	top: 900px;/* start off behind the scenes */
-  position: fixed;
-  width: 600px;
-z-index: 2;
-}
-.histo p {
-Color:#fff;
-text-align: center;
-}
+      <div class="histo">
+<div class="icon-lose">
+        <img src="https://github.com/lomichel/lomichel.github.io/blob/master/1478880324_fileclose.png?raw=true">
+    </div>
+<p> Il était une fois ...</p> </div>
+<div class="projet">
+<div class="icon-ose">
+        <img src="https://github.com/lomichel/lomichel.github.io/blob/master/1478880324_fileclose.png?raw=true">
+    </div>
+<p> Salut les <b> copains et salut felix </b> </p> 
+	      <div class="prezi">
+	    <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="black" mozallowfullscreen="black" allowfullscreen="black" width="355" height="244" align="center" src="https://prezi.com/embed/o7ow7bmbnhxr/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0enpjWVZLR0pIOTdwb3FPTjA4WlNWeTV3PT0&amp;landing_sign=ymFa97Ke-JCYLk9tx1bWQKcZ0V4RiyleoTnCJHGR8nw"></iframe>
 
-.projet {
-  background: #202024;
-  height: 100%;
-  right: -800px;
-  	top:70px;/* start off behind the scenes */
-  position: fixed;
-  width: 800px;
-  z-index: 2;
-}
-.projet p {
-Color:#fff;
-text-align: center;
-}
+      </div>  </div>
+    <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="https://github.com/lomichel/lomichel.github.io/blob/master/1478880324_fileclose.png?raw=true">
+      </div>
 
-.maintitle {
-  margin-top: -100px;
-    margin-bottom: -15px;
-  
-  text-align: center;
-  color: #fff;
-  font-size: 40;
-
-    }
-
-.menu ul {
-  border-top: 1px solid #636366;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 150px;
-  padding-top: 0;
-
-}
-.icon-ose {
-  cursor: pointer;
-  padding-right: 150px;
-  padding-top: 0;
-  
-}
-.icon-lose {
-  cursor: pointer;
-  padding-right: 150px;
-  padding-top: 0;
-}
-
-
-.icon-menu:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
-.button:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
-.buttonhist:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
-
-
-
-.jumbotron {
-  margin-top: 109px;
-    
-  
-  text-align: center;
-
+      <!-- Menu -->
+      <ul>
+        <li><a href="news.html">Les news</a></li>
+        <li><a href="event.html">Nos événements</a></li>
+        <li><a href="contact.html" class = "slidec"> Nous contacter</a></li>
+         <li><a href="aider.html"> Nous aider</a></li>
+        <li><a href="comentaires.html"> vos commentaires</a></li>
+      </ul>
+    </div>
+ </div>
+    <!-- Main body -->
+    <div class="jumbotron">
+       <div class="col-sm-12">
+      <button class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </button>
+         
+<button class="button">
+<div class="lien"><i class="fa fa-search"></i> Le projet
+      </div></button>
  
-
-}
-.icon-menu {
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-
-position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-    background: #35383b;
-  background-image: -webkit-linear-gradient(top, #35383b, #01070a);
-  background-image: -moz-linear-gradient(top, #35383b, #01070a);
-  background-image: -ms-linear-gradient(top, #35383b, #01070a);
-  background-image: -o-linear-gradient(top, #01070a);
-  background-image: linear-gradient(to bottom, #35383b, #01070a);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-border: none;
-}
-
-.button {
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-    background: #35383b;
-  background-image: -webkit-linear-gradient(top, #35383b, #01070a);
-  background-image: -moz-linear-gradient(top, #35383b, #01070a);
-  background-image: -ms-linear-gradient(top, #35383b, #01070a);
-  background-image: -o-linear-gradient(top, #01070a);
-  background-image: linear-gradient(to bottom, #35383b, #01070a);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-border: none;
-}
-.buttonhist {
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-    background: #35383b;
-  background-image: -webkit-linear-gradient(top, #35383b, #01070a);
-  background-image: -moz-linear-gradient(top, #35383b, #01070a);
-  background-image: -ms-linear-gradient(top, #35383b, #01070a);
-  background-image: -o-linear-gradient(top, #01070a);
-  background-image: linear-gradient(to bottom, #35383b, #01070a);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-border: none;
-}
-
-.icon-menu i {
-  margin-right: 5px;
-  
-}
-
-
-container{
-
-  background-size: cover;
-  color: #ffffff;
-  height: 200px;
- position: relative;
-}
-
-container .col-sm-12{
-
-padding: 10%;
-  
-  color: #ffffff;
-  height: 100%;
- position: relative;
-}
-
-
-.background-image {
-  padding: 10%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.toggle-image {
- 	position: absolute;
-	width: 60%;
- 	height: 60%;
-	transition: opacity 1s ease-in-out;
-}
-
-/* Styles for the specific images. */
-.forth-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup.JPG?raw=true.png');	
-	z-index: -3;
-	opacity: 0;
-}
-
-.second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup3.JPG?raw=true');
-	z-index: -2;
-	opacity: 0;
-}
-
-.third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup1.JPG?raw=true');
-	z-index: -1;
-	opacity: 0;
-}
-.five-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-	z-index:-4;
-	opacity:0;
-}
-.first-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup4.JPG?raw=true');
-	z-index:-5;
-	opacity:0;
-}
-
-.first-image.show {
-	opacity: 1;
-}
-
-.second-image.show {
-	opacity: 1;
-}
-
-.third-image.show {
-	opacity: 1;
-}
-.forth-image.show {
-	opacity: 1;
-}
-.five-image.show {
-	opacity: 1;
-}
-.prezi {
-position: relative;
-}
-
-footer {
-  font-size: 12px;
-  padding: 10%;
-  background-color: #000000;
-  position: relative;
-    color: #ffffff;
- 
-
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
+      <button class="buttonhist">
+<div class="lien"><i class="fa fa-search"></i> Historique du lieu
+      </div></button></div>
+	  </div>
+	    
+      
+</header>
+  <container>
+    <div class="col-sm-12">
+  <div class="background-image toggle-image first-image show"></div>
+<div class="background-image toggle-image second-image"></div>
+<div class="background-image toggle-image third-image"></div>
+<div class="background-image toggle-image forth-image"></div>
+<div class="background-image toggle-image five-image"></div>
+    </div>
+  </container>
+     
+	   <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Moulin</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
+ </body>
+</html>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 
 
