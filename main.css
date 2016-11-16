@@ -136,12 +136,8 @@ text-align: center;
 
 
 .jumbotron {
-  margin-top: 109px;
-    
-  
-  text-align: center;
 
- 
+  text-align: center;
 
 }
 .icon-menu {
@@ -244,7 +240,8 @@ padding: 10%;
 
 
 .background-image {
-  padding: 10%;
+ 
+padding:10%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -253,7 +250,7 @@ padding: 10%;
 .toggle-image {
  	position: absolute;
 	width: 60%;
- 	height: 60%;
+ 	height: 40%;
 	transition: opacity 1s ease-in-out;
 }
 
