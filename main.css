@@ -134,14 +134,22 @@ text-align: center;
 }
 
 
+
+.jumbotron {
+  margin-top: 109px;
+    
+  
+  text-align: center;
+
+ 
+
+}
 .icon-menu {
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
+
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -221,13 +229,14 @@ container{
 
   background-size: cover;
   color: #ffffff;
-  height: 100px;
+  height: 200px;
  position: relative;
 }
 
 container .col-sm-12{
 
-  padding: 10px ;
+padding: 10%;
+  
   color: #ffffff;
   height: 100%;
  position: relative;
@@ -235,6 +244,7 @@ container .col-sm-12{
 
 
 .background-image {
+  padding: 10%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -242,8 +252,8 @@ container .col-sm-12{
 
 .toggle-image {
  	position: absolute;
-	width: 97%;
- 	height: 100%;
+	width: 60%;
+ 	height: 60%;
 	transition: opacity 1s ease-in-out;
 }
 
@@ -299,7 +309,7 @@ position: relative;
 
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding: 10%;
   background-color: #000000;
   position: relative;
     color: #ffffff;
