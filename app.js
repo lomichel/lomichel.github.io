@@ -34,7 +34,7 @@ var main = function() {
   });
   $('.icon-ose').click(function() {
     $('.projet').animate({
-      right: "-600px"
+      right: "-800px"
    },200);
     $('body').animate({
    right:"0px"
