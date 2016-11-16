@@ -98,6 +98,24 @@ text-align: center;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
+.button:hover {
+  background: #484b4d;
+  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
+  background-image: -moz-linear-gradient(top, #484b4d, #636566);
+  background-image: -ms-linear-gradient(top, #484b4d, #636566);
+  background-image: -o-linear-gradient(top, #484b4d, #636566);
+  background-image: linear-gradient(to bottom, #484b4d, #636566);
+  text-decoration: none;
+}
+.buttonhist:hover {
+  background: #484b4d;
+  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
+  background-image: -moz-linear-gradient(top, #484b4d, #636566);
+  background-image: -ms-linear-gradient(top, #484b4d, #636566);
+  background-image: -o-linear-gradient(top, #484b4d, #636566);
+  background-image: linear-gradient(to bottom, #484b4d, #636566);
+  text-decoration: none;
+}
 
 
 .icon-menu {
@@ -129,35 +147,60 @@ border: none;
 }
 
 .button {
-
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
   text-decoration: none;
   text-transform: uppercase;
-  padding-bottom: 25px;
-  padding-right: 25px;
-  padding-top: 25px;
-	Top: 20px;
-right: 20px;
-  position:fixed;
+    background: #35383b;
+  background-image: -webkit-linear-gradient(top, #35383b, #01070a);
+  background-image: -moz-linear-gradient(top, #35383b, #01070a);
+  background-image: -ms-linear-gradient(top, #35383b, #01070a);
+  background-image: -o-linear-gradient(top, #01070a);
+  background-image: linear-gradient(to bottom, #35383b, #01070a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+border: none;
 }
 .buttonhist {
-
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
   text-decoration: none;
   text-transform: uppercase;
-  padding-bottom: 25px;
-  padding-right: 25px;
-  padding-top: 25px;
-	Top: 85%;
-right: 20px;
-  position:fixed;
+    background: #35383b;
+  background-image: -webkit-linear-gradient(top, #35383b, #01070a);
+  background-image: -moz-linear-gradient(top, #35383b, #01070a);
+  background-image: -ms-linear-gradient(top, #35383b, #01070a);
+  background-image: -o-linear-gradient(top, #01070a);
+  background-image: linear-gradient(to bottom, #35383b, #01070a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+border: none;
 }
+
 .icon-menu i {
   margin-right: 5px;
   
