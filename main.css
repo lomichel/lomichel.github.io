@@ -29,7 +29,7 @@ header {
   background: #202024 ;
   height: 100%;
   right: 10px;
-  	top: 900px;/* start off behind the scenes */
+  	top: 100%;/* start off behind the scenes */
   position: fixed;
   width: 600px;
 z-index: 10;
