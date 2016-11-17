@@ -32,7 +32,7 @@ header {
   	top: 900px;/* start off behind the scenes */
   position: fixed;
   width: 600px;
-z-index: 2;
+z-index: 10;
 }
 .histo p {
 Color:#fff;
@@ -46,7 +46,7 @@ text-align: center;
   	top:70px;/* start off behind the scenes */
   position: fixed;
   width: 800px;
-  z-index: 2;
+ z-index: 10;
 }
 .projet p {
 Color:#fff;
@@ -138,6 +138,7 @@ text-align: center;
 .jumbotron {
  margin-top: 110 ;
   text-align: center;
+	z-index: 3;
 
 }
 .icon-menu {
