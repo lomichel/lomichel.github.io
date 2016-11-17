@@ -294,20 +294,15 @@ position: relative;
 
 footer {
   position: relative;
-  font-size: 15px;
-    padding-right: 10%;
+  padding-right: 10%;
   padding-left: 10%;
   background-color: #000000;
-  
+
     color: #ffffff;
  
 
 }
-footer .col-md-§ {
-position: relative;
-background-color: #FFFFFF;
 
-}
 
 
 
@@ -315,7 +310,7 @@ footer img {
 
   width: 32px;
   height: 32px;
-  padding-left: 100% ;
+  margin-left: 90% ;
 }
 
 
