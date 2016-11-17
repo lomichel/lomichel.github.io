@@ -293,28 +293,29 @@ position: relative;
 }
 
 footer {
+  position: relative;
   font-size: 15px;
     padding-right: 10%;
   padding-left: 10%;
   background-color: #000000;
-  position: relative;
+  
     color: #ffffff;
  
 
 }
-
-footer .col-sm-8 {
+footer .col-md-§ {
 position: relative;
-  left: 90%;  
+background-color: #FFFFFF;
+
 }
 
-footer ul {
-  list-style: none;
-}
 
-footer li img {
+
+footer img {
+
   width: 32px;
   height: 32px;
+  padding-left: 100% ;
 }
 
 
