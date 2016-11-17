@@ -53,12 +53,12 @@ var projet = function() {
     }, 200);
 
     $('body').animate({
-      top:"700px"
+      top:"100%"
     }, 200);
   });
   $('.icon-lose').click(function() {
     $('.histo').animate({
-      top: "700px"
+      top: "100%"
    },200);
     $('body').animate({
    top:"10px"
