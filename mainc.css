@@ -567,24 +567,40 @@ margin: 15%;
   color: #ffffff;
  position: relative;
   text-align: center;
-    height: 10%;
+    height: 15%;
 }
 
 .showmail {
   display: none;
   text-decoration: none;
-  color: #FFFFFF;
+  color:  #000000;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 .showtel {
   display: none;
-  text-decoration: none;
- color:  #FFFFFF;
+ color:   #000000;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
+
+.showmail a{
+
+  text-decoration: none;
+ color:   #000000;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+.showadresse a{
+
+
+ color:   #000000;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
 .showadresse {
   display: none;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000000;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 footer {
   position: static;
@@ -597,16 +613,12 @@ footer {
 }
 
 
-
-
 footer img {
 
   width: 32px;
   height: 32px;
   margin-left: 90% ;
 }
-
-
 
 footer {
   position: static;
