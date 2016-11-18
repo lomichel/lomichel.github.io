@@ -8,7 +8,7 @@ body{
    background-size: 300%;
 }
 header {
-
+ position: relative;
   background-size: 150%;
   color: #ffffff;
   height: 100px;
@@ -113,14 +113,43 @@ text-decoration: none;
   text-decoration: none;
 }
 
+.mail:hover {
+  background: #484b4d;
+  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
+  background-image: -moz-linear-gradient(top, #484b4d, #636566);
+  background-image: -ms-linear-gradient(top, #484b4d, #636566);
+  background-image: -o-linear-gradient(top, #484b4d, #636566);
+  background-image: linear-gradient(to bottom, #484b4d, #636566);
+  text-decoration: none;
+}
+.Adresse:hover {
+  background: #484b4d;
+  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
+  background-image: -moz-linear-gradient(top, #484b4d, #636566);
+  background-image: -ms-linear-gradient(top, #484b4d, #636566);
+  background-image: -o-linear-gradient(top, #484b4d, #636566);
+  background-image: linear-gradient(to bottom, #484b4d, #636566);
+  text-decoration: none;
+}
+.telephone:hover {
+  background: #484b4d;
+  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
+  background-image: -moz-linear-gradient(top, #484b4d, #636566);
+  background-image: -ms-linear-gradient(top, #484b4d, #636566);
+  background-image: -o-linear-gradient(top, #484b4d, #636566);
+  background-image: linear-gradient(to bottom, #484b4d, #636566);
+  text-decoration: none;
+}
+
 .jumbotron {
+  position: relative;
     margin-top: -210;
 	z-index: 3;
 
 }
 .jumbotron1 {
 	position:relative;
- margin-top:  210;
+ margin-top:  180;
   text-align: center;
 	z-index: 3;
 
@@ -240,27 +269,35 @@ border: none;
 
 
 container{
+  position: relative;
   
-  background-size: cover;
   color: #ffffff;
-  
- position: relative;
+
 }
 
 container .col-sm-12{
-
-padding: 10%;
-  
+  position: relative;
+margin: 15%;
   color: #ffffff;
- 
  position: relative;
+  text-align: center;
+    height: 10%;
 }
 
+.showmail {
+  display: none;
+}
 
+.showtel {
+  display: none;
+}
+.showadresse {
+  display: none;
+}
 footer {
-  position: relative;
+  position: static;
   margin: 10%;
-  background-color:;
+  
 
     color: #ffffff;
  
