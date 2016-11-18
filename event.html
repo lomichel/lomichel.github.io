@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-  <title>Le moulin</title>
-  <meta charset="utf-8" />
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="mainevent.css">
-</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='mainevent.css' rel='stylesheet'>
+<script
+	src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  </head>
 
 <body>
-	
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row text-center">
-        <h2>Le moulin</h2>
-        <h3>Nos événements</h3>
-        <div> <a class="calendar" href=Calendrier1.pdf> Le calendrier </a></div>
-        <div> <a class="btn" data-popup-open="popup-1" href="#">Inscription</a> </div>
+<header>
+         <div class="maintop">
+      <button class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </button>
+         
+   <button
+     class="back1"> <i class="fa fa-home"></i> 
+        <a href="index.html" >
+              Page principale</a> 
+       </button>
+  
   </div>
-</div>
+  
+    <div class="container">
+<div class = "maintitle">
+        <h2>Les Jardin du moulin</h2>
+        <h3>Nos événements</h3>
+      </div>  
+    <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="https://github.com/lomichel/lomichel.github.io/blob/master/1478880324_fileclose.png?raw=true">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+        <li><a href="news.html">Les news</a></li>
+        <li><a href="event.html">Nos événements</a></li>
+        <li><a href="contact.html" class = "slidec"> Nous contacter</a></li>
+         <li><a href="aider.html"> Nous aider</a></li>
+        <li><a href="comentaires.html"> vos commentaires</a></li>
+      </ul>
+    </div>
+  </div>
+  </header>
+  
+  <div class="jumbotron1">
+    <div class="col-sm-12 col-md-12 col-xs-12">
+      <div> <a class="calendar" href=Calendrier1.pdf> Le calendrier </a></div>
+   
+    <div> <a class="btna" data-popup-open="popup-1" href="#">Inscription</a> </div> </div>
+  
 <div class="popup" data-popup="popup-1">
     <div class="popup-inner">
         <h2>Inscription</h2>
@@ -42,8 +78,8 @@
         <option value="F" name="sexe">Femme</option>
         <option value="H" name="sexe">Homme</option>
       </select><br>
-      <label for="comments">Revendication ?</label>
-      <textarea id="comments"></textarea>
+      <label for="comments">Remarque ?</label>
+      <textarea id="comments"> alérgie ? ... </textarea>
   </fieldset>
  
   <fieldset>
@@ -59,32 +95,7 @@
    
       </div>
     </div>
-        <div class="back"><i class="fa fa-home"></i> 
-        <a href="index.html" class="back">
-              Page principale</a> </div>
-        
-      <div class="menu">
-      <!-- Menu icon -->
-      <div class="icon-close">
-        <img src="https://github.com/lomichel/lomichel.github.io/blob/master/1478880324_fileclose.png?raw=true">
-      </div>
-      <!-- Menu -->
-      <ul>
-        <li><a href="news.html">Les news</a></li>
-        <li><a href="event.html">Nos événements</a></li>
-        <li><a href="contact.html" class = "slidec"> Nous contacter</a></li>
-  <li><a href="aider.html"> Nous aider</a></li>
-        <li><a href="comentaires.html"> vos commentaires</a></li>
-      </ul>
-    </div>
-    <!-- Main body -->
-    <div class="botron">
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        Menu
-      </div>
 </div>
-  </section>
   
   <section class="container">
     <div class="row">
@@ -97,7 +108,7 @@
             <img id="image-5" src="https://github.com/lomichel/lomichel.github.io/blob/master/mus.png?raw=true"/>
             <span class="caption rotate-caption">
             <h3>Le festival</h3>
-            <p>yo !</p>
+            <p>Le premier et le deux juillet 2017, Les Jardins du Moulin accueillent les curieux, leurs copains et les amis de ceux-ci. Au programme, des petits tours aux jardins pour qui veut, des petits concerts pour d’autres et pour tous, l’occasion de passer un bon moment autour d’un petit plat sorti du jardin. Jus de pommes ou bières, les deux sont créé avec amour. Pour ceux qui veulent profiter des étoiles et de la soirée, prenez votre tente, la prairie est bien assez grande. Musique et grand feu toute la nuit et un dimanche comme samedi mais dimanche.</p>
             </span>
         </div>
     </div>
@@ -110,7 +121,7 @@
         <img id="image-3" src="https://github.com/lomichel/lomichel.github.io/blob/master/stage.png?raw=true"/>
         <span class="caption fade-caption">
         <h3>Le stage</h3>
-        <p>salut salut salut</p><p>C'est moi</p>
+        <p>Les Jardins accueillent, du 5 au 15 août, une vingtaine de jeunes de 12 à 15 ans. Pratiquement, dodo et cuisine dans la prairie, on se lave à la rivière et on va faire tu sais quoi tu sais ou. Après, c’est l’occasion pour tous d’apprendre à vivre ensemble, de découvrir le jardin et sa gestion, l’environnement qui nous entour, le groupe et soi-même. </p>
         </span>
     </div>  </div> 
       
@@ -121,7 +132,7 @@
         <img id="image-2" src="https://github.com/lomichel/lomichel.github.io/blob/master/zen.png?raw=true"/>
         <span class="caption full-caption">
         <h3>La retraite</h3>
-        <p>Bonjour les <b>amis</b></p>
+        <p>Du 23 au 30 septembre, le Moulin accueille l’arrivé de l’automne et ses habitants vous invitent à profiter de cette semaine pour prendre une petite pause, histoire de profiter des joies culinaires que le jardin couve pour l’automne, en se donnant le temps de soigner son corps et tout ce qu’il renferme. Diverses activités et la venue de quelques intervenants extérieurs sont au programme</p>
         </span>
     </div></div>
 
@@ -129,16 +140,20 @@
    </div>
   </section>
   
-  <footer class="container">
+
+	   <footer class="container">
     <div class="row">
-      <p class="col-sm-4">&copy; 2016 Moulin</p>
-      <ul class="col-sm-8">
-        <li class="col-sm-1">
+      <div class="col-md-6 col-xs-6 col-sm-6">
+        
+        &copy; 2016 Moulin </div>
+     <div class="col-md-6 col-xs-6 col-sm-6">
           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
-        </li>
-      </ul>
-    </div>
+
+      </div>  </div>
   </footer>
+ </body>
+</html>
+
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="appevent.js"></script>
       
