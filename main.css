@@ -35,22 +35,35 @@ header {
 z-index: 10;
 }
 .histo p {
+  font-size: 40px;
 Color:#fff;
 text-align: center;
 }
 
 .projet {
   background: #202024;
-  height: 100%;
-  right: -800px;
-  	top:70px;/* start off behind the scenes */
+  height: 150%;
+  right: -900px;
+  	top:7px;/* start off behind the scenes */
   position: fixed;
-  width: 800px;
+  width: 900px;
  z-index: 10;
 }
 .projet p {
+    font-size: 14px;
+  margin-top: -1%;
+  margin-right: 2%;
+    margin-left: 2%;
+  margin-bottom: 0%;
 Color:#fff;
 text-align: center;
+}
+.projet a {
+  position: relative;
+  
+Color:#fff;
+
+  text-decoration-color: #FF0000;
 }
 
 .maintitle {
@@ -289,8 +302,9 @@ padding:10%;
 	opacity: 1;
 }
 .prezi {
+  text-align: center;
 position: relative;
-	padding:10%;
+	
 }
 
 footer {
@@ -305,13 +319,13 @@ footer {
 }
 
 
-
-
 footer img {
 
   width: 32px;
   height: 32px;
   margin-left: 90% ;
 }
+
+
 
 
