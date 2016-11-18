@@ -9,6 +9,7 @@ body{
 }
 header {
  position: relative;
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   background-size: 150%;
   color: #ffffff;
   height: 100px;
