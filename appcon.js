@@ -21,31 +21,23 @@ var main = function() {
     }, 200);
   });
 }; 
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer").click(function ()
-            {
-                $("div#outer img").remove();                
-                $("div#outer").html($("div#text").html());
-                $("div#outer").show();
-            });
-         }, 1000);
-     });
-$(document).ready(function()
-    {
-        setTimeout(function()
-        {
-            $("div#outer1").click(function ()
-            {
-                $("div#outer1 img").toggleClass();                
-                $("div#outer1").html($("div#text1").html());
-                $("div#outer1").show();
-            });
-         }, 1000);
-     });
-     
+
+
+ $(document).ready(function(){
+    $(".mail").click(function(){
+        $(".showmail").toggle();
+    });
+});
+ $(document).ready(function(){
+    $(".telephone").click(function(){
+        $(".showtel").toggle();
+    });
+});
+ $(document).ready(function(){
+    $(".Adresse").click(function(){
+        $(".showadresse").toggle();
+    });
+});
 
 $(document).ready(main);
 
