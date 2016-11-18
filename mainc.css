@@ -165,7 +165,7 @@ position: relative;
   padding-left: 1%;
   text-decoration: none;
   text-transform: uppercase;
-    background: #e7e7;
+    background: 	#F0F8FF;
 
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -184,7 +184,7 @@ border: none;
  position: absolute;
   text-decoration: none;
   text-transform: uppercase;
- background: #e7e7;
+ background: 	#F0F8FF;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
