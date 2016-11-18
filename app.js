@@ -32,12 +32,12 @@ var projet = function() {
     }, 200);
 
     $('body').animate({
-      right:"-600px"
+      right:"-900px"
     }, 200);
   });
   $('.icon-ose').click(function() {
     $('.projet').animate({
-      right: "-800px"
+      right: "-900px"
    },200);
     $('body').animate({
    right:"0px"
