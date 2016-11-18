@@ -126,7 +126,7 @@ header {
 	position:relative;
  margin-top:  10%;
   text-align: center;
-	z-index: 3;
+	z-index: 4;
 
 }
 .icon-menu {
@@ -149,6 +149,7 @@ position: relative;
   padding: 10px 20px 10px 20px;
 border: none;
 }
+
 
 .back1 {
   color: #fff;
@@ -179,7 +180,7 @@ border: none;
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
-background: #008CBA;
+background: #DC143C;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -199,7 +200,7 @@ border: none;
 
   text-decoration: none;
   text-transform: uppercase;
-background: #008CBA;
+background: #DC143C;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -303,6 +304,7 @@ footer {
   z-index: 10;
   font-family: Arial, Helvetica, sans-serif;
   color:#000000;
+  text-align: center;
 }
  
 /* Inner */
