@@ -200,7 +200,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
-height: 50%;
+  height: 40%;
+  width: 70%;
   
   
 
@@ -218,6 +219,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
+  height: 40%;
+  width: 70%;
   
 
 }
@@ -233,7 +236,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
-  
+    height: 40%;
+  width: 70%;
 
 }
 
