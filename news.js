@@ -29,9 +29,7 @@ var main = function() {
 
     var margin_left_pc = (new_slide_index * (-100)) + "%";
 
-    ul.animate({"margin-left": margin_left_pc}, 500, function() {
-
-      slide_index = new_slide_index
+    ul.animate({"margin-left": margin_left_pc}, 500, function() { slide_index = new_slide_index;
 
     });
 
