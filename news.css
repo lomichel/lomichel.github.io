@@ -180,11 +180,11 @@ margin-top: 10%;
 
 
 .slider {
-  width: 80%;
-  height: 170%;
+  width: 90%;
+  height: 80%;
   position: relative;
   overflow: hidden;
-  margin-left: 10%;
+  margin-left: 5%;
   
 }
 
@@ -193,7 +193,7 @@ margin-top: 10%;
   padding: 0;
   list-style: none;
   position: absolute;
-  width: 700%; 
+  width: 500%; 
   height: 100%;
   top: 0;
 }
