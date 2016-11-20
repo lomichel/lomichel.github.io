@@ -9,7 +9,7 @@ body{
 }
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  background-size: cover;
+  background-size: 100% 300%;
   height: 60%;
   padding-top: 10%;
     margin-top: -2%;
@@ -25,6 +25,7 @@ header {
 color: #fff;
   font-size: 550%;
   font-weight: 500;
+  margin-top: 5%;
  
     }
 .maintitle h3{
@@ -99,6 +100,7 @@ color: #fff;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
+
 
 .maintop{
   text-align: center;
