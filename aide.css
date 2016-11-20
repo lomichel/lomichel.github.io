@@ -158,38 +158,19 @@ border: none;
   
 }
 
-section .row .col-md-12{
+.intro{
   text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
   border: 2px solid;
    width: 90%;
     height: 90%;
-  color: #000000;
-   font-family: "Arial";
-}
-section .row .col-sm-12{
-  text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-  border: 2px solid;
-   width: 90%;
-    height: 90%;
-  color: #000000;
-   font-family: "Arial";
-}
-section .row .col-xs-12{
-  text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-  border: 2px solid;
-   width: 90%;
-  height: 90%;
   color: #000000;
    font-family: "Arial";
 }
 
-section .row .col-md-3{
+
+.col-md-3{
   text-align: center;
   color: #000000;
   margin-top: 4%;
@@ -197,7 +178,7 @@ section .row .col-md-3{
   
 }
 
-section .row .col-md-3 img {
+.col-md-3 img {
   
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
@@ -210,13 +191,13 @@ border-width: 1px;
 
 }
 
-section .row .col-sm-3{
+.col-sm-3{
   text-align: center;
     color: #000000;
   margin-top: 4%;
 }
 
-section .row .col-sm-3 img {
+.col-sm-3 img {
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
@@ -226,13 +207,13 @@ border-width: 1px;
   
 
 }
-section .row .col-xs-3{
+.col-xs-3{
   text-align: center;
     color: #000000;
   margin-top: 4%;
 }
 
-section .row .col-xs-3 img {
+.col-xs-3 img {
   
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
@@ -243,40 +224,19 @@ border-width: 1px;
 
 }
 
-section .row1 .col-md-12{
-  
-  text-align: justify;
-  margin-left: 15%;
+.text{
+  position:relative;
+   text-align: justify;
+  margin-left: 5%;
   margin-top: 7%;
   border: 2px solid;
-   width: 70%;
-  height: 300%;
-  color: #000000;
-   font-family: "Arial";
-}
-section .row1  .col-sm-12{
-    text-align: justify;
-  margin-left: 15%;
-  margin-top: 7%;
-  border: 2px solid;
-   width: 70%;
-  height: 300%;
-  color: #000000;
-   font-family: "Arial";
-}
-section .row1 .col-xs-12{
-  
-  text-align: justify;
-  margin-left: 15%;
-  margin-top: 7%;
-  border: 2px solid;
-   width: 70%;
-  height: 300%;
+   width: 90%;
+    height: 90%;
   color: #000000;
    font-family: "Arial";
 }
 
-section .row1 .show  p{
+.show  p{
   
   text-align: justify;
    font-family: "Arial";
@@ -286,24 +246,50 @@ section .row1 .show  p{
 
 
 .text1 {
-    display:none;
-    position:absolute;
+    
+     text-align: justify;
+  margin-left: 5%;
+  margin-top: 7%;
+ 
+   width: 90%;
+    height: 90%;
+  color: #000000;
+   font-family: "Arial";
   
 }
 .text2 {
-    display:none;
-    position:absolute;
+  
+     text-align: justify;
+  margin-left: 5%;
+  margin-top: 7%;
+  
+   width: 90%;
+    height: 90%;
+  color: #000000;
+   font-family: "Arial";
 
 }
 .text3 {
-    display:none;
-    position:absolute;
-
+  
+   text-align: justify;
+  margin-left: 5%;
+  margin-top: 7%;
+  
+   width: 90%;
+    height: 90%;
+  color: #000000;
+   font-family: "Arial";
 }
 .text4 {
-    display:none;
-    position:absolute;
-
+  
+   text-align: justify;
+  margin-left: 5%;
+  margin-top: 7%;
+  
+   width: 90%;
+    height: 90%;
+  color: #000000;
+   font-family: "Arial";
 }
 
 
