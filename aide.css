@@ -254,8 +254,17 @@ border-width: 1px;
 
 }
 
+.text{   
+     text-align: justify;
+  margin-left: 5%;
+  margin-top: 7%;
+ 
+   width: 90%;
+    height: 90%;
+  color: #000000;
+   font-family: "Arial";}
 
-.text1 {
+#text1 {
     display: none;
      text-align: justify;
   margin-left: 5%;
@@ -267,8 +276,8 @@ border-width: 1px;
    font-family: "Arial";
   
 }
-.text2 {
-  display: none;
+#text2 {
+ display: none;
      text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
@@ -279,8 +288,8 @@ border-width: 1px;
    font-family: "Arial";
 
 }
-.text3 {
-  display: none;
+#text3 {
+ display: none;
    text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
@@ -290,7 +299,7 @@ border-width: 1px;
   color: #000000;
    font-family: "Arial";
 }
-.text4 {
+#text4 {
    display: none;
    text-align: justify;
   margin-left: 5%;
