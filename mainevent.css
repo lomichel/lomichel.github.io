@@ -183,7 +183,6 @@ border: none;
  margin-top:  10%;
   text-align: center;
 	z-index: 4;
-
 }
 
 
@@ -276,17 +275,6 @@ img {
   margin: 10px 10px 10px;
 }
 
-footer {
-  position: relative;
-
-  
-
-    color: #ffffff;
- 
-
-}
-
-
 
 footer {
   position: relative;
@@ -294,10 +282,7 @@ footer {
   padding-left: 10%;
   color: #A6A191;
   margin-top: 10%;
- 
-
 }
-
 
 footer img {
 
