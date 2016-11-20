@@ -9,23 +9,23 @@ header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   
   background-size: cover;
-  color: #ffffff;
+
   height: 100px;
   padding-top: 10%;
     margin-top: -2%;
   margin-left: -2%;
   margin-right: -2%;
+ 
 }
 
 .maintitle {
-  margin-top: -10%;
-  
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin-top: -5%;
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-color: #E5E4E0;
-  font-size: 250%;
-  
-
+color: #fff;
+  font-size: 350%;
+  font-weight: 500;
+ 
     }
 .menu {
   background: #C3C1B9;
@@ -165,10 +165,11 @@ Color:Black;
  margin-top: 10%;
   text-align: center;
 	z-index: 3;
+  
 
 }
 .icon-menu {
-  color: A6A191;
+  color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
@@ -187,7 +188,7 @@ border: none;
 }
 
 .button {
-  color: A6A191;
+  color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
@@ -202,12 +203,12 @@ background:  #FFF;
   -moz-border-radius: 28;
   border-radius: 28px;
  
-  font-size: 15px;
+ 
   padding: 10px 20px 10px 20px;
 border: none;
 }
 .buttonhist {
-  color: A6A191;
+  color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
@@ -233,13 +234,6 @@ border: none;
 }
 
 
-container{
-
-  
-  color: #ffffff;
-  margin-left: -5%;
- 
-}
 
 container .col-sm-12{
 
@@ -365,6 +359,7 @@ footer img {
   height: 32px;
   margin-left: 90% ;
   margin-top: -3%;
+  margin-bottom: 5%;
 }
 
 
