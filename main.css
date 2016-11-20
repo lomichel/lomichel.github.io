@@ -7,10 +7,8 @@ body{
 }
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  
   background-size: cover;
-
-  height: 100px;
+  height: 60%;
   padding-top: 10%;
     margin-top: -2%;
   margin-left: -2%;
