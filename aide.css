@@ -200,7 +200,7 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
-  height: 40%;
+    height: 40%;
   width: 70%;
   
   
@@ -214,12 +214,11 @@ section .row .col-sm-3{
 }
 
 section .row .col-sm-3 img {
-  
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
-  height: 40%;
+    height: 40%;
   width: 70%;
   
 
@@ -285,22 +284,22 @@ section .row .show  p{
 
 .text1 {
     display:none;
-    position:absolute;
+    
   
 }
 .text2 {
     display:none;
-    position:absolute;
+    
 
 }
 .text3 {
     display:none;
-    position:absolute;
+   
 
 }
 .text4 {
     display:none;
-    position:absolute;
+   
 
 }
 
@@ -309,7 +308,6 @@ section .row .show  p{
 
 img {
     cursor: pointer;
- 
 }
 
 
@@ -318,8 +316,6 @@ footer {
   position: relative;
 
     color: #ffffff;
- 
-
 }
 
 
@@ -330,18 +326,9 @@ footer img {
   margin-left: 90% ;
 }
 
-footer {
-  
-  margin: 10%;
-    color: #ffffff;
-}
 
 
 
 
-footer img {
 
-  width: 32px;
-  height: 32px;
-  margin-left: 90% ;
-}
+
