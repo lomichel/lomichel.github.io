@@ -302,7 +302,7 @@ container .row{
   display: none;
   text-decoration: none;
  color: #A6A191;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin-bottom: 10%;
   margin-top: 10%;
 }
@@ -310,7 +310,7 @@ container .row{
 .showtel {
   display: none;
  color: #A6A191;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 margin: 10%;
 }
 
@@ -318,14 +318,14 @@ margin: 10%;
 
   text-decoration: none;
  color: #A6A191;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin-bottom: 10%;
    margin-top: 10%;
 }
 .showadresse a{
   
  color: #A6A191;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin: 10%;
 }
 
@@ -333,7 +333,7 @@ margin: 10%;
   display: none;
   text-decoration: none;
    color: #A6A191;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     margin: 10%;
 }
 
