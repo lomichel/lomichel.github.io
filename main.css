@@ -1,4 +1,6 @@
+
 /* Basic background image styling. */
+
 
 body{
   background-color: #fff;
@@ -16,21 +18,21 @@ header {
  
 }
 
-.maintitle {
-  margin-top: -5%;
-  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  text-align: center;
-color: #fff;
-  font-size: 350%;
-  font-weight: 500;
- 
-    }
 .maintitle h2{
  
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
-  font-size: 100%;
+  font-size: 550%;
+  font-weight: 500;
+ 
+    }
+.maintitle h3{
+  
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #fff;
+  font-size: 250%;
   font-weight: 500;
  
     }
@@ -45,54 +47,8 @@ color: #fff;
   color: #ffff;
 }
 
-.histo {
- background: #C3C1B9;
-  height: 100%;
-  right: 10px;
-  	top: 100%;/* start off behind the scenes */
-  position: fixed;
-  width: 600px;
-z-index: 10;
-}
-.histo p {
-  font-size: 40px;
-Color:#ffff;
-text-align: center;
-}
-
-.histo a {
-  color: Black;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 
-.projet {
-  background: #C3C1B9;
-  height: 150%;
-  right: -900px;
-  	top:7px;/* start off behind the scenes */
-  position: fixed;
-  width: 900px;
- z-index: 10;
-}
-.projet p {
-    font-size: 14px;
-  margin-top: -1%;
-  margin-right: 2%;
-    margin-left: 2%;
- text-align: justify;
-Color:#ffff;
-
-}
-.projet a {
-  position: relative;
-  
-Color:Black;
-
-  text-decoration-color: #FF0000;
-}
 
 
 
@@ -124,18 +80,6 @@ Color:Black;
   padding-top: 0;
 
 }
-.icon-ose {
-  cursor: pointer;
-  padding-right: 150px;
-  padding-top: 0;
-  
-}
-.icon-lose {
-  cursor: pointer;
-  padding-right: 150px;
-  padding-top: 0;
-}
-
 
 .icon-menu:hover {
   background: #484b4d;
@@ -146,16 +90,7 @@ Color:Black;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
-.button:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
-.buttonhist:hover {
+.back1:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
   background-image: -moz-linear-gradient(top, #484b4d, #636566);
@@ -165,16 +100,6 @@ Color:Black;
   text-decoration: none;
 }
 
-
-
-.jumbotron {
-	position:relative;
- margin-top: 10%;
-  text-align: center;
-	z-index: 3;
-  
-
-}
 .icon-menu {
   color: #A6A191;
   cursor: pointer;
@@ -194,46 +119,31 @@ position: relative;
 border: none;
 }
 
-.button {
-  color: #A6A191;
+.back1 {
+   color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
+
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
-background:  #FFF;
+    background:  #FFF;
+
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
- 
- 
+  
   padding: 10px 20px 10px 20px;
 border: none;
 }
-.buttonhist {
-  color: #A6A191;
-  cursor: pointer;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-position: relative;
+
+
+.back1 a {
   text-decoration: none;
-  text-transform: uppercase;
-background:  #FFF;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
- 
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-border: none;
+ color: #A6A191;
 }
+
 
 .icon-menu i {
   margin-right: 5px;
@@ -241,115 +151,116 @@ border: none;
 }
 
 
+section .row .col-sm-12{
+ margin-top: 10%;
 
-container .col-sm-12{
-
-
-  margin-top: 15%;
-  color: #ffffff;
-  height: 250%;
- position: relative;
-  margin-left: -2%;
-  margin-right: -2%;
-  padding-right: 20%;
-}
-
-container .col-md-12{
-
-
-  margin-top: 15%;
-  color: #ffffff;
  
- position: relative;
-  margin-left: -2%;
-  margin-right: -2%;
-  padding-right: 20%;
 }
-
-container .col-xs-12{
-
-
-  margin-top: 15%;
-  color: #ffffff;
+section .row .col-md-12{
+ 
+margin-top: 10%;
+}
+section .row .col-xs-12{
   
- position: relative;
-  margin-left: -2%;
-  margin-right: -2%;
-  padding-right: 20%;
+margin-top: 10%;
 }
 
-.background-image {
- 
-background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	
+
+
+
+.slider {
+  width: 90%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 5%;
+  z-index: 10;
+  
 }
 
-.toggle-image {
- 	position: absolute;
-	width: 100%;
- 	height: 50%;
-	transition: opacity 1s ease-in-out;
+.slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  width: 500%; 
+  height: 100%;
+  top: 0;
+}
+
+.slider li {
+  padding: 0;
+  margin: 0;
+  width: 33,3333%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   border: 1px solid Black;
 }
 
-/* Styles for the specific images. */
-.forth-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup.JPG?raw=true.png');	
-	z-index: -3;
-	opacity: 0;
+.slider li img {
+  border: 1px solid Black;
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+ 
+ 
 }
 
-.second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup3.JPG?raw=true');
-	z-index: -2;
-	opacity: 0;
+.slider button {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  
+  outline: none;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  opacity: 1;
+  z-index: 2;
 }
 
-.third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup1.JPG?raw=true');
-	z-index: -1;
-	opacity: 0;
-}
-.five-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-	z-index:-4;
-	opacity:0;
-}
-.first-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup4.JPG?raw=true');
-	z-index:-5;
-	opacity:0;
+.slider button.prev {
+  left: 0;
+   height: 100%;
 }
 
-.first-image.show {
-	opacity: 1;
+.slider button.next {
+  right: 0;
+  height: 100%;
 }
 
-.second-image.show {
-	opacity: 1;
+.slider button:hover, .slider button:active {
+  opacity: 2.0;
 }
 
-.third-image.show {
-	opacity: 1;
+.slider .content {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  line-height: 3em;
+  padding: 0 1em;
+  font-size: 1.5em;
 }
-.forth-image.show {
-	opacity: 1;
+
+.slider .content a {
+  color: inherit;
 }
-.five-image.show {
-	opacity: 1;
-}
-.prezi {
-  text-align: center;
-position: relative;
-	
-}
-.poeme {
-  text-align: justify;
-  margin: 30%;
-  margin-top: -40%;
-}
+
 footer {
   position: relative;
   padding-right: 10%;
@@ -368,7 +279,6 @@ footer img {
   margin-top: -3%;
   margin-bottom: 5%;
 }
-
 
 
 
