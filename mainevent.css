@@ -12,7 +12,7 @@ header {
     margin-top: -2%;
   margin-left: -2%;
   margin-right: -2%;
-	  width: 102%;
+  width: 102%;
  
 }
 
@@ -148,7 +148,7 @@ border: none;
 
 .back1 a {
   text-decoration: none;
- color: #A6A191;
+ color:  #A6A191;
 }
 
 
@@ -227,10 +227,7 @@ background: #DC143C;
 border: none;
 }
 
-.back1 a {
-  text-decoration: none;
-  color: #fff;
-}
+
 
 
 
@@ -262,12 +259,14 @@ section .row .col-sm-12 img {
 
 .col-sm-12 {
 color:#fff;
-text-align: center;    
+text-align: center;   
+   width: 100%;
 }
 
 .col-md-6{
 color:#fff;
 text-align: center;
+   width: 100%;
 }
 
 
