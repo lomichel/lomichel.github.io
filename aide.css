@@ -200,7 +200,7 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
-    height: 40%;
+  height: 40%;
   width: 70%;
   
   
@@ -240,7 +240,7 @@ border-width: 1px;
 
 }
 
-section .row .show .col-md-12{
+section .show .col-md-12{
   
   text-align: justify;
   margin-left: 15%;
@@ -251,7 +251,7 @@ section .row .show .col-md-12{
   color: #000000;
    font-family: "Arial";
 }
-section .row .show .col-sm-12{
+section .show .col-sm-12{
     text-align: justify;
   margin-left: 15%;
   margin-top: 7%;
@@ -261,7 +261,7 @@ section .row .show .col-sm-12{
   color: #000000;
    font-family: "Arial";
 }
-section .row .show .col-xs-12{
+section .show .col-xs-12{
   
   text-align: justify;
   margin-left: 15%;
@@ -284,22 +284,22 @@ section .row .show  p{
 
 .text1 {
     display:none;
-    
+    position:absolute;
   
 }
 .text2 {
     display:none;
-    
+    position:absolute;
 
 }
 .text3 {
     display:none;
-   
+    position:absolute;
 
 }
 .text4 {
     display:none;
-   
+    position:absolute;
 
 }
 
