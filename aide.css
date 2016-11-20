@@ -178,18 +178,7 @@ border: none;
   
 }
 
-.col-md-3 img {
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-  height: 40%;
-  width: 70%;
-  
-  
 
-}
 
 .col-sm-3{
   text-align: center;
@@ -197,23 +186,44 @@ border-width: 1px;
   margin-top: 4%;
 }
 
-.col-sm-3 img {
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-    height: 40%;
-  width: 70%;
-  
 
-}
 .col-xs-3{
   text-align: center;
     color: #000000;
   margin-top: 4%;
 }
 
-.col-xs-3 img {
+.outer1 #img1{
+
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+    height: 40%;
+  width: 70%;
+
+}
+.outer2 #img2{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+    height: 40%;
+  width: 70%;
+
+}
+.outer3 #img3{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+    height: 40%;
+  width: 70%;
+
+}
+.outer4 #img4{
   
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
@@ -246,7 +256,7 @@ border-width: 1px;
 
 
 .text1 {
-    
+    display: none;
      text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
@@ -258,7 +268,7 @@ border-width: 1px;
   
 }
 .text2 {
-  
+  display: none;
      text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
@@ -270,7 +280,7 @@ border-width: 1px;
 
 }
 .text3 {
-  
+  display: none;
    text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
@@ -281,7 +291,7 @@ border-width: 1px;
    font-family: "Arial";
 }
 .text4 {
-  
+   display: none;
    text-align: justify;
   margin-left: 5%;
   margin-top: 7%;
