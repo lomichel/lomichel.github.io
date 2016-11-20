@@ -25,23 +25,35 @@ var main = function() {
 
  $(document).ready(function(){
     $(".outer1").click(function(){
-        $(".text1").toggle();
+             $("#text2").hide("#text2");
+      $("#text3").hide("#text3");
+      $("#text4").hide("#text4");
+      $(".text1").toggle("text1");
     });
 });
  $(document).ready(function(){
     $(".outer2").click(function(){
-        $(".text2").toggle();
+             $("#text1").hide("#text1");
+      $("#text3").hide("#text3");
+      $("#text4").hide("#text4");
+      $(".text2").toggle("text2");
     });
 });
  $(document).ready(function(){
     $(".outer3").click(function(){
-        $(".text3").toggle();
+             $("#text2").hide("#text2");
+      $("#text1").hide("#text1");
+      $("#text4").hide("#text4");
+      $(".text3").toggle("text3");
+      
     });
 });
  $(document).ready(function(){
     $(".outer4").click(function(){
-        $(".text4").toggle();
+             $("#text2").hide("#text2");
+      $("#text3").hide("#text3");
+      $("#text1").hide("#text1");
+      $(".text4").toggle("text4");
     });
 });
-
 $(document).ready(main);
