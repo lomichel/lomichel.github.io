@@ -8,12 +8,8 @@ header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   background-size: 100% 300%;
   height: 270px;
-  padding-top: 10%;
-    margin-top: -2%;
-  margin-left: -2%;
-  margin-right: -2%;
-  width: 102%;
-  border: 2px solid Black;
+  width: 100%;
+  border: 2px solid black;
  
 }
 
@@ -24,9 +20,7 @@ header {
 color: #fff;
   font-size: 550%;
   font-weight: 500;
-    margin-top: 5px;
-    }
-
+  margin-top: 150px;
 
 .back1:hover {
   background: #484b4d;
