@@ -28,15 +28,7 @@ color: #fff;
   margin-top: 5%;
  
     }
-.maintitle h3{
-  
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  text-align: center;
-color: #fff;
-  font-size: 250%;
-  font-weight: 500;
- 
-    }
+
 .menu {
   background: #C3C1B9;
   left: -300px;
@@ -273,16 +265,8 @@ border: none;
   
 }
 
-
-
-
-
-container .row{
- position: relative;
- padding :  10%;
+#info{
   text-align: center;
-
-   
 }
 
 .col-md-4 img{
