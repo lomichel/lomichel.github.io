@@ -10,9 +10,8 @@ header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   
 background-size: 100% 250%;
-  height: 100px;
-  padding-top: 10%;
-   padding-bottom: 10%;
+  height: 300px;
+ 
     margin-top: -2%;
   margin-left: -2%;
   margin-right: -2%;
@@ -21,31 +20,24 @@ background-size: 100% 250%;
  
 }
 
-.maintitle {
-  margin-top: 8%;
+
+.maintitle h2{
+ 
   font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
-  font-size: 350%;
+  font-size: 700%;
   font-weight: 500;
  
     }
-.maintitle h2{
-  margin-top: -8%;
+.maintitle h3{
+
   font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
   font-size: 200%;
   font-weight: 500;
- 
-    }
-.maintitle h3{
-  margin-top: -7%;
-  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  text-align: center;
-color: #fff;
-  font-size: 50%;
-  font-weight: 500;
+  margin-top: -70px;
  
     }
 
@@ -145,7 +137,7 @@ border: none;
 container .col-sm-12{
 
 
-  margin-top: 5%;
+  margin-top: 50px;
   color: #ffffff;
   height: 250%;
  position: relative;
@@ -158,7 +150,7 @@ container .col-sm-12{
 container .col-md-12{
 
 
-  margin-top: 5%;
+  margin-top: 50px;
   color: #ffffff;
  
  position: relative;
@@ -171,7 +163,7 @@ container .col-md-12{
 container .col-xs-12{
 
 
-  margin-top: 5%;
+  margin-top: 50px;
   color: #ffffff;
   
  position: relative;
@@ -251,8 +243,8 @@ position: relative;
 .poeme {
   text-align: justify;
   margin:10%;
-margin-top: -40%;
-  font-size: 110%;
+margin-top: -500px;
+  font-size: 120%;
 }
 footer {
   position: relative;
