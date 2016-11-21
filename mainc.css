@@ -299,24 +299,25 @@ container .row{
 
 
 .showmail {
-  display: none;
-  text-decoration: none;
+ 
+  
  color: #A6A191;
      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin-bottom: 10%;
   margin-top: 10%;
+  font-size: 130%;
 }
 
 .showtel {
-  display: none;
+ 
  color: #A6A191;
       font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 margin: 10%;
+    font-size: 130%;
 }
 
 .showmail a{
 
-  text-decoration: none;
  color: #A6A191;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin-bottom: 10%;
@@ -327,11 +328,12 @@ margin: 10%;
  color: #A6A191;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   margin: 10%;
+    font-size: 130%;
 }
 
 .showadresse {
-  display: none;
-  text-decoration: none;
+
+ 
    color: #A6A191;
    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     margin: 10%;
