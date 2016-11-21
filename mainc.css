@@ -14,6 +14,7 @@ header {
   margin-left: -2%;
   margin-right: -2%;
   width: 102%;
+  border: 2px solid Black;
  
 }
 
@@ -296,7 +297,10 @@ container .row{
     width: 100%;
 
 }
-
+.maintop{
+  text-align: center;
+  margin: 3%;
+}
 
 .showmail {
  
