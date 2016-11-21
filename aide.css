@@ -2,69 +2,66 @@
 /* Basic background image styling. */
 
 body{
+  background-color: #fff;
+
   
-    background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/ciel.png?raw=true');
-  background-color: #000000;
-  padding: 1%;
-   background-size: 450%;
 }
 header {
- position: relative;
-  	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  background-size: 100%;
-    font-family: "palatino", "Arial Bold", Gadget, sans-serif;
-  color: #ffffff;
-  height: 200px;
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
+  background-size: 100% 300%;
+  height: 60%;
+  padding-top: 10%;
+    margin-top: -2%;
+  margin-left: -2%;
+  margin-right: -2%;
+  width: 102%;
  
-
- 
-  
 }
-.maintitle {
 
-  margin-top: 8%;
+.maintitle h2{
+ 
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-  color: #fff;
-  font-size: 40;
-
+color: #fff;
+  font-size: 550%;
+  font-weight: 500;
+   margin-top: 4%;
+ 
     }
-
-.maintitle h2 {
-  font-size: 50px;
+.maintitle h3{
   
-  margin: 1;
-  margin-top: -5%;
-  color: #fff;
-}
-
-.maintitle h3 {
-  margin: 0 0 20px;
-  color: #fff;
-  font-size: 30px;
-}
-
-
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #fff;
+  font-size: 250%;
+  font-weight: 500;
+ 
+    }
 .menu {
-  background: #202024 ;
+  background: #C3C1B9;
   left: -300px;
   	top:70px;/* start off behind the scenes */
   height: 100%;
   position: fixed;
   width: 285px;
   z-index: 10;
+  color: #ffff;
 }
 
 
+
+
+
+
 .menu ul {
-  border-top: 1px solid #636366;
+ 
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .menu li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
+   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
@@ -72,12 +69,11 @@ header {
 }
 
 .menu a {
-  color: #fff;
+  color: Black;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
 }
-
 
 .icon-close {
   cursor: pointer;
@@ -105,51 +101,56 @@ header {
   text-decoration: none;
 }
 
+
+.maintop{
+  text-align: center;
+}
 .icon-menu {
-  color: #fff;
+  color: #A6A191;
   cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
 
 position: relative;
- left: 1%;
-  
+
   text-decoration: none;
   text-transform: uppercase;
-    background-color: transparent; 
+    background:  #FFF;
 
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 15px;
+  
   padding: 10px 20px 10px 20px;
 border: none;
+   left: 1%;
+  top: -10%;
 }
 
 .back1 {
-  color: #fff;
+   color: #A6A191;
   cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 16px;
 
-
- position: absolute;
+position: relative;
   text-decoration: none;
   text-transform: uppercase;
- background-color: transparent;
+    background:  #FFF;
+
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 15px;
+  
   padding: 10px 20px 10px 20px;
-  right:0;
-  margin-right: 1%;
 border: none;
-
+ margin-left: 1%;
 }
+
 
 .back1 a {
   text-decoration: none;
-  color: #fff;
+ color:  #A6A191;
 }
 
 
@@ -158,67 +159,69 @@ border: none;
   
 }
 
+
 .intro{
   text-align: justify;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 7%;
-  border: 2px solid;
-   width: 90%;
+
+   width: 93%;
     height: 90%;
   color: #000000;
-   font-family: "Arial";
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 110%;
 }
 
 
-.col-md-3{
+.col-md-4{
   text-align: center;
   color: #000000;
-  margin-top: 4%;
+  margin-top: -20%;
 
   
 }
 
 
 
-.col-sm-3{
+.col-sm-4{
   text-align: center;
     color: #000000;
-  margin-top: 4%;
+  margin-top: -20%;
 }
 
 
-.col-xs-3{
+.col-xs-4{
   text-align: center;
     color: #000000;
-  margin-top: 4%;
+  margin-top: -20%;
 }
 
 .outer1 #img1{
-
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
+
     height: 40%;
   width: 70%;
 
 }
 .outer2 #img2{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
+  border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
+
     height: 40%;
   width: 70%;
 
 }
 .outer3 #img3{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
+  border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
+
     height: 40%;
   width: 70%;
 
@@ -234,22 +237,12 @@ border-width: 1px;
 
 }
 
-.text{
-  position:relative;
-   text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-  border: 2px solid;
-   width: 90%;
-    height: 90%;
-  color: #000000;
-   font-family: "Arial";
-}
+
 
 .show  p{
   
   text-align: justify;
-   font-family: "Arial";
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
   margin-right: 2%;
 
 }
@@ -262,7 +255,8 @@ border-width: 1px;
    width: 90%;
     height: 90%;
   color: #000000;
-   font-family: "Arial";}
+   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville
+    }
 
 #text1 {
     display: none;
@@ -273,7 +267,7 @@ border-width: 1px;
    width: 90%;
     height: 90%;
   color: #000000;
-   font-family: "Arial";
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
   
 }
 #text2 {
@@ -285,7 +279,7 @@ border-width: 1px;
    width: 90%;
     height: 90%;
   color: #000000;
-   font-family: "Arial";
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
 
 }
 #text3 {
@@ -296,8 +290,8 @@ border-width: 1px;
    margin-bottom: 7%;
    width: 90%;
     height: 90%;
-  color: #000000;
-   font-family: "Arial";
+  color: #000000; 
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
 }
 #text4 {
    display: none;
@@ -308,7 +302,7 @@ border-width: 1px;
    width: 90%;
     height: 90%;
   color: #000000;
-   font-family: "Arial";
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
 }
 
 
@@ -320,10 +314,15 @@ img {
 
 
 
+
 footer {
   position: relative;
- margin-top: 50%;
-    color: #ffffff;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #A6A191;
+  margin-top: 10%;
+ 
+
 }
 
 
@@ -332,11 +331,6 @@ footer img {
   width: 32px;
   height: 32px;
   margin-left: 90% ;
+  margin-top: -3%;
+  margin-bottom: 5%;
 }
-
-
-
-
-
-
-
