@@ -1,21 +1,24 @@
-$(function() {
-    //----- OPEN
-    $('[data-popup-open]').on('click', function(e)  {
-        var targeted_popup_class = jQuery(this).attr('data-popup-open');
-        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
- 
-        e.preventDefault();
-    });
- 
-    //----- CLOSE
-    $('[data-popup-close]').on('click', function(e)  {
-        var targeted_popup_class = jQuery(this).attr('data-popup-close');
-        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
- 
-        e.preventDefault();
-    });
-});
 
+function cycleBackgrounds() {
+	var index = 0;
+
+	$imageEls = $('.toggle-image'); // Get the images to be cycled.
+
+	setInterval(function () {
+		// Get the next index.  If at end, restart to the beginning.
+		index = index + 1 < $imageEls.length ? index + 1 : 0;
+		// Show the next image.
+		$imageEls.eq(index).addClass('show');
+		// Hide the previous image.
+		$imageEls.eq(index - 1).removeClass('show');
+
+	}, 10000);
+};
+
+// Document Ready.
+$(function () {
+	cycleBackgrounds();
+});
  $(document).ready(function(){
 $("button").click(function(){
     $(".projet").toggle();
