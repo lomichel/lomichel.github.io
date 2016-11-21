@@ -16,6 +16,7 @@ background-size: 100% 250%;
   margin-left: -2%;
   margin-right: -2%;
 	  width: 103%;
+  border: 1px solid black;
  
 }
 
@@ -353,8 +354,9 @@ position: relative;
 }
 .poeme {
   text-align: justify;
-  margin: 30%;
-  margin-top: -40%;
+  margin: 10%;
+  margin-top: -50%;
+  font-size: 110%;
 }
 footer {
   position: relative;
