@@ -215,9 +215,16 @@ border: none;
 
 
 
+.col-xs-4{
+	text-align:center;
+}
 
-
-
+.col-sm-4{
+	text-align:center;
+}
+.col-md-4{
+	text-align:center;
+}
 
 
 footer {
