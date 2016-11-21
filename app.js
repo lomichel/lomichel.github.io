@@ -1,92 +1,29 @@
-// Write JavaScript here var main = function() {
-  /* Push the body and the nav over by 285px over */
+$(function() {
+    //----- OPEN
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
  
-var main = function() {
-$('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
-
-    $('body').animate({
-      left: "300px"
-    }, 200);
-  });
-
-  /* Then push them back */
-  $('.icon-close').click(function() {
-    $('.menu').animate({
-      left: "-300px"
-    }, 200);
-
-    $('body').animate({
-      left: "0px"
-    }, 200);
-  });
+        e.preventDefault();
+    });
  
- };
-var projet = function() {
-  
-  $('.button').click(function() {
-    $('.projet').animate({
-      right:"0px"
-    }, 200);
-
-    $('body').animate({
-      right:"-900px"
-    }, 200);
-  });
-  $('.icon-ose').click(function() {
-    $('.projet').animate({
-      right: "-900px"
-   },200);
-    $('body').animate({
-   right:"0px"
-  }, 200);
-   });
-  
- };
- var histo = function() {
-  
-  $('.buttonhist').click(function() {
-    $('.histo').animate({
-      top:"10px"
-    }, 200);
-
-    $('body').animate({
-      top:"100%"
-    }, 200);
-  });
-  $('.icon-lose').click(function() {
-    $('.histo').animate({
-      top: "100%"
-   },200);
-    $('body').animate({
-   top:"10px"
-  }, 200);
-   });
-   };
-
-function cycleBackgrounds() {
-	var index = 0;
-
-	$imageEls = $('.toggle-image'); // Get the images to be cycled.
-
-	setInterval(function () {
-		// Get the next index.  If at end, restart to the beginning.
-		index = index + 1 < $imageEls.length ? index + 1 : 0;
-		// Show the next image.
-		$imageEls.eq(index).addClass('show');
-		// Hide the previous image.
-		$imageEls.eq(index - 1).removeClass('show');
-
-	}, 10000);
-};
-
-// Document Ready.
-$(function () {
-	cycleBackgrounds();
+    //----- CLOSE
+    $('[data-popup-close]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+ 
+        e.preventDefault();
+    });
 });
-	
+
+ $(document).ready(function(){
+$("button").click(function(){
+    $(".projet").toggle();
+});
+   });
 $(document).ready(main);
-$(document).ready(projet);
-$(document).ready(histo);
+
+
+
+
+
