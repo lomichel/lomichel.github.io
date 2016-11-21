@@ -13,6 +13,7 @@ header {
   margin-left: -2%;
   margin-right: -2%;
   width: 102%;
+  border: 2px solid black;
  
 }
 
@@ -102,7 +103,7 @@ color: #fff;
 
 .maintop{
   text-align: center;
-  margin: 5%;
+  margin: 3%;
 }
 .icon-menu {
   color: #A6A191;
@@ -362,7 +363,10 @@ input[type=submit] {
 }
 
 
-
+.row2 {
+    border-top: 2px solid black;
+  margin-top: 3%;
+}
 
 
 
@@ -420,7 +424,6 @@ border-width: 1px;
     height: 90%;
   color: #000000;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-	font-size:110%;
 
 }
 #stage {
@@ -433,7 +436,6 @@ border-width: 1px;
     height: 90%;
   color: #000000; 
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-	font-size:110%;
 }
 #retraite {
    display: none;
@@ -445,7 +447,6 @@ border-width: 1px;
     height: 90%;
   color: #000000;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-	font-size:110%;
 }
 
 
