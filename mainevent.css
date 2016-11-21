@@ -423,6 +423,7 @@ border-width: 1px;
     height: 90%;
   color: #000000;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+	font-size:120%;
 
 }
 #stage {
@@ -435,6 +436,7 @@ border-width: 1px;
     height: 90%;
   color: #000000; 
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+	font-size:120%;
 }
 #retraite {
    display: none;
@@ -446,6 +448,7 @@ border-width: 1px;
     height: 90%;
   color: #000000;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+	font-size:120%;
 }
 
 
