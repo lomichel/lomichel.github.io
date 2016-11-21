@@ -2,9 +2,8 @@
 
 body{
   background-color: #fff;
-
-  
 }
+
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   background-size: 100% 300%;
@@ -26,63 +25,9 @@ color: #fff;
   font-size: 550%;
   font-weight: 500;
   margin-top: 5%;
- 
     }
 
-.menu {
-  background: #C3C1B9;
-  left: -300px;
-  	top:70px;/* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 285px;
-  z-index: 10;
-  color: #ffff;
-}
 
-
-
-
-
-
-.menu ul {
- 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
-  color: Black;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 150px;
-  padding-top: 0;
-
-}
-
-.icon-menu:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
 .back1:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
@@ -93,30 +38,9 @@ color: #fff;
   text-decoration: none;
 }
 
-
 .maintop{
   text-align: center;
-}
-.icon-menu {
-  color: #A6A191;
-  cursor: pointer;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px;
-
-position: relative;
-
-  text-decoration: none;
-  text-transform: uppercase;
-    background:  #FFF;
-
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  
-  padding: 10px 20px 10px 20px;
-border: none;
-   left: 1%;
-  top: -10%;
+  margin: 3%;
 }
 
 .back1 {
@@ -146,10 +70,7 @@ border: none;
 }
 
 
-.icon-menu i {
-  margin-right: 5px;
-  
-}
+
 
 .link:hover {
   background: #484b4d;
@@ -190,13 +111,7 @@ border: none;
 }
 
 
-.jumbotron1 {
-	position:relative;
- margin-top:  5%;
-  text-align: center;
-	z-index: 3;
 
-}
 
 .Adresse {
   color: #fff;
@@ -258,8 +173,6 @@ background: #008CBA;
 border: none;
 }
 
-
-
 .icon-menu i {
   margin-right: 5px;
   
@@ -281,10 +194,7 @@ border: none;
     width: 100%;
 
 }
-.maintop{
-  text-align: center;
-  margin: 3%;
-}
+
 
 .showmail {
  
