@@ -30,11 +30,20 @@ color: #fff;
  
     }
 .maintitle h2{
-  margin-top: -5%;
+  margin-top: -8%;
   font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
   font-size: 200%;
+  font-weight: 500;
+ 
+    }
+.maintitle h3{
+  margin-top: -7%;
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #fff;
+  font-size: 50%;
   font-weight: 500;
  
     }
