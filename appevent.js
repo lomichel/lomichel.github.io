@@ -43,6 +43,31 @@ var main = function() {
 
 
 
+ $(document).ready(function(){
+    $("#image-5").click(function(){
+             $("#stage").hide("#stage");
+      $("#retraite").hide("#retraite");
+      $("#festival").toggle("festival");
+      
+    });
+});
+
+ $(document).ready(function(){
+    $("#image-2").click(function(){
+             $("#festival").hide("#festival");
+      $("#stage").hide("#stage");
+      $("#retraite").toggle("retraite");
+      
+    });
+});
+ $(document).ready(function(){
+    $("#image-3").click(function(){
+             $("#festival").hide("#festival");
+      $("#retraite").hide("#retraite");
+      $("#stage").toggle("stage");
+      
+    });
+});
 
  
 $(document).ready(main);
