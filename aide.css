@@ -29,69 +29,11 @@ color: #fff;
    margin-top: 4%;
  
     }
-.maintitle h3{
-  
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  text-align: center;
-color: #fff;
-  font-size: 250%;
-  font-weight: 500;
- 
-    }
-.menu {
-  background: #C3C1B9;
-  left: -300px;
-  	top:70px;/* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 285px;
-  z-index: 10;
-  color: #ffff;
-}
 
 
 
 
 
-
-.menu ul {
- 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
-  color: Black;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 150px;
-  padding-top: 0;
-
-}
-
-.icon-menu:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
 .back1:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
@@ -105,28 +47,9 @@ color: #fff;
 
 .maintop{
   text-align: center;
+   margin: 3%;
 }
-.icon-menu {
-  color: #A6A191;
-  cursor: pointer;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px;
 
-position: relative;
-
-  text-decoration: none;
-  text-transform: uppercase;
-    background:  #FFF;
-
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  
-  padding: 10px 20px 10px 20px;
-border: none;
-   left: 1%;
-  top: -10%;
-}
 
 .back1 {
    color: #A6A191;
@@ -155,16 +78,10 @@ border: none;
 }
 
 
-.icon-menu i {
-  margin-right: 5px;
-  
-}
-
-
 .intro{
   text-align: justify;
   margin-left: 3%;
-  margin-top: 7%;
+  margin-top: 3%;
 
    width: 93%;
     height: 90%;
@@ -178,8 +95,6 @@ border: none;
   text-align: center;
   color: #000000;
  
-
-  
 }
 
 
@@ -247,7 +162,7 @@ border-width: 1px;
    position: relative;
    
    margin-left: -5%;
-
+  margin-right: -5%;
    border-top: 2px solid Black;
   color: #000000;
    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville
@@ -300,11 +215,6 @@ border-width: 1px;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
 }
 
-
-.maintop{
-  text-align: center;
-  margin: 3%;
-}
 
 img {
     cursor: pointer;
