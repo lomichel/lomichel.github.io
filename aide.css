@@ -1,5 +1,4 @@
 
-
 /* Basic background image styling. */
 
 body{
@@ -178,7 +177,7 @@ border: none;
 .col-md-4{
   text-align: center;
   color: #000000;
-  margin-top: 1%;
+ 
 
   
 }
@@ -188,17 +187,17 @@ border: none;
 .col-sm-4{
   text-align: center;
     color: #000000;
-  margin-top: 1%;
+ 
 }
 
 
 .col-xs-4{
   text-align: center;
     color: #000000;
-  margin-top: 1%;
+ 
 }
 
-.outer1 #img1{
+#img1{
 border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
@@ -218,17 +217,8 @@ border-width: 1px;
   width: 70%;
 
 }
-#img3{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
 
-    height: 40%;
-  width: 70%;
-
-}
- #img4{
+#img4{
   
   border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
@@ -256,7 +246,7 @@ border-width: 1px;
   margin-top: 7%;
    position: relative;
    
-  margin-left: -5%;
+   margin-left: -5%;
   margin-right: -5%;
    border-top: 2px solid Black;
   color: #000000;
