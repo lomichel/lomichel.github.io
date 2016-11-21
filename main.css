@@ -1,4 +1,6 @@
 
+/* Basic background image styling. */
+
 body{
   background-color: #fff;
 
@@ -6,81 +8,71 @@ body{
 }
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  background-size: 100% 300%;
-  height: 60%;
-  padding-top: 15%;
+  
+background-size: 100% 250%;
+  height: 100px;
+  padding-top: 10%;
+   padding-bottom: 10%;
     margin-top: -2%;
   margin-left: -2%;
   margin-right: -2%;
-  width: 102%;
+	  width: 103%;
+  border: 2px solid black;
  
 }
 
-.maintitle h2{
- 
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+.maintitle {
+  margin-top: 8%;
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
-  font-size: 550%;
+  font-size: 350%;
   font-weight: 500;
-  margin-top: -2%;
+ 
+    }
+.maintitle h2{
+  margin-top: -8%;
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #fff;
+  font-size: 200%;
+  font-weight: 500;
  
     }
 .maintitle h3{
-  
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin-top: -7%;
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
 color: #fff;
-  font-size: 250%;
+  font-size: 50%;
   font-weight: 500;
  
     }
-.menu {
-  background: #C3C1B9;
-  left: -300px;
-  	top:70px;/* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 285px;
-  z-index: 10;
-  color: #ffff;
+
+
+
+.projet p {
+    font-size: 110%;
+    font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin-top: -1%;
+  margin-right: 2%;
+    margin-left: 2%;
+ text-align: justify;
+Color:Black;
+	
+
+}
+.projet a {
+  position: relative;
+  
+Color:Black;
+
+text-decoration-color: none;
 }
 
 
 
-
-
-
-.menu ul {
- 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
-  color: Black;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 150px;
-  padding-top: 0;
-
-}
-
-.icon-menu:hover {
+.button:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
   background-image: -moz-linear-gradient(top, #484b4d, #636566);
@@ -89,7 +81,7 @@ color: #fff;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
-.back1:hover {
+.buttonhist:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
   background-image: -moz-linear-gradient(top, #484b4d, #636566);
@@ -98,32 +90,187 @@ color: #fff;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
-
 
 .maintop{
   text-align: center;
   margin: 3%;
 }
-.icon-menu {
+
+.jumbotron {
+	position:relative;
+ margin-top: 10%;
+  text-align: center;
+	z-index: 3;
+  
+
+}
+.projet{
+  display: none;
+  position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.button {
   color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
-
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
 position: relative;
-
   text-decoration: none;
   text-transform: uppercase;
-    background:  #FFF;
-
+background:  #FFF;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  
+ 
+ 
   padding: 10px 20px 10px 20px;
 border: none;
-   left: 1%;
-  top: -10%;
+  text-align: center;
+}
+
+
+.icon-menu i {
+  margin-right: 5px;
+  
+}
+
+
+
+container .col-sm-12{
+
+
+  margin-top: 5%;
+  color: #ffffff;
+  height: 250%;
+ position: relative;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding-right: 20%;
+	 width: 83%;
+}
+
+container .col-md-12{
+
+
+  margin-top: 5%;
+  color: #ffffff;
+ 
+ position: relative;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding-right: 20%;
+	 width: 83%;
+}
+
+container .col-xs-12{
+
+
+  margin-top: 5%;
+  color: #ffffff;
+  
+ position: relative;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding-right: 20%;
+	 width: 83%;
+}
+
+.background-image {
+ 
+background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+.toggle-image {
+ 	position: absolute;
+	width: 100%;
+ 	height: 50%;
+	transition: opacity 1s ease-in-out;
+  border: 2px solid Black;
+}
+
+/* Styles for the specific images. */
+.forth-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup.JPG?raw=true.png');	
+	z-index: -3;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup3.JPG?raw=true');
+	z-index: -2;
+	opacity: 0;
+}
+
+.third-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup1.JPG?raw=true');
+	z-index: -1;
+	opacity: 0;
+}
+.five-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
+	z-index:-4;
+	opacity:0;
+}
+.first-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup4.JPG?raw=true');
+	z-index:-5;
+	opacity:0;
+}
+
+.first-image.show {
+	opacity: 1;
+}
+
+.second-image.show {
+	opacity: 1;
+}
+
+.third-image.show {
+	opacity: 1;
+}
+.forth-image.show {
+	opacity: 1;
+}
+.five-image.show {
+	opacity: 1;
+}
+.prezi {
+  text-align: center;
+position: relative;
+	
+}
+.poeme {
+  text-align: justify;
+  margin:10%;
+margin-top: -40%;
+  font-size: 110%;
+}
+footer {
+  position: relative;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #A6A191;
+ 
+
+}
+
+
+footer img {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 90% ;
+  margin-top: -3%;
+  margin-bottom: 5%;
 }
 
 .back1 {
@@ -146,21 +293,7 @@ border: none;
  margin-left: 1%;
 }
 
-
-.back1 a {
-  text-decoration: none;
- color:  #A6A191;
-}
-
-
-.icon-menu i {
-  margin-right: 5px;
-  
-}
-
-
-
-.btna:hover {
+.back1:hover {
   background: #484b4d;
   background-image: -webkit-linear-gradient(top, #484b4d, #636566);
   background-image: -moz-linear-gradient(top, #484b4d, #636566);
@@ -169,286 +302,3 @@ border: none;
   background-image: linear-gradient(to bottom, #484b4d, #636566);
   text-decoration: none;
 }
-.calendar:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
-
-.jumbotron1 {
-	position:relative;
-  margin: 5%;
-  text-align: center;
-	z-index: 4;
-  margin-bottom: 10%;
-}
-
-
-.calendar {
-  color: #fff;
-  cursor: pointer;
-
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-background: #DC143C;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 9px;
-  padding: 10px 20px 10px 20px;
-border: none;
- 
-  
-}
-
-
-
-
-
-
-
-
-
-
-footer {
-  position: relative;
-  padding-right: 10%;
-  padding-left: 10%;
-  color: #A6A191;
-  margin-top: 10%;
- 
-
-}
-
-
-footer img {
-
-  width: 32px;
-  height: 32px;
-  margin-left: 90% ;
-  margin-top: -3%;
-  margin-bottom: 5%;
-}
-
-
-
-/* Outer */
-.popup {
-    width:100%;
-    height:800px;
-    display: none;
-    position:absolute;
-    top:10px;
-    left:0px;
-    background:rgba(0,0,0,0.75);
-  z-index: 10;
-  font-family: Arial, Helvetica, sans-serif;
-  color:#000000;
-  text-align: center;
-}
- 
-/* Inner */
-.popup-inner {
-    max-width:500px;
-    width:100%;
-    padding:50px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    -webkit-transform:translate(-50%, -50%);
-    transform:translate(-50%, -50%);
-    box-shadow:0px 2px 6px rgba(0,0,0,1);
-    border-radius:3px;
-    background:#fff;
-}
- 
-/* Close Button */
-.popup-close {
-    width:30px;
-    height:30px;
-    padding-top:4px;
-    display:inline-block;
-    position:absolute;
-    top:0px;
-    right:0px;
-    transition:ease 0.25s all;
-    -webkit-transform:translate(50%, -50%);
-    transform:translate(50%, -50%);
-    border-radius:1000px;
-    background:rgba(0,0,0,0.8);
-    font-family:Arial, Sans-Serif;
-    font-size:20px;
-    text-align:center;
-    line-height:100%;
-    color:#fff;
-}
- 
-.popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(180deg);
-    transform:translate(50%, -50%) rotate(180deg);
-    background:rgba(0,0,0,1);
-    text-decoration:none;
-}
-
-
-fieldset {
-  margin-bottom: 10px;
-  padding: 10px;
-  color:#000000;
-}
- 
-legend {
-  padding: 0px 3px;
-  font-weight: bold;
-  font-variant: small-caps;
-}
- 
-label {
-  width: 100px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px;
-  color:#000000;
-}
- 
- 
-input:focus {
-  background: #eaeaea;
-  color:#000000;
-}
- 
-input, textarea {
-  width: 252px;
-  color:black;
-}
- 
-textarea {
-  height: 50px;
-  color:#000000;
-}
- 
-select {
-  width: 252px;
-  color:#000000;
-}
-
-#envoy {
-    background-color: #DC143C;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-	margin-top:60px;
-	border-radius: 8px;
-}
-
-input[type=checkbox] {
-  width: 10px;
-}
- 
-input[type=submit] {
-  width: 100px;
-  padding: 10px;
-}
-
-
-
-
-
-
-
-
-
-#image-5{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-
-    height: 40%;
-  width: 70%;
-
-}
-#image-3{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-
-    height: 40%;
-  width: 70%;
-
-}
-#image-2{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-    height: 40%;
-  width: 70%;
-
-}
-
-
-
-.row  p{
-  
-  text-align: justify;
- 
-
-}
-
-
-#festival{
- display: none;
-     text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-   margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
-  color: #000000;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-
-}
-#stage {
- display: none;
-   text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-   margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
-  color: #000000; 
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-}
-#retraite {
-   display: none;
-   text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-    margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
-  color: #000000;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-}
-
-
-img {
-    cursor: pointer;
-   margin-left: 15%;
-}
-
-
