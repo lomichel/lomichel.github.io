@@ -9,7 +9,7 @@ body{
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   background-size: 100% 300%;
-  height: 250px;
+  height: 270;
   padding-top: 10%;
     margin-top: -2%;
   margin-left: -2%;
@@ -118,7 +118,7 @@ border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
 
-    height: 40%;
+    height: 110px;
   width: 70%;
 
 }
@@ -128,7 +128,7 @@ border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
 
-    height: 40%;
+     height: 110px;
   width: 70%;
 
 }
@@ -140,7 +140,7 @@ border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
 
-    height: 40%;
+     height: 110px;
   width: 70%;
 
 }
