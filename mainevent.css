@@ -182,7 +182,7 @@ border: none;
 
 .jumbotron1 {
 	position:relative;
-  margin: 5%;
+margin-left: 4%;
   text-align: center;
 	z-index: 4;
   margin-bottom: 10%;
@@ -192,7 +192,7 @@ border: none;
 .calendar {
   color: #fff;
   cursor: pointer;
-
+text-align: center;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
