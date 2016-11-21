@@ -1,3 +1,22 @@
+$(function() {
+    //----- OPEN
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+ 
+        e.preventDefault();
+    });
+ 
+    //----- CLOSE
+    $('[data-popup-close]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+ 
+        e.preventDefault();
+    });
+});
+
+
 var main = function() {
   /* Push the body and the nav over by 285px over */
   $('.icon-menu').click(function() {
@@ -23,37 +42,37 @@ var main = function() {
 }; 
 
 
+
  $(document).ready(function(){
-    $(".outer1").click(function(){
-             $("#text2").hide("#text2");
-      $("#text3").hide("#text3");
-      $("#text4").hide("#text4");
-      $(".text1").toggle("text1");
+    $("#image-5").click(function(){
+             $("#stage").hide("#stage");
+      $("#retraite").hide("#retraite");
+      $("#festival").toggle("festival");
+      
     });
 });
+
  $(document).ready(function(){
-    $(".outer2").click(function(){
-             $("#text1").hide("#text1");
-      $("#text3").hide("#text3");
-      $("#text4").hide("#text4");
-      $(".text2").toggle("text2");
-    });
-});
- $(document).ready(function(){
-    $(".outer3").click(function(){
-             $("#text2").hide("#text2");
-      $("#text1").hide("#text1");
-      $("#text4").hide("#text4");
-      $(".text3").toggle("text3");
+    $("#image-2").click(function(){
+             $("#festival").hide("#festival");
+      $("#stage").hide("#stage");
+      $("#retraite").toggle("retraite");
       
     });
 });
  $(document).ready(function(){
-    $(".outer4").click(function(){
-             $("#text2").hide("#text2");
-      $("#text3").hide("#text3");
-      $("#text1").hide("#text1");
-      $(".text4").toggle("text4");
+    $("#image-3").click(function(){
+             $("#festival").hide("#festival");
+      $("#retraite").hide("#retraite");
+      $("#stage").toggle("stage");
+      
     });
 });
+
+ 
 $(document).ready(main);
+
+
+
+
+
