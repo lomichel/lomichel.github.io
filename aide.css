@@ -82,12 +82,12 @@ border: none;
   text-align: justify;
   margin-left: 3%;
   margin-top: 3%;
-
+margin-bottom: 3%;
    width: 93%;
     height: 90%;
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 110%;
+  font-size: 120%;
 }
 
 
@@ -162,57 +162,52 @@ border-width: 1px;
    position: relative;
    
    margin-left: -5%;
-  margin-right: -5%;
+  margin-right: -2%;
    border-top: 2px solid Black;
   color: #000000;
    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville
     }
 
+
 #text1 {
     display: none;
      text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-  margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
+margin: 10%;
+   width: 80%;
+   font-size: 120%;
   color: #000000;
       font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
   
 }
 #text2 {
- display: none;
+    display: none;
      text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-   margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
+margin: 10%;
+   width: 80%;
+   font-size: 120%;
   color: #000000;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+  
 }
 #text3 {
- display: none;
-   text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-   margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
-  color: #000000; 
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+    display: none;
+     text-align: justify;
+margin: 10%;
+   width: 80%;
+   font-size: 120%;
+  color: #000000;
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+  
 }
 #text4 {
-   display: none;
-   text-align: justify;
-  margin-left: 5%;
-  margin-top: 7%;
-    margin-bottom: 7%;
-   width: 90%;
-    height: 90%;
+    display: none;
+     text-align: justify;
+margin: 10%;
+   width: 80%;
+   font-size: 120%;
   color: #000000;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+  
 }
 
 
