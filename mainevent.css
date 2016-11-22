@@ -30,12 +30,10 @@ color: #fff;
 .maintop{
   text-align: center;
   margin: 2%;
-  border: 1px solid red;
+  
 }
 
-.container{
-  border: 1px solid red;
-}
+
 .back1 {
    color: #A6A191;
   cursor: pointer;
@@ -64,7 +62,7 @@ margin-left: 4%;
   text-align: center;
 	z-index: 4;
   margin-bottom: 10%;
-  border: 1px solid red;
+  
 }
 
 
@@ -300,7 +298,7 @@ border-width: 1px;
 
 
 #festival{
-
+display: none;
       text-align: justify;
  
   margin-left:5%;
