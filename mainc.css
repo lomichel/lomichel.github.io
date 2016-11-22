@@ -1,122 +1,173 @@
-<!DOCTYPE html>
-<html>
-<head>
-<html>
-  <head>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
-    <link href='aide.css' rel='stylesheet'>
-<script
-	src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  </head>
+/* Basic background image styling. */
+
+body{
+  background-color: #fff;
+
+border: 1px solid red;
+}
+header {
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
+  background-size: 100% 300%;
+  height: 270;
+  padding-top: 10%;
+    margin-top: -2%;
+  margin-left: -2%;
+  margin-right: -2%;
+  width: 102%;
+  border: 2px solid Black;
  
-   <body>
+}
 
-<header>
-        
-    <div class="container">
-<div class = "maintitle">
+.maintitle h2{
  
-        <h2>Nous aider</h2>
-      </div>  
-    
-      
-      <!-- Menu icon -->
-   
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #fff;
+  font-size: 550%;
+  font-weight: 500;
+   margin-top: 4%;
+   text-shadow:0 0 3px #000000;
+ 
+    }
 
-      <!-- Menu -->
+
+
+
+.maintop{
+  text-align: center;
+  margin: 2%;
   
-     
-    </div>
+}
 
-  </header>  
-   <div class="maintop">
-       <a class="back1" href="news.html">Les news</a>
-         <a class="back1" href="event.html">Nos événements</a> 
-        <a class="back1" href="contact.html"> Nous contacter</a> 
-         <a class="back1" href="aider.html"> Nous aider</a>
-       <a class="back1" href="comentaires.html"> Le lieu</a>
-  <a class="back1" href="index.html">Page principale</a> 
-         
-  </div>
-  <div class="container1">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-xs-12">
-        <div class="intro">
-      <p> Remplis de rêves et d’idées, il nous faut cependant rester attentifs à ne pas nous disperser dans toutes les opportunités qu’offre le lieu. 
-Mais le lieu est grand et les rencontres à venir s’annoncent belles. Les coups de mains, vous l’aurez compris, sont tous les bienvenus. Pour ceux qui voudraient participer, visitez cette page pour en savoir plus sur le type d’aide que nous recherchons. 
-Ensuite, envoyez nous un mail ou téléphonez nous. Prenons contacts et partageons !</p> 
 
-        </div> </div>
-     
-      <div class="row1">
- <div class ="col-md-4 col-sm-4 col-xs-4">
-        <b>Dans les jardins</b>  
-              <div class="outer1"><img src="https://cdn3.iconfinder.com/data/icons/construction-flat-multicolor-background-shadow/2048/371_-_Under_Construction_Sign-512.png" id="img1"alt="" /></div>
-</div>
- <div class ="col-md-4 col-sm-4 col-xs-4">
-		
-        <b>Evénementiel</b>
-      <div class="outer2"><img src="http://www.capinfo.fr/wp-content/uploads/2015/07/flat_icons-graficheria.it-06.png" id="img2" alt="" /></div>
-  </div>
+.back1 {
+   color: #A6A191;
+  cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 16px;
+
+position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+border: none;
+ margin-left: 2%;
+  margin-top: 2%;
+}
+
+.row{
+  position: relative;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+}
+.container1 {
+  width: 100%;
+  border-top: 2px solid black;
+ 
+}
+
+container1{
+ border: 1px solid red;
+}
+row1{
+ border: 1px solid red;
+}
+
+#lo{
+
+
+  height: 90%;
+  width: 100%;
+
+}
+#lew{
+height: 90%;
+  width: 100%;
+ margin-right:-15% ;
+}
+
+
+.container2 {
+  width: 100%;
+  border-top: 2px solid black;
+  margin-top: 3%;
+ 
+}
+.row2{
+  position: relative;
+  text-align: center;
+  color: #000000;
   
-      <div class ="col-md-4 col-sm-4 col-xs-4">
-        <b>Coup de pouce</b>  
-              <div class="outer4"><img src="https://github.com/lomichel/lomichel.github.io/blob/master/donate1.png?raw=true" id="img4"alt="" /></div>
-</div>
-    </div>
-      </div>  </div>  
-     <div class="container2">
-    <div class="row2">
-       <div class="col-sm-12 col-md-12 col-xs-12">
-                 
-        <div class="text">
-          <div class="text1" id="text1"> <u><b>Dans les jardins</b></u><h></h>
-            <p>Du temps ? Envie d’aider ? N’hésitez plus, venez mettre les mains à la pâte ou dans la terre. Les jardiniers s’occupent des légumes mais sur le lieu, tout reste à faire. Surtout, il y a l’espace pour des initiatives qui complèteraient les buttes de permaculture. 
-Copiner avec des abeilles, récolter des plantes sauvages, cultiver des pleurotes, des kiwis, du houblon, faire du sirop de bouleaux, ramasser les châtaignes de la région, bouturer des plantes sauvages pour les repiquer au jardin, s’occuper de la marre, y mettre des plantes aquatiques des écrevisses, des pieuvres et une baleine, construire des hôtels à insectes, une serre, des petits panneaux pour les légumes, une maquette du jardin, une tyrolienne pour amuser les chèvres ou construire un banc, une table, un espace…
-Pleins de si belles choses pour lesquelles nous manquons de temps et des connaissances suffisantes. </p> 
-<p>Nous sommes donc à la recherche de personnes avec un projet et la motivation de le faire vivre tout au long de l’année. Si l’une ou l’autre tâche de la liste ci-dessus vous parle ou si vous avez votre propre projet qui rentrerait parfaitement dans les Jardins du Moulins. En outre, durant l’année, se dérouleront plusieurs chantiers participatifs. L’aide est toujours la bienvenue à ces moments-là. Durant les gros moments de transformations, l’aide est aussi précieuse.
-</p>  </div>
-          <div class="text2" id="text2"> <u><b>Evénementiel</b></u><p></p>
-		  <p>L'organisation des trois événements est encore largement en friche et attend des têtes pour les penser, des bras et des sourires pour les réaliser. </p>
-		  <p>Pour le <b>festival</b>, une belle équipe est déjà en place mais nous cherchons encore des gens !  Matos son, cuisiniers, artisan, subsides, musiciens, as de la construction de toilettes sèches digne de ce nom,  conteurs pour petits et grands, cracheur de feu ou guide nature…</p>
-<p>Pour le <b>stage d’été</b>, nous sommes à la recherche de têtes pensantes afin de réfléchir sur le fond et le développement des activités durant ces dix jours. Par ailleurs, nous sommes encore à la recherche d’animateurs et d’intendants pour assurer l’encadrement des jeunes pendant le stage.</p>
-		  <p>Pour la <b>retraite d’automne</b>, nous sommes à la recherche d’intervenants pour ponctuer la semaine d’ateliers autour du corps, de la tête et du cœur.  </p>
-<p>De manière générale, nous sommes à la recherche de subsides afin d’aider à la réalisation de ces évènements. Si vous avez des contacts, n’hésitez pas à nous les communiquer.</p> 
+}
 
-</div>
-         
-          <div class="text4" id="text4"> <u><b>Coup de pouce</b></u><p></p> <p> Le projet des Jardins du Moulin demande quelques investissements matériels importants. Reposant sur les ressources propres des organisateurs et grâce au soutien du propriétaire du lieu, nous sommes à la recherche d’aides financières extérieurs. L’océan n’est rien d’autre qu’une somme de petites gouttes, alors si nous parvenons à créer une flaque, nous serons déjà bien contents. </p>
 
-<p>Alors pas de temps mais l’envie de soutenir le projet avec (un peu) d’argent ? Voici les coordonnées de notre numéro de compte :
-BE81 310-165 7959 24 
-Lewis Baudoux 56, rue du repos 
-	Communication : « Les Jardins du Moulin »</p>
+.showmail {
+ 
+  
+ color: #A6A191;
+     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin-bottom: 10%;
+  margin-top: 20%;
+  font-size: 130%;
+}
 
-<p>Pour vous donner une idée au programme des dépenses se retrouvent: matériel de transformation alimentaire (1000 €), plantation de fruitiers et de 100 mètres de haies (1500 €), construction de serres (400 €), semences légumes (200 €). 
-</p> </div>  </div> </div> </div> </div> 
-   
-     
-     
-	   <footer class="container">
-    <div class="row3">
-      <div class="col-md-6 col-xs-6 col-sm-6">
-        
-        &copy; 2016 Moulin </div>
-     <div class="col-md-6 col-xs-6 col-sm-6">
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+.showtel {
+ 
+ color: #A6A191;
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+margin: 20%;
+    font-size: 130%;
+}
 
-      </div>  </div> 
-  </footer>
-     
-</body>
+.showmail a{
 
-</html>
+ color: #A6A191;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin-bottom: 10%;
+   margin-top: 20%;
+}
+.showadresse a{
+  
+ color: #A6A191;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin: 20%;
+    font-size: 130%;
+}
 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="aide.js"></script>
-     
-      
+.showadresse {
+
+ 
+   color: #A6A191;
+   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    margin: 20%;
+}
+
+
+
+
+
+
+
+
+footer {
+  position: relative;
+ 
+  color: #A6A191;
+  margin: 10%;
+
+}
+
+
+
+
+
+footer img {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 90% ;
+  margin-top: -3%;
+  margin-bottom: 5%;
+}
