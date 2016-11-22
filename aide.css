@@ -4,7 +4,7 @@
 body{
   background-color: #fff;
 
-  
+  border: 1px solid red;
 }
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
@@ -16,6 +16,7 @@ header {
   margin-right: -2%;
   width: 102%;
   border: 2px solid Black;
+  
  
 }
 
@@ -37,6 +38,7 @@ color: #fff;
 .maintop{
   text-align: center;
   margin: 2%;
+   border: 1px solid red;
 }
 
 
@@ -55,7 +57,14 @@ border: none;
   margin-top: 2%;
 }
 
-
+.container1{
+  width: 100%;
+  border: 1px solid red;
+}
+.container2{
+  width: 100%;
+  border: 1px solid red;
+}
 .intro{
   text-align: justify;
   margin-left: 3%;
@@ -67,6 +76,8 @@ margin-bottom: 3%;
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
    font-size: 20px;
+   border: 1px solid red;
+   Line-Height: 2;
 }
 
 
@@ -74,6 +85,13 @@ margin-bottom: 3%;
   position: relative;
   text-align: center;
   color: #000000;
+  border: 1px solid red;
+}
+.row2{
+  position: relative;
+  text-align: center;
+  color: #000000;
+  border: 1px solid red;
 }
 
 #img1{
@@ -113,65 +131,77 @@ border-width: 1px;
    
    border-top: 2px solid Black;
   margin-top: 2%;
+    margin-left: -3%;
+  width: 104%;
+ 
   
-    width: 103%;
-  margin-left: -2%;
 
     }
 
 
 #text1 {
-    display: none;
  
-  margin-left: 8%;
+ 
+  text-align: justify;
+  margin-left: 3%;
+  width: 95%;
   margin-top: 3%;
 margin-bottom: 3%;
-  width: 85%;
-  text-align: justify;
+   
+  
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 20px;
+   font-size: 20px;
+   border: 1px solid red;
+   Line-Height: 2;
 }
 
 
 #text2 {
     display: none;
- 
-  margin-left: 5%;
+  text-align: justify;
+  margin-left: 3%;
+  width: 95%;
   margin-top: 3%;
 margin-bottom: 3%;
-  width: 90%;
-  text-align: justify;
+   
+  
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 20px;
+   font-size: 20px;
+   border: 1px solid red;
+   Line-Height: 2;
 }
 
 #text4 {
     display: none;
- 
-  margin-left: 5%;
+  text-align: justify;
+  margin-left: 3%;
+  width: 95%;
   margin-top: 3%;
 margin-bottom: 3%;
-  width: 90%;
-  text-align: justify;
+   
+  
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 20px;
+   font-size: 20px;
+   border: 1px solid red;
+   Line-Height: 2;
 }
 
 .text1 u{
-margin-left: 45%;
+Line-Height: 4;
   
 }
 .text2 u{
-margin-left: 45%;
+Line-Height: 4;
+
   
 }
 
 .text4 u{
-margin-left: 45%;
-  
+
+Line-Height: 4;  
 }
 img {
     cursor: pointer;
