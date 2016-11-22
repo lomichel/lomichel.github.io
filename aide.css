@@ -165,19 +165,19 @@ margin-top: 3%;
    Line-Height: 2;
 }
 
-.text1 u{
-Line-Height: 4;
+.text1 h3{
+Line-Height: 3;
   
 }
-.text2 u{
-Line-Height: 4;
+.text2 h3{
+Line-Height: 3;
 
   
 }
 
-.text4 u{
+.text4 h3{
 
-Line-Height: 4;  
+Line-Height: 3;  
 }
 img {
     cursor: pointer;
