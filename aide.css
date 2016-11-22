@@ -9,9 +9,13 @@ body{
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
   background-size: 100% 300%;
-  height: 270px;
-  width: 100%;
-  border: 2px solid black;
+  height: 270;
+  padding-top: 10%;
+    margin-top: -2%;
+  margin-left: -2%;
+  margin-right: -2%;
+  width: 102%;
+  border: 2px solid Black;
  
 }
 
@@ -22,26 +26,17 @@ header {
 color: #fff;
   font-size: 550%;
   font-weight: 500;
-  margin-top: 150px;
-}
+   margin-top: 4%;
+   text-shadow:0 0 3px #000000;
+ 
+    }
 
 
-
-
-.back1:hover {
-  background: #484b4d;
-  background-image: -webkit-linear-gradient(top, #484b4d, #636566);
-  background-image: -moz-linear-gradient(top, #484b4d, #636566);
-  background-image: -ms-linear-gradient(top, #484b4d, #636566);
-  background-image: -o-linear-gradient(top, #484b4d, #636566);
-  background-image: linear-gradient(to bottom, #484b4d, #636566);
-  text-decoration: none;
-}
 
 
 .maintop{
   text-align: center;
-   margin: 3%;
+  margin: 2%;
 }
 
 
@@ -54,56 +49,31 @@ color: #fff;
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
-    background:  #FFF;
 
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  
-  padding: 10px 20px 10px 20px;
 border: none;
- margin-left: 1%;
-}
-
-
-.back1 a {
-  text-decoration: none;
- color:  #A6A191;
+ margin-left: 2%;
+  margin-top: 2%;
 }
 
 
 .intro{
   text-align: justify;
   margin-left: 3%;
+  width: 95%;
   margin-top: 3%;
 margin-bottom: 3%;
-   width: 93%;
-    height: 90%;
+   
+  
   color: #000000;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 120%;
+   font-size: 20px;
 }
 
 
-.col-md-4{
+.row1{
+  position: relative;
   text-align: center;
   color: #000000;
- 
-}
-
-
-
-.col-sm-4{
-  text-align: center;
-    color: #000000;
- 
-}
-
-
-.col-xs-4{
-  text-align: center;
-    color: #000000;
- 
 }
 
 #img1{
@@ -136,75 +106,73 @@ border-width: 1px;
 
     height: 130px;
   width: 130px;
-
 }
 
-
-
-.show  p{
-  
-  text-align: justify;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-  margin-right: 2%;
-
-}
 
 .text{   
-     text-align: justify;
- 
-  margin-top: 7%;
-   position: relative;
    
-   margin-left: -5%;
-  margin-right: ;
    border-top: 2px solid Black;
-  color: #000000;
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville
+  margin-top: 2%;
+  
+    width: 103%;
+  margin-left: -2%;
+
     }
 
 
 #text1 {
     display: none;
-     text-align: justify;
-margin: 10%;
-   width: 80%;
-   font-size: 120%;
+ 
+  margin-left: 8%;
+  margin-top: 3%;
+margin-bottom: 3%;
+  width: 85%;
+  text-align: justify;
   color: #000000;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-  
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 20px;
 }
+
+
 #text2 {
     display: none;
-     text-align: justify;
-margin: 10%;
-   width: 80%;
-   font-size: 120%;
+ 
+  margin-left: 5%;
+  margin-top: 3%;
+margin-bottom: 3%;
+  width: 90%;
+  text-align: justify;
   color: #000000;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-  
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 20px;
 }
-#text3 {
-    display: none;
-     text-align: justify;
-margin: 10%;
-   width: 80%;
-   font-size: 120%;
-  color: #000000;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
-  
-}
+
 #text4 {
     display: none;
-     text-align: justify;
-margin: 10%;
-   width: 80%;
-   font-size: 120%;
+ 
+  margin-left: 5%;
+  margin-top: 3%;
+margin-bottom: 3%;
+  width: 90%;
+  text-align: justify;
   color: #000000;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 20px;
+}
+
+.text1 u{
+margin-left: 45%;
+  
+}
+.text2 u{
+margin-left: 45%;
   
 }
 
-
+.text4 u{
+margin-left: 45%;
+  
+}
 img {
     cursor: pointer;
 }
