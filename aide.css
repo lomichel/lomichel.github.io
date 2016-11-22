@@ -180,15 +180,17 @@ img {
 
 
 
+
 footer {
   position: relative;
-  padding-right: 10%;
-  padding-left: 10%;
-  color: #A6A191;
-  margin-top: 10%;
  
+  color: #A6A191;
+  margin: 10%;
 
 }
+
+
+
 
 
 footer img {
