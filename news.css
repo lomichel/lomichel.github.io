@@ -1,3 +1,4 @@
+ Basic background image styling. */
 
 body{
   background-color: #fff;
@@ -50,20 +51,20 @@ border: none;
 }
 
 
-.calendar:hover {
-  background: #484b4d;
+section .row .col-sm-12{
+ margin-top: 10%;
 
-  text-decoration: none;
+ 
 }
-
-.jumbotron1 {
-	position:relative;
-margin-left: 4%;
-  text-align: center;
-	z-index: 4;
-  margin-bottom: 10%;
+section .row .col-md-12{
+ 
+margin-top: 10%;
+}
+section .row .col-xs-12{
   
+margin-top: 10%;
 }
+
 
 
 
@@ -74,7 +75,6 @@ margin-left: 4%;
   overflow: hidden;
   margin-left: 5%;
   z-index: 10;
-  margin-top: 10%;
   
 }
 
@@ -160,6 +160,7 @@ margin-left: 4%;
 .slider .content a {
   color: inherit;
 }
+
 footer {
   position: relative;
   padding-right: 10%;
@@ -180,237 +181,5 @@ footer img {
   margin-bottom: 5%;
 }
 
-
-
-/* Outer */
-.popup {
-    width:100%;
-    height:800px;
-    display: none;
-    position:absolute;
-    top:10px;
-    left:0px;
-    background:rgba(0,0,0,0.75);
-  z-index: 10;
-  font-family: Arial, Helvetica, sans-serif;
-  color:#000000;
-  text-align: center;
-}
- 
-/* Inner */
-.popup-inner {
-    max-width:500px;
-    width:100%;
-    padding:50px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    -webkit-transform:translate(-50%, -50%);
-    transform:translate(-50%, -50%);
-    box-shadow:0px 2px 6px rgba(0,0,0,1);
-    border-radius:3px;
-    background:#fff;
-}
- 
-/* Close Button */
-.popup-close {
-    width:30px;
-    height:30px;
-    padding-top:4px;
-    display:inline-block;
-    position:absolute;
-    top:0px;
-    right:0px;
-    transition:ease 0.25s all;
-    -webkit-transform:translate(50%, -50%);
-    transform:translate(50%, -50%);
-    border-radius:1000px;
-    background:rgba(0,0,0,0.8);
-    font-family:Arial, Sans-Serif;
-    font-size:20px;
-    text-align:center;
-    line-height:100%;
-    color:#fff;
-}
- 
-.popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(180deg);
-    transform:translate(50%, -50%) rotate(180deg);
-    background:rgba(0,0,0,1);
-    text-decoration:none;
-}
-
-
-fieldset {
-  margin-bottom: 10px;
-  padding: 10px;
-  color:#000000;
-}
- 
-legend {
-  padding: 0px 3px;
-  font-weight: bold;
-  font-variant: small-caps;
-}
- 
-label {
-  width: 100px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px;
-  color:#000000;
-}
- 
- 
-input:focus {
-  background: #eaeaea;
-  color:#000000;
-}
- 
-input, textarea {
-  width: 252px;
-  color:black;
-}
- 
-textarea {
-  height: 50px;
-  color:#000000;
-}
- 
-select {
-  width: 252px;
-  color:#000000;
-}
-
-#envoy {
-    background-color: #DC143C;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-	margin-top:60px;
-	border-radius: 8px;
-}
-
-input[type=checkbox] {
-  width: 10px;
-}
- 
-input[type=submit] {
-  width: 100px;
-  padding: 10px;
-}
-
-
-.row2 {
-    border-top: 2px solid black;
-  margin-top: 3%;
-}
-
-
-
-
-
-
-#image-5{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-
-     height: 130px;
-  width: 130px;
-margin-left:-10%;
-}
-#image-3{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-  height: 130px;
-  width: 130px;
-
-}
-#image-2{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-      height: 130px;
-  width: 130px;
-margin-right:-3%;
-}
-
-
-
-.row  p{
-  
-  text-align: justify;
-
-
-}
-
-
-#festival{
-display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
-  margin-top: 2%;
-   margin-bottom: 3%;
-  
-  color: #000000;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-   font-size: 20px;
- 
-   Line-Height: 2;
-}
-#stage {
-   display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
-  margin-top: 2%;
-   margin-bottom: 3%;
-  
-  color: #000000;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-   font-size: 20px;
- 
-   Line-Height: 2;
-}
-#retraite {
-  display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
-  margin-top: 2%;
-   margin-bottom: 3%;
-  
-  color: #000000;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-   font-size: 20px;
- 
-   Line-Height: 2;
-}
-.festival h3{
-Line-Height: 3;
-}
-.retraite h3{
-Line-Height: 3;
-}
-.stage h3{
-Line-Height: 3;
-}
-
-img {
-    cursor: pointer;
-   margin-left: 15%;
-}
 
 
