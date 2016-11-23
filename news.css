@@ -56,73 +56,13 @@ border: none;
   text-decoration: none;
 }
 
-.jumbotron1 {
-	position:relative;
-margin-left: 4%;
-  text-align: center;
-	z-index: 4;
-  margin-bottom: 10%;
-  
-}
-
-
-.calendar {
-  color: #fff;
-  cursor: pointer;
-text-align: center;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-background: #DC143C;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 9px;
-  padding: 10px 20px 10px 20px;
-border: none;
- 
-  
-}
 
 
 
 
 
-.col-xs-4{
-	text-align:center;
-}
-
-.col-sm-4{
-	text-align:center;
-}
-.col-md-4{
-	text-align:center;
-}
 
 
-footer {
-  position: relative;
-  padding-right: 10%;
-  padding-left: 10%;
-  color: #A6A191;
-  margin-top: 10%;
- 
-
-}
-
-
-footer img {
-
-  width: 32px;
-  height: 32px;
-  margin-left: 90% ;
-  margin-top: -3%;
-  margin-bottom: 5%;
-}
 
 
 
@@ -130,11 +70,12 @@ footer img {
 
 .slider {
   width: 90%;
-  height: 80%;
-  position: relative;
+  height: 350px;
+  position: absolute;
   overflow: hidden;
   margin-left: 5%;
   z-index: 10;
+   margin-top: 2%;
   
 }
 
@@ -158,6 +99,7 @@ footer img {
   top: 0;
   bottom: 0;
   border: 1px solid Black;
+ 
 }
 
 .slider li img {
@@ -221,3 +163,25 @@ footer img {
   color: inherit;
 }
 
+footer {
+  position: relative;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #A6A191;
+   margin-top: 400px;
+ 
+ 
+
+}
+.container1{
+  border: 2px solid Black;
+}
+
+footer img {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 90% ;
+ 
+  margin-bottom: 5%;
+}
