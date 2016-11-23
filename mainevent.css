@@ -265,7 +265,7 @@ border-width: 1px;
 
      height: 130px;
   width: 130px;
-
+margin-left:-10%;
 }
 #image-3{
   border-radius: 50%;   /* Apparence circulaire de l'image */
@@ -284,7 +284,7 @@ border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
       height: 130px;
   width: 130px;
-
+margin-right:-3%;
 }
 
 
