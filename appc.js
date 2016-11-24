@@ -1,54 +1,76 @@
-var main = function() {
-  $('.btn').click(function() {
-    var post = $('.status-box').val();
-    $('<li>').text(post).prependTo('.posts');
-    $('.status-box').val('');
-    $('.counter').text('140');
-    $('.btn').addClass('disabled'); 
-  });
-  
-  $('.status-box').keyup(function() {
-    var postLength = $(this).val().length;
-    var charactersLeft = 140 - postLength;
-    $('.counter').text(charactersLeft);
-  
-    if(charactersLeft < 0) {
-      $('.btn').addClass('disabled'); 
-    }
-    else if(charactersLeft == 140) {
-      $('.btn').addClass('disabled');
-    }
-    else {
-      $('.btn').removeClass('disabled');
-    }
-  });
-  
-  $('.btn').addClass('disabled');
-};
 
 
-var post = function() {
-  /* Push the body and the nav over by 285px over */
-  $('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
+ $(document).ready(function(){
+    $("#hist").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#sitgeo").hide("#sitgeo");
+       $("#lesol").hide("#lesol");
+       $("#iledesan").hide("#iledesan");
+      $("#roue").hide("#roue");
+      $("#historique").toggle("historique");
+      
+    });
+});
 
-    $('body').animate({
-      left: "285px"
-    }, 200);
-  });
+ $(document).ready(function(){
+    $("#jardin").click(function(){
+             $("#historique").hide("#historique");
+      $("#sitgeo").hide("#sitgeo");
+       $("#lesol").hide("#lesol");
+       $("#iledesan").hide("#iledesan");
+      $("#roue").hide("#roue");
+      $("#jardins").toggle("jardins");
+      
+    });
+});
+ $(document).ready(function(){
+    $("#sitg").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#historique").hide("#historique");
+       $("#lesol").hide("#lesol");
+       $("#iledesan").hide("#iledesan");
+      $("#roue").hide("#roue");
+      $("#sitgeo").toggle("sitgeo");
+      
+    });
+});
 
-  /* Then push them back */
-  $('.icon-close').click(function() {
-    $('.menu').animate({
-      left: "-285px"
-    }, 200);
-
-    $('body').animate({
-      left: "0px"
-    }, 200);
-  });
-};
-$(document).ready(post);
+ $(document).ready(function(){
+    $("#sol").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#sitgeo").hide("#sitgeo");
+       $("#historique").hide("#historique");
+       $("#iledesan").hide("#iledesan");
+      $("#roue").hide("#roue");
+      $("#lesol").toggle("lesol");
+      
+    });
+}); 
+ $(document).ready(function(){
+    $("#ilean").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#sitgeo").hide("#sitgeo");
+       $("#lesol").hide("#lesol");
+       $("#historique").hide("#historique");
+      $("#roue").hide("#roue");
+      $("#iledesan").toggle("iledesan");
+      
+    });
+});
+ $(document).ready(function(){
+    $("#moulin").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#sitgeo").hide("#sitgeo");
+       $("#lesol").hide("#lesol");
+       $("#iledesan").hide("#iledesan");
+      $("#historique").hide("#historique");
+      $("#roue").toggle("roue");
+      
+    });
+});
 $(document).ready(main);
+
+
+
+
+
