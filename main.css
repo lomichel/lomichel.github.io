@@ -8,15 +8,13 @@ body{
   
 }
 header {
-  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
-  
-background-size: 100% 250%;
-  height: 300px;
-  background-size: cover;
-  border: 2px solid black;
- margin-top: -2%;
-  margin-left: -2%;
-  width: 102.2%;
+ background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/photo1.JPG?raw=true');
+  background-size: 100% 170%;
+  height: 270;
+  padding-top: 10%;
+
+    margin-top: -2%;
+  border: 2px solid Black;
 }
 
 
