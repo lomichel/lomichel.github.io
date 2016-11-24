@@ -1,6 +1,4 @@
 
-/* Basic background image styling. */
-
 body{
   background-color: #fff;
 
@@ -52,6 +50,422 @@ border: none;
 }
 
 
+.calendar:hover {
+  background: #484b4d;
+
+  text-decoration: none;
+}
+
+.container1 {
+position:relative;
+  text-align: center 
+}
+
+
+.calendar {
+  color: #fff;
+  cursor: pointer;
+text-align: center;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+background: #DC143C;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 9px;
+  padding: 10px 20px 10px 20px;
+border: none;
+ 
+  
+}
+
+
+
+
+
+/* Outer */
+.popup {
+    width:100%;
+    height:800px;
+    display: none;
+    position:absolute;
+    top:10px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+  z-index: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#000000;
+  text-align: center;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:500px;
+    width:100%;
+    padding:50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+
+fieldset {
+  margin-bottom: 10px;
+  padding: 10px;
+  color:#000000;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+label {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  color:#000000;
+}
+ 
+ 
+input:focus {
+  background: #eaeaea;
+  color:#000000;
+}
+ 
+input, textarea {
+  width: 252px;
+  color:black;
+}
+ 
+textarea {
+  height: 50px;
+  color:#000000;
+}
+ 
+select {
+  width: 252px;
+  color:#000000;
+}
+
+#envoy {
+    background-color: #DC143C;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin-top:60px;
+	border-radius: 8px;
+}
+
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 100px;
+  padding: 10px;
+}
+
+.container1{
+  border-top: 2px solid Black;
+}
+
+
+
+.row1{
+  text-align: center;
+
+  margin-top: 2%;
+  
+}
+.row2{
+margin-top: 2%;
+ 
+  
+}
+.col-sm-4{
+  border-bottom: 2px solid Black;
+  margin-bottom: 2%;
+}
+
+
+#hist{
+  border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+
+     height: 190px;
+  width: 190px;
+margin-top: 2%;
+   margin-bottom: 10%;
+  
+}
+#sitg{
+  border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+height: 190px;
+  width: 190px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+#jardin{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 190px;
+  width: 190px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+#sol{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 190px;
+  width: 190px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+#ilean{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 190px;
+  width: 190px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+#moulin{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 190px;
+  width: 190px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+
+
+#historique{
+display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+#sitgeo {
+   display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  color: #000000;
+ font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+#jardins {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+#lesol {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+
+#jardins {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+#iledesan {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+ 
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+#roue {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+
+  
+  color: #000000;
+font-family: "Apple Symbols";
+   font-size: 20px;
+ 
+   Line-Height: 2;
+}
+
+
+.historique h3{
+Line-Height: 3;
+}
+.iledesan h3{
+Line-Height: 3;
+}
+.sitgeo h3{
+Line-Height: 3;
+}
+.roue h3{
+Line-Height: 3;
+}
+.lesol h3{
+Line-Height: 3;
+}
+.jardins h3{
+Line-Height: 3;
+}
+
+
+img {
+    cursor: pointer;
+   
+}
+col-sm-4{
+  text-align: center;
+}
+col-xs-4{
+  text-align: center;
+}
+col-md-2{
+  text-align: center;
+}
+
+
+.row4{
+  text-align: center;
+}
+.row4 p{
+  text-align: justify;
+}
+#solgrup{
+  margin-top: 25%;
+}
+#sitgeos{
+  margin-top: 15%;
+  height: 90%;
+  width: 90%;
+}
+#lasource{
+  margin-top: 10%;
+  height: 90%;
+  width: 90%;
+}
+#lacreation{
+  margin-top: 10%;
+  height: 90%;
+  width: 90%;
+}
+#lepommier{
+  margin-top: 10%;
+  height: 90%;
+  width: 90%;
+}
 footer {
   position: relative;
   padding-right: 10%;
@@ -71,7 +485,4 @@ footer img {
   margin-top: -3%;
   margin-bottom: 5%;
 }
-
-
-
 
