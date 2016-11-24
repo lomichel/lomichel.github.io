@@ -349,5 +349,13 @@ img {
     cursor: pointer;
    
 }
-
+col-sm-4{
+  text-align: center;
+}
+col-xs-4{
+  text-align: center;
+}
+col-md-4{
+  text-align: center;
+}
 
