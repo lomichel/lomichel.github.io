@@ -103,7 +103,7 @@ height: 90%;
  
   
  color: #A6A191;
-     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-family: "Apple Symbols";
   margin-bottom: 10%;
   margin-top: 20%;
   font-size: 130%;
@@ -112,7 +112,7 @@ height: 90%;
 .showtel {
  
  color: #A6A191;
-      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+     font-family: "Apple Symbols";
 margin: 20%;
     font-size: 130%;
 }
@@ -120,14 +120,14 @@ margin: 20%;
 .showmail a{
 
  color: #A6A191;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+ font-family: "Apple Symbols";
   margin-bottom: 10%;
    margin-top: 20%;
 }
 .showadresse a{
   
  color: #A6A191;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+font-family: "Apple Symbols";
   margin: 20%;
     font-size: 130%;
 }
@@ -136,7 +136,7 @@ margin: 20%;
 
  
    color: #A6A191;
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+ font-family: "Apple Symbols";
     margin: 20%;
 }
 
