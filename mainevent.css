@@ -230,12 +230,20 @@ input[type=submit] {
   padding: 10px;
 }
 
+.container1{
+  border-top: 2px solid Black;
+}
+
+.row1{
+margin-top: 2%;
 
 
+}
 .row2{
-margin-top: 3%;
-height: 210px;
-border: 2px solid black;
+border-bottom: 2px solid black;
+height: 230px;
+  margin-top: 5%;
+
 }
 
 #image-5{
@@ -246,7 +254,7 @@ border-width: 1px;
 
      height: 190px;
   width: 190px;
-margin-top: 3%;
+margin-top: 5%;
 }
 #image-3{
   border-radius: 50%;   /* Apparence circulaire de l'image */
@@ -255,7 +263,7 @@ border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
 height: 190px;
   width: 190px;
-margin-top: 3%;
+margin-top: 5%;
 }
 #image-2{
   
