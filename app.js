@@ -20,7 +20,7 @@ $(function () {
 	cycleBackgrounds();
 });
  $(document).ready(function(){
-$("button").click(function(){
+$(".button").click(function(){
     $(".projet").toggle();
 });
    });
