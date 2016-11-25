@@ -2,7 +2,7 @@
 /* Basic background image styling. */
 
 body{
-  background-color: #fff;
+  background-color: F2E9E9;
  
 
   
@@ -74,7 +74,7 @@ border: none;
 }
 
 .button {
-     color: #A6A191;
+   color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
@@ -82,15 +82,11 @@ border: none;
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
-    background:  #FFF;
-
-
-  
+    
   padding: 10px 20px 10px 20px;
 border: none;
  margin-left: 2%;
   margin-top: 2%;
-
 }
 
 .maintop{
