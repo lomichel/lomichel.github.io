@@ -18,7 +18,7 @@ header {
  
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-color: #fff;
+color: #F1F2E9;
   font-size: 550%;
   font-weight: 500;
    margin-top: 4%;
@@ -121,7 +121,7 @@ border: none;
   bottom: 0;
   width: 20%;
   background-color: rgba(0, 0, 0, 0.3);
-  color: #fff;
+  color: #F1F2E9;
   margin: 0;
   padding: 0;
   text-align:center;
@@ -152,7 +152,7 @@ border: none;
   height: 100%;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #F1F2E9;
   line-height: 3em;
   padding: 0 1em;
   font-size: 1.5em;
