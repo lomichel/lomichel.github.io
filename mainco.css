@@ -346,7 +346,7 @@ col-md-2{
   width: 90%;
 }
 #histos{
-  margin-top: 10%;
+  margin-top: 15%;
   height: 90%;
   width: 90%;
 }
@@ -355,6 +355,13 @@ col-md-2{
   height: 90%;
   width: 90%;
 }
+#rous{
+  text-align: center;
+        margin-top: 10%;
+  height: 90%;
+  width: 90%;
+}
+  
 footer {
   position: relative;
   padding-right: 10%;
@@ -363,6 +370,7 @@ footer {
   margin-top: 10%;
  
 }
+
 
 #jardins{
   text-align: center;
