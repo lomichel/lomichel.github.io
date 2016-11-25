@@ -144,19 +144,19 @@ background-repeat: no-repeat;
 
 /* Styles for the specific images. */
 .forth-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardin2.JPG?raw=true');	
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/iledesani.jpg?raw=true');	
 	z-index: -3;
 	opacity: 0;
 }
 
 .second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardin3.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/jardinancien.jpg?raw=true');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/grup5.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/butsool.jpg?raw=true');
 	z-index: -1;
 	opacity: 0;
 }
@@ -166,7 +166,7 @@ background-repeat: no-repeat;
 	opacity:0;
 }
 .first-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardin4.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/laclimp.jpg?raw=true');
 	z-index:-5;
 	opacity:0;
 }
