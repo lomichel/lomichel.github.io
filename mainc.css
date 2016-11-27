@@ -11,7 +11,7 @@ header {
   height: 270;
   padding-top: 10%;
     margin-top: -2%;
-  border: 2px solid Black;
+  border: 1px solid Black;
  
 }
 
@@ -19,7 +19,7 @@ header {
  
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-color: #F1F2E9;
+color: #FEFEFB;
   font-size: 550%;
   font-weight: 500;
    margin-top: 4%;
@@ -60,25 +60,26 @@ border: none;
 }
 .container1 {
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
  
 }
 
 container1{
- border: 1px solid red;
+
 }
 row1{
- border: 1px solid red;
+
 }
 
 #lo{
 
-
+margin-top: 5%;
   height: 90%;
   width: 100%;
 
 }
 #lew{
+  margin-top: 5%;
 height: 90%;
   width: 100%;
  margin-right:-15% ;
