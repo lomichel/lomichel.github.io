@@ -64,36 +64,37 @@ position:relative;
   margin-top: 2%;
   border-bottom: 1px solid black;
   height: 230px;
-  
+  font-family: "Abadi MT Condensed Light";
   
 }
 .row2{
 margin-top: 2%;
-
+font-family: "Abadi MT Condensed Light";
 }
 .row3{
   text-align: center;
   margin-top: 2%;
- 
+ font-family: "Abadi MT Condensed Light";
   
 }
 .row4{
   text-align: justify;
   margin-top: 2%;
-  
+  font-family: "Abadi MT Condensed Light";
 }
 .row4 p{
   text-align: justify;
   margin-top:2% ;
+  font-family: "Abadi MT Condensed Light";
 }
 .row5{
   text-align: justify;
- 
+ font-family: "Abadi MT Condensed Light";
   
 }
 .row6{
   text-align: justify;
-
+font-family: "Abadi MT Condensed Light";
   
 }
 
@@ -176,7 +177,7 @@ display: none;
   margin-right:5%;
 
   
-  color: #000000;
+  color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -189,7 +190,7 @@ font-family: "Abadi MT Condensed Light";
   margin-left:5%;
   margin-right:5%;
 
-  color: #000000;
+ color: #A6A191;
  font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -203,7 +204,7 @@ font-family: "Abadi MT Condensed Light";
   margin-right:5%;
 
   
-  color: #000000;
+  color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -217,7 +218,7 @@ font-family: "Abadi MT Condensed Light";
   margin-right:5%;
 
   
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -232,7 +233,7 @@ font-family: "Abadi MT Condensed Light";
   margin-right:5%;
 
   
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -246,8 +247,7 @@ font-family: "Abadi MT Condensed Light";
   margin-right:5%;
 
  
-  
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -262,7 +262,7 @@ font-family: "Abadi MT Condensed Light";
 
 
   
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
