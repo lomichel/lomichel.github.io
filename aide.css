@@ -53,6 +53,12 @@ border: none;
  border-top: 2px solid Black;
   width: 100%;
 }
+
+.intro b {
+ Color:#575757;
+font-weight: 900;
+	
+}
 .intro{
   text-align: justify;
  
@@ -61,7 +67,7 @@ border: none;
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+ color: #A6A191;
  font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -70,6 +76,8 @@ border: none;
 
 .row2{
 text-align: center;
+ font-family: "Abadi MT Condensed Light";
+     font-size: 20px;
 
 }
 
@@ -124,7 +132,7 @@ margin-top:3%;
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+  color: #A6A191;
   font-family: "Abadi MT Condensed Light";
    font-size: 20px;
 
@@ -141,7 +149,7 @@ margin-top:3%;
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+  color: #A6A191;
  font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -157,13 +165,27 @@ margin-top:3%;
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+  color: #A6A191;
  font-family: "Abadi MT Condensed Light";
    font-size: 20px;
 
    Line-Height: 1.5;
 }
-
+.text1 b {
+ Color:#575757;
+font-weight: 900;
+	
+}
+.text2 b {
+ Color:#575757;
+font-weight: 900;
+	
+}
+.text4 b {
+ Color:#575757;
+font-weight: 900;
+	
+}
 .text1 h3{
 Line-Height: 3;
   
@@ -202,5 +224,4 @@ footer {
   
 
 }
-
 
