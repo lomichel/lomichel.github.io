@@ -1,0 +1,108 @@
+
+/* Basic background image styling. */
+
+body{
+  background-color: #FDFDF6;
+ 
+
+  
+}
+header {
+  background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/butsool.jpg?raw=true');
+    background-size: 100% 170%;
+  height: 300px;
+  background-size: cover;
+  border: 2px solid black;
+ margin-top: -2%;
+  margin-left: -2%;
+  width: 102.2%;
+}
+
+
+.maintitle h2{
+ 
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #F1F2E9;
+  font-size: 500%;
+  font-weight: 500;
+   text-shadow:0 0 3px #000000;
+    }
+
+
+
+
+
+.back1 {
+   color: #A6A191;
+  cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 16px;
+
+position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+    
+
+
+  
+  padding: 10px 20px 10px 20px;
+border: none;
+ margin-left: 2%;
+  margin-top: 2%;
+}
+
+.back1:hover {
+ 
+  text-decoration: underline;
+  
+}
+
+.maintop{
+  text-align: center;
+  margin: 2%;
+ 
+  
+}
+.projet{
+ display: none;
+  position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 40px;
+ 
+}
+
+.projet p {
+    font-size: 20px;
+    font-family: "Avenir Book";
+    text-align: justify;
+    Color:Black;
+   Line-Height: 1.5;
+	
+}
+
+
+.poeme {
+  position: relative;
+  text-align: justify;
+  margin:10%;
+ margin-top:520px;
+  font-size: 125%;
+}
+footer {
+  position: relative;
+  color: #A6A191;
+  margin: 10%;
+
+}
+
+
+footer img {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 90% ;
+  margin-top: -3%;
+  margin-bottom: 5%;
+}
