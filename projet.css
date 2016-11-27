@@ -46,11 +46,7 @@ color: #FEFEFB;
 position: relative;
   text-decoration: none;
   text-transform: uppercase;
-    
 
-
-  
-  padding: 10px 20px 10px 20px;
 border: none;
  margin-left: 2%;
   margin-top: 2%;
@@ -78,13 +74,14 @@ border: none;
     font-size: 25px;
     font-family: "Abadi MT Condensed Light";
     text-align: justify;
-    Color:#A6A191;
+    
    Line-Height: 1.5;
   font-weight: 100;
+   color: #A6A191;
 	
 }
 #projet b {
-  Color:#B6A195;
+ Color:#575757;
 font-weight: 900;
 	
 }
