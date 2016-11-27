@@ -10,7 +10,7 @@ header {
   height: 270;
   padding-top: 10%;
     margin-top: -2%;
-  border: 2px solid Black;
+  border: 1px solid Black;
   
  
 }
@@ -19,7 +19,7 @@ header {
  
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-color: #F1F2E9;
+color: #FEFEFB;
   font-size: 550%;
   font-weight: 500;
    margin-top: 4%;
@@ -54,7 +54,7 @@ border: none;
 .container1 {
 position:relative;
   text-align: center;
-  border-top: 2px solid Black;
+  border-top: 1px solid Black;
 }
 
 
@@ -62,7 +62,7 @@ position:relative;
 .row1{
   text-align: center;
   margin-top: 2%;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   height: 230px;
   
   
@@ -78,7 +78,7 @@ margin-top: 2%;
   
 }
 .row4{
-  text-align: center;
+  text-align: justify;
   margin-top: 2%;
   
 }
@@ -87,12 +87,12 @@ margin-top: 2%;
   margin-top:2% ;
 }
 .row5{
-  text-align: center;
+  text-align: justify;
  
   
 }
 .row6{
-  text-align: center;
+  text-align: justify;
 
   
 }
@@ -177,7 +177,7 @@ display: none;
 
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -190,7 +190,7 @@ font-family: "Apple Symbols";
   margin-right:5%;
 
   color: #000000;
- font-family: "Apple Symbols";
+ font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -204,7 +204,7 @@ font-family: "Apple Symbols";
 
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -218,7 +218,7 @@ font-family: "Apple Symbols";
 
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -233,7 +233,7 @@ font-family: "Apple Symbols";
 
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -248,7 +248,7 @@ font-family: "Apple Symbols";
  
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -263,7 +263,7 @@ font-family: "Apple Symbols";
 
   
   color: #000000;
-font-family: "Apple Symbols";
+font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 2;
@@ -296,7 +296,7 @@ img {
 }
 col-sm-4{
   text-align: center;
-   border-bottom: 2px solid Black;
+   border-bottom: 1px solid Black;
 }
 col-xs-4{
   text-align: center;
@@ -373,7 +373,7 @@ footer {
 
 
 #jardins{
-  text-align: center;
+  text-align: justify;
 }
 
 footer img {
