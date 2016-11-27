@@ -278,13 +278,10 @@ margin-top: 2%;
 }
 
 
-
-
-
-
 .row  p{
   
   text-align: justify;
+	font-family: "Abadi MT Condensed Light";
 
 
 }
@@ -299,7 +296,7 @@ display: none;
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -314,7 +311,7 @@ font-family: "Abadi MT Condensed Light";
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+ color: #A6A191;
  font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
@@ -329,11 +326,26 @@ font-family: "Abadi MT Condensed Light";
   margin-top: 2%;
    margin-bottom: 3%;
   
-  color: #000000;
+ color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 1.5;
+}
+.festival b {
+ Color:#575757;
+font-weight: 900;
+	
+}
+.retraite b {
+ Color:#575757;
+font-weight: 900;
+	
+}
+.stage b {
+ Color:#575757;
+font-weight: 900;
+	
 }
 .festival h3{
 Line-Height: 3;
