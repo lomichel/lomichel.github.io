@@ -75,7 +75,7 @@ border: none;
 
 .projet p {
     font-size: 20px;
-    font-family: "Avenir Book";
+    font-family: "Abadi MT Condensed Light";
     text-align: justify;
     Color:Black;
    Line-Height: 1.5;
@@ -83,13 +83,7 @@ border: none;
 }
 
 
-.poeme {
-  position: relative;
-  text-align: justify;
-  margin:10%;
- margin-top:520px;
-  font-size: 125%;
-}
+
 footer {
   position: relative;
   color: #A6A191;
