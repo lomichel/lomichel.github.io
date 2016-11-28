@@ -33,7 +33,19 @@ color: #FEFEFB;
   
 }
 
+#back1{
+    background: #FEFEFB;
+    color: #A6A191;
+   
+ 
+  cursor: pointer;
+  font-size: 16px;
 
+position: relative;
+
+ margin-left: 2%;
+  margin-top: 2%;
+}
 .back1 {
    color: #A6A191;
   cursor: pointer;
