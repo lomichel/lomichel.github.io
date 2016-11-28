@@ -65,12 +65,12 @@ position:relative;
   border-bottom: 1px solid black;
   height: 230px;
   font-family: "Abadi MT Condensed Light";
-  font-size: 20px;
+  font-size: 18px;
 }
 .row2{
 margin-top: 2%;
 font-family: "Abadi MT Condensed Light";
-  font-size: 20px;
+  font-size: 18px;
 }
 .row3{
   text-align: center;
@@ -184,6 +184,10 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
+#historique {
+   Color:#575757;
+font-weight: 900;
+}
 #sitgeo {
    display: none;
       text-align: justify;
@@ -196,6 +200,10 @@ font-family: "Abadi MT Condensed Light";
    font-size: 20px;
  
    Line-Height: 1.5;
+}
+#sitgeo {
+   Color:#575757;
+font-weight: 900;
 }
 #jardins {
   display: none;
@@ -211,6 +219,10 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
+#jardins {
+   Color:#575757;
+font-weight: 900;
+}
 #lesol {
   display: none;
       text-align: justify;
@@ -225,20 +237,14 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
+#lesol {
+   Color:#575757;
+font-weight: 900;
+}
 
-#jardins {
-  display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
-
-  
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+#iledesan{
+   Color:#575757;
+font-weight: 900;
 }
 #iledesan {
   display: none;
@@ -255,14 +261,16 @@ font-family: "Abadi MT Condensed Light";
    Line-Height: 1.5;
 }
 #roue {
+   Color:#575757;
+font-weight: 900;
+}
+#roue {
   display: none;
       text-align: justify;
  
   margin-left:5%;
   margin-right:5%;
 
-
-  
  color: #A6A191;
 font-family: "Abadi MT Condensed Light";
    font-size: 20px;
@@ -273,21 +281,33 @@ font-family: "Abadi MT Condensed Light";
 
 .historique h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 .iledesan h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 .sitgeo h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 .roue h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 .lesol h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 .jardins h3{
 Line-Height: 3;
+   Color:#575757;
+font-weight: 900;
 }
 
 
