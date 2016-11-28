@@ -315,17 +315,17 @@ img {
     cursor: pointer;
    
 }
-col-sm-4{
+.col-sm-4{
   text-align: center;
-   border-bottom: 1px solid Black;
+  
 }
-col-xs-4{
-  text-align: center;
-}
-col-md-4{
+.col-xs-4{
   text-align: center;
 }
-col-md-2{
+.col-md-4{
+  text-align: center;
+}
+.col-md-2{
   text-align: center;
 }
 
@@ -345,9 +345,11 @@ col-md-2{
   margin-top: 15%;
     height: 90%;
   width: 90%;
+    margin-bottom:  15%;
 }
 #sitgeos{
   margin-top: 15%;
+    margin-bottom:  15%;
   height: 90%;
   width: 90%;
 }
@@ -368,19 +370,22 @@ col-md-2{
 }
 #histos{
   margin-top: 15%;
+  margin-bottom:  15%;
   height: 90%;
   width: 90%;
 }
 #iledesani{
     margin-top: 10%;
+    margin-bottom:  15%;
   height: 90%;
   width: 90%;
 }
 #rous{
   text-align: center;
         margin-top: 10%;
-  height: 90%;
-  width: 90%;
+    margin-bottom:  15%;
+  height: 80%;
+  width: 80%;
 }
   
 footer {
@@ -388,7 +393,7 @@ footer {
   padding-right: 10%;
   padding-left: 10%;
   color: #A6A191;
-  margin-top: 10%;
+  margin-top: 20%;
  
 }
 
