@@ -242,11 +242,11 @@ font-family: "Abadi MT Condensed Light";
 font-weight: 900;
 }
 
-#iledesan{
+#iledesan b{
    Color:#575757;
 font-weight: 900;
 }
-#iledesan b{
+#iledesan {
   display: none;
       text-align: justify;
  
@@ -260,11 +260,11 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
-#roue {
+#roue b{
    Color:#575757;
 font-weight: 900;
 }
-#roue b{
+#roue {
   display: none;
       text-align: justify;
  
