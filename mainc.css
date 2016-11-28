@@ -14,7 +14,19 @@ header {
   border: 1px solid Black;
  
 }
+#back1{
+    background: #FEFEFB;
+    color: #A6A191;
+   
+ 
+  cursor: pointer;
+  font-size: 16px;
 
+position: relative;
+
+ margin-left: 2%;
+  margin-top: 2%;
+}
 .maintitle h2{
  
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
