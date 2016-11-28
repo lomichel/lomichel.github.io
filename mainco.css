@@ -184,7 +184,7 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
-#historique {
+#historique b{
    Color:#575757;
 font-weight: 900;
 }
@@ -201,7 +201,7 @@ font-weight: 900;
  
    Line-Height: 1.5;
 }
-#sitgeo {
+#sitgeo b{
    Color:#575757;
 font-weight: 900;
 }
@@ -219,7 +219,7 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
-#jardins {
+#jardins b{
    Color:#575757;
 font-weight: 900;
 }
@@ -237,7 +237,7 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
-#lesol {
+#lesol b{
    Color:#575757;
 font-weight: 900;
 }
@@ -246,7 +246,7 @@ font-weight: 900;
    Color:#575757;
 font-weight: 900;
 }
-#iledesan {
+#iledesan b{
   display: none;
       text-align: justify;
  
@@ -264,7 +264,7 @@ font-family: "Abadi MT Condensed Light";
    Color:#575757;
 font-weight: 900;
 }
-#roue {
+#roue b{
   display: none;
       text-align: justify;
  
