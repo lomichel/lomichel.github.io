@@ -7,6 +7,7 @@
        $("#lesol").hide("#lesol");
        $("#iledesan").hide("#iledesan");
       $("#roue").hide("#roue");
+      $("#philippe").hide("#philippe");
       $("#historique").toggle("historique");
       
     });
@@ -17,6 +18,7 @@
              $("#historique").hide("#historique");
       $("#sitgeo").hide("#sitgeo");
        $("#lesol").hide("#lesol");
+       $("#philippe").hide("#philippe");
        $("#iledesan").hide("#iledesan");
       $("#roue").hide("#roue");
       $("#jardins").toggle("jardins");
@@ -28,6 +30,7 @@
              $("#jardins").hide("#jardins");
       $("#historique").hide("#historique");
        $("#lesol").hide("#lesol");
+        $("#philippe").hide("#philippe");
        $("#iledesan").hide("#iledesan");
       $("#roue").hide("#roue");
       $("#sitgeo").toggle("sitgeo");
@@ -42,6 +45,7 @@
        $("#historique").hide("#historique");
        $("#iledesan").hide("#iledesan");
       $("#roue").hide("#roue");
+       $("#philippe").hide("#philippe");
       $("#lesol").toggle("lesol");
       
     });
@@ -53,6 +57,7 @@
        $("#lesol").hide("#lesol");
        $("#historique").hide("#historique");
       $("#roue").hide("#roue");
+     $("#philippe").hide("#philippe");
       $("#iledesan").toggle("iledesan");
       
     });
@@ -64,7 +69,20 @@
        $("#lesol").hide("#lesol");
        $("#iledesan").hide("#iledesan");
       $("#historique").hide("#historique");
+       $("#philippe").hide("#philippe");
       $("#roue").toggle("roue");
+      
+    });
+});
+ $(document).ready(function(){
+    $("#phil").click(function(){
+             $("#jardins").hide("#jardins");
+      $("#sitgeo").hide("#sitgeo");
+       $("#lesol").hide("#lesol");
+       $("#iledesan").hide("#iledesan");
+      $("#historique").hide("#historique");
+        $("#roue").hide("#roue");
+      $("#philippe").toggle("philippe");
       
     });
 });
