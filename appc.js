@@ -1,3 +1,25 @@
+$("#hist").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 50);
+});
+$("#jardin").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 50);
+});
+$("#sitg").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
+});
+$("#sol").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
+});
+$("#ilean").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
+});
+$("#moulin").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
+});
+$("#phil").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
+});
+
 
 
  $(document).ready(function(){
