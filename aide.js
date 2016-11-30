@@ -57,3 +57,15 @@ var main = function() {
     });
 });
 $(document).ready(main);
+$('#outer4').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
+$('#outer2').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
+$('#outer1').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
