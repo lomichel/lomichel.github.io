@@ -80,13 +80,11 @@ position:relative;
 .row1{
   text-align: center;
   margin-top: 2%;
-  
-  height: 230px;
   font-family: "Abadi MT Condensed Light";
   font-size: 18px;
 }
 .row2{
-margin-top: 2%;
+
 font-family: "Abadi MT Condensed Light";
   font-size: 18px;
 }
@@ -98,7 +96,7 @@ font-family: "Abadi MT Condensed Light";
 }
 .row4{
   text-align: justify;
-  margin-top: 2%;
+
   font-family: "Abadi MT Condensed Light";
 }
 .row4 p{
@@ -125,8 +123,8 @@ border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
    margin-bottom: 10%;
   
@@ -136,10 +134,9 @@ margin-top: 2%;
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
-    margin-bottom: 10%;
 }
 #jardin{
   
@@ -147,8 +144,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -158,8 +155,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -169,8 +166,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -180,8 +177,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -192,8 +189,8 @@ border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
 border-style: solid;   /* Style de la bordure */
 border-width: 1px; 
- height: 195px;
-  width: 195px;
+ height: 120px;
+  width: 120px;
 margin-top: 2%;
     margin-bottom: 10%;
 }
