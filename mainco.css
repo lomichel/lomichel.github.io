@@ -68,13 +68,19 @@ position:relative;
   text-align: center;
   border-top: 1px solid Black;
 }
+.row2 {
+position:relative;
+  text-align: center;
+ border-bottom: 1px solid black;
+ 
+}
 
 
 
 .row1{
   text-align: center;
   margin-top: 2%;
-  border-bottom: 1px solid black;
+  
   height: 230px;
   font-family: "Abadi MT Condensed Light";
   font-size: 18px;
@@ -180,6 +186,18 @@ margin-top: 2%;
     margin-bottom: 10%;
 }
 
+#phil{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 195px;
+  width: 195px;
+margin-top: 2%;
+    margin-bottom: 10%;
+}
+
 
 
 #historique{
@@ -235,6 +253,26 @@ font-family: "Abadi MT Condensed Light";
    Color:#575757;
 font-weight: 900;
 }
+
+#philippe {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+
+  
+  color: #A6A191;
+font-family: "Abadi MT Condensed Light";
+   font-size: 20px;
+ 
+   Line-Height: 1.5;
+}
+#philippe b{
+   Color:#575757;
+font-weight: 900;
+}
+
 #lesol {
   display: none;
       text-align: justify;
@@ -398,6 +436,12 @@ img {
     margin-bottom:  15%;
   height: 80%;
   width: 80%;
+}
+#philippes{
+    margin-top: 10%;
+    margin-bottom:  15%;
+  height: 90%;
+  width: 90%;
 }
   
 footer {
