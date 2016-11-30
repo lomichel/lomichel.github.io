@@ -69,6 +69,18 @@ var main = function() {
     });
 });
 
+$('#image-3').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
+$('#image-2').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
+$('#image-5').click(function(){
+    $("html, body").animate({ scrollTop: 320 }, 1000);
+    return false;
+});
  
 $(document).ready(main);
 
