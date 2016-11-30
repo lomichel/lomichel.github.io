@@ -1,8 +1,8 @@
 $("#hist").click(function() {
-  $("html, body").animate({ scrollTop: $(document).height() }, 50);
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
 });
 $("#jardin").click(function() {
-  $("html, body").animate({ scrollTop: $(document).height() }, 50);
+  $("html, body").animate({ scrollTop: $(document).height() }, 70);
 });
 $("#sitg").click(function() {
   $("html, body").animate({ scrollTop: $(document).height() }, 70);
