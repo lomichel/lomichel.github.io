@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type='text/css' rel='stylesheet' href='news.css'/>
+    <title>PHP!</title>
+  </head>
+<body>
+
 <?php
 /*
 	********************************************************************************************
@@ -119,3 +127,5 @@ else
 	};
 }; // fin du if (!isset($_POST['envoi']))
 ?>
+	</body>
+	</html>
