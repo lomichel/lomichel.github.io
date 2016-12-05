@@ -169,7 +169,7 @@ footer {
   padding-right: 10%;
   padding-left: 10%;
   color: #A6A191;
-   margin-top: 490px;
+   margin-top: 550px;
  
  
 
@@ -182,4 +182,106 @@ footer img {
   margin-left: 90% ;
  
   margin-bottom: 5%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 400px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #FEFEFB; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  text-align: center;
+    position: relative;
+    background-color: #FEFEFB;
+    margin: auto;
+    padding: 10;
+    border: 1px solid #888;
+    width: 80%;
+  color: #A6A191;
+    font-family: "Abadi MT Condensed Light";
+    font-size: 130%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatetop;
+    animation-duration: 0.8s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-10px; opacity:0} 
+    to {top:10px; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-10px; opacity:0}
+    to {top:0px; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+#mybtn{
+  margin-top: 500px;
+  margin-left: 450px;
+   color: #A6A191;
+  cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 16px;
+
+position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+
+border: none;
+
+}
+.submit{
+background-color: #fff;
+   color: #A6A191;
+  cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+border: none;
+
 }
