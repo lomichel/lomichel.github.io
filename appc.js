@@ -1,17 +1,17 @@
 $('#hist').click(function(){
-    $("html, body").animate({ scrollTop: 320 }, 1000);
+    $("html, body").animate({ scrollTop: 320 }, 500);
     return false;
 });
 $('#sitg').click(function(){
-    $("html, body").animate({ scrollTop: 320 }, 1000);
+    $("html, body").animate({ scrollTop: 320 }, 500);
     return false;
 });
 $('#sol').click(function(){
-    $("html, body").animate({ scrollTop: 320 }, 1000);
+    $("html, body").animate({ scrollTop: 320 }, 500);
     return false;
 });
 $('#ilean').click(function(){
-    $("html, body").animate({ scrollTop: 320 }, 1000);
+    $("html, body").animate({ scrollTop: 320 }, 500);
     return false;
 });
 $('#moulin').click(function(){
