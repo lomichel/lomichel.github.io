@@ -401,17 +401,41 @@ img {
   width: 90%;
 }
 #lasource{
-  
+  margin-top: 10%;
+   margin-bottom: 5%;
   height: 90%;
   width: 90%;
+}
+#plan{
+  margin-top: 30%;
+    margin-left :15%;
+   margin-bottom :25%;
+    height: 70%;
+  width: 70%;
 }
 #lacreation{
-  
+  margin-top: 10%;
+   margin-bottom: 5%;
   height: 90%;
   width: 90%;
 }
+#text4{
+ margin-top: 4% ;
+}
+#text3{
+ text-align: justify;
+}
+
+#camembert{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 45%;
+  width: 45%;
+}
 #lepommier{
- 
+ margin-top: 10%;
+  margin-bottom: 5%;
   height: 90%;
   width: 90%;
 }
@@ -440,7 +464,13 @@ img {
   height: 90%;
   width: 90%;
 }
-  
+.nousaider{
+   color: #A6A191;
+font-family: "Abadi MT Condensed Light";
+   font-size: 20px;
+   Line-Height: 1.5;
+  text-decoration: none;
+}
 footer {
   position: relative;
   padding-right: 10%;
