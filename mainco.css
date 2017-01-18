@@ -385,17 +385,17 @@ img {
 
 #solgrup{
   margin-top: 15%;
-    height: 90%;
+    height: 80%;
   width: 90%;
 }
 #sourcess{
   margin-top: 15%;
-    height: 90%;
+    height: 80%;
   width: 90%;
 }
 #eau{
   margin-top: 15%;
-    height: 90%;
+    height: 80%;
   width: 90%;
     margin-bottom:  15%;
 }
@@ -459,9 +459,12 @@ img {
   height: 90%;
   width: 90%;
 }
+#historiique{
+  text-align: center;
+}
 #histos{
-  margin-top: 25%;
-  margin-bottom:  15%;
+  margin-top: 7%;
+  margin-bottom:  7%;
   height: 90%;
   width: 90%;
 }
