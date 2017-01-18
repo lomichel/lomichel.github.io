@@ -372,10 +372,15 @@ img {
 .col-md-4{
   text-align: center;
 }
+.col-lg-4{
+  text-align: center;
+}
 .col-md-2{
   text-align: center;
 }
-
+.col-lg-2{
+  text-align: center;
+}
 
 
 #solgrup{
@@ -425,13 +430,28 @@ img {
 #text3{
  text-align: justify;
 }
-
 #camembert{
+  text-align: center;
+}
+
+#camembert1{
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  height: 45%;
-  width: 45%;
+  height: 70%;
+  width: 60%;
+}
+#camembert2{
+  text-align: center;
+    height: 300px;
+  width: 310px;
+
+}
+#camembert3{
+  text-align: center;
+    height: 300px;
+  width: 310px;
+
 }
 #lepommier{
  margin-top: 10%;
