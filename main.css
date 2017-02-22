@@ -110,13 +110,13 @@ background-repeat: no-repeat;
 }
 
 .second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardin%20neige.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardinneige.JPG?raw=true');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Carre%CC%81.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Carre.JPG?raw=true');
 	z-index: -1;
 	opacity: 0;
 }
@@ -131,7 +131,7 @@ background-repeat: no-repeat;
 	opacity:0;
 }
 .six-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Iles%20an%20neige.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Ilesanneige.JPG?raw=true');
 	z-index:-6;
 	opacity:0;
 }
