@@ -132,7 +132,7 @@ background-repeat: no-repeat;
 }
 .six-image {
 	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Iles%20an%20neige.JPG?raw=true');
-	z-index:-5;
+	z-index:-6;
 	opacity:0;
 }
 
