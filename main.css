@@ -110,13 +110,13 @@ background-repeat: no-repeat;
 }
 
 .second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/jardinancien.jpg?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardin%20neige.JPG?raw=true');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/butsool.jpg?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Carre%CC%81.JPG?raw=true');
 	z-index: -1;
 	opacity: 0;
 }
@@ -127,6 +127,11 @@ background-repeat: no-repeat;
 }
 .first-image {
 	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/laclimp.jpg?raw=true');
+	z-index:-5;
+	opacity:0;
+}
+.six-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Iles%20an%20neige.JPG?raw=true');
 	z-index:-5;
 	opacity:0;
 }
@@ -148,7 +153,9 @@ background-repeat: no-repeat;
 .five-image.show {
 	opacity: 1;
 }
-
+.six-image.show {
+	opacity: 1;
+}
 .poeme {
   position: relative;
   text-align: justify;
