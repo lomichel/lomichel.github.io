@@ -305,7 +305,9 @@ margin-top: 2%;
 text-align: center;
 margin-top: 5%;
 }
-
+#flyersimg{
+	text-align:center;
+}
 #festival{
 display: none;
       text-align: justify;
