@@ -270,6 +270,7 @@ border-width: 1px;
   width: 210px;
 margin-top: 2%;
 }
+
 #image-3{
   border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
@@ -298,7 +299,12 @@ margin-top: 2%;
 
 
 }
+#flyers{
+	 
 
+text-align: justify;
+margin-top: 5%;
+}
 
 #festival{
 display: none;
