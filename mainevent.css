@@ -377,7 +377,11 @@ Line-Height: 3;
 .stage h3{
 Line-Height: 3;
 }
-
+#festival a{
+      text-align: justify;
+ color: #A6A191;
+font-family: "Abadi MT Condensed Light";
+}
 img {
     cursor: pointer;
    
