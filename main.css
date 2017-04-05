@@ -73,7 +73,7 @@ border: none;
 .maintop{
   text-align: center;
   margin: 2%;
- 
+    
   
 }
 
@@ -87,7 +87,18 @@ background-repeat: no-repeat;
 
 	
 }
-
+#jdmdessin {
+  text-align:center;
+  margin-top:2%;
+   margin-bottom:2%;
+   width: 65%;
+   height: 65%;
+   border: 0.3px solid black;
+}
+.jdmdessin {
+  text-align:center;
+    border-top: 1px solid black;
+}
 .toggle-image {
  	  position: absolute;
   width: 101%;
