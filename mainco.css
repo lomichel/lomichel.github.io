@@ -206,7 +206,7 @@ display: none;
  
   margin-left:5%;
   margin-right:5%;
-
+  margin-top:7%;
   
   color: #A6A191;
 font-family: "Abadi MT Condensed Light";
@@ -239,6 +239,7 @@ font-weight: 900;
   display: none;
       text-align: justify;
  
+  margin-top:7%;
   margin-left:5%;
   margin-right:5%;
 
@@ -255,6 +256,7 @@ font-weight: 900;
 }
 
 #philippe {
+    margin-top:7%;
   display: none;
       text-align: justify;
  
@@ -275,6 +277,7 @@ font-weight: 900;
 
 #lesol {
   display: none;
+    margin-top:7%;
       text-align: justify;
  
   margin-left:5%;
@@ -294,6 +297,7 @@ font-weight: 900;
 
 #iledesan b{
    Color:#575757;
+     margin-top:7%;
 font-weight: 900;
 }
 #iledesan {
@@ -315,6 +319,7 @@ font-family: "Abadi MT Condensed Light";
 font-weight: 900;
 }
 #roue {
+    margin-top:7%;
   display: none;
       text-align: justify;
  
