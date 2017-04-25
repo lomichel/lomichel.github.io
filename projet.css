@@ -72,14 +72,19 @@ border: none;
 .container1{
   border-top: 1px solid black;
 }
-
+.row2{
+  margin-top:10%;
+}
 .projet{
 
   position: relative;
-  margin-right: 10%;
+ margin-right: 10%;
   margin-left: 10%;
-  margin-top: 40px;
+  margin-top: 20%;
+}
 
+.row7{
+  margin-top:30%;
 }
 
 .projet p {
@@ -92,10 +97,56 @@ border: none;
    color: #A6A191;
 	
 }
+
+#image1 img{
+ width:100%;
+  height:100%;
+   margin-top:20%;
+}
+#image9 img{
+  width:100%;
+  height:100%;
+   margin-top:20%;
+}
+#image2 img{
+  width:100%;
+   height:100%;
+      margin-top:20%;
+}
+#image3 img{
+  width:100%;
+   height:100%;
+    margin-top:20%;
+}
+#image4 img{
+  width:100%;
+   height:100%;
+     margin-top:20%;
+}
+#image5 img{
+  width:100%;
+   height:100%;
+     margin-top:20%;
+}
+#image6 img{
+  width:100%;
+   height:100%;
+     margin-top:20%;
+}
+#image7 img{
+  width:100%;
+   height:100%;
+     margin-top:20%;
+}
+#image8 img{
+  width:100%;
+   height:100%;
+     margin-top:20%;
+}
 #projet b {
  Color:#575757;
 font-weight: 900;
-	
+	 
 }
 
 
@@ -113,9 +164,14 @@ footer img {
 
 footer {
   position: relative;
- 
   color: #A6A191;
   margin: 10%;
+  margin-top:20%;
   
 
+}
+.row3{
+  margin-top:10%;
+  }
+  
 }
