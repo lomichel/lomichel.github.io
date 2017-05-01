@@ -271,6 +271,15 @@ border-width: 1px;
 margin-top: 2%;
 }
 
+#image{
+   /* Apparence circulaire de l'image */
+text-align:center;
+	border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+margin-top: 2%;
+}
+
 #image-3{
   border-radius: 50%;   /* Apparence circulaire de l'image */
 border-color: Black;   /* Couleur de la bordure */
