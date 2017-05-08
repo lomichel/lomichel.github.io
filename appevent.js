@@ -49,6 +49,7 @@ var main = function() {
       $("#retraite").hide("#retraite");
          $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+         $("#yeux").hide("#yeux");
       $("#festival").toggle("festival");
       
     });
@@ -60,6 +61,7 @@ var main = function() {
       $("#stage").hide("#stage");
         $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+         $("#yeux").hide("#yeux");
       $("#retraite").toggle("retraite");
       
     });
@@ -70,6 +72,7 @@ var main = function() {
       $("#retraite").hide("#retraite");
          $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+         $("#yeux").hide("#yeux");
       $("#stage").toggle("stage");
       
     });
@@ -95,10 +98,14 @@ $('#image-7').click(function(){
     $("html, body").animate({ scrollTop: 1820 }, 1000);
     return false;
 });
+$('#image-8').click(function(){
+    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    return false;
+});
  
   $(document).ready(function(){
     $("#image-6").click(function(){
-             $("#stage").hide("#stage");
+             $("#yeux").hide("#yeux");
       $("#nvlfli").hide("#nvlfli");
       $("#fracaban").toggle("fracaban");
       
@@ -106,9 +113,17 @@ $('#image-7').click(function(){
 });
   $(document).ready(function(){
     $("#image-7").click(function(){
-             $("#stage").hide("#stage");
+             $("#yeux").hide("#yeux");
       $("#fracaban").hide("#fracaban");
       $("#nvlfli").toggle("nvlfli");
+      
+    });
+});
+  $(document).ready(function(){
+    $("#image-8").click(function(){
+             $("#nvlfli").hide("#nvlfli");
+      $("#fracaban").hide("#fracaban");
+      $("#yeux").toggle("yeux");
       
     });
 });
