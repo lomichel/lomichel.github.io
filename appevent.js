@@ -47,6 +47,8 @@ var main = function() {
     $("#image-5").click(function(){
              $("#stage").hide("#stage");
       $("#retraite").hide("#retraite");
+         $("#fracaban").hide("#fracaban");
+        $("#nvlfli").hide("#nvlfli");
       $("#festival").toggle("festival");
       
     });
@@ -56,6 +58,8 @@ var main = function() {
     $("#image-2").click(function(){
              $("#festival").hide("#festival");
       $("#stage").hide("#stage");
+        $("#fracaban").hide("#fracaban");
+        $("#nvlfli").hide("#nvlfli");
       $("#retraite").toggle("retraite");
       
     });
@@ -64,6 +68,8 @@ var main = function() {
     $("#image-3").click(function(){
              $("#festival").hide("#festival");
       $("#retraite").hide("#retraite");
+         $("#fracaban").hide("#fracaban");
+        $("#nvlfli").hide("#nvlfli");
       $("#stage").toggle("stage");
       
     });
