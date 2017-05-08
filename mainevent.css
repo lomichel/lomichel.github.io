@@ -1,104 +1,83 @@
-
-body{
+body {
   background-color: #fff;
-
- 
 }
+
 header {
   background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Coverbande.JPG?raw=true');
-    background-size: 100% 170%;
+  background-size: 100% 170%;
   height: 270;
   padding-top: 10%;
-    margin-top: -2%;
+  margin-top: -2%;
   border: 1px solid Black;
-  
- 
 }
-#back1{
-    background: #FEFEFB;
-    color: #A6A191;
-   
- 
+
+#back1 {
+  background: #FEFEFB;
+  color: #A6A191;
   cursor: pointer;
   font-size: 16px;
-
-position: relative;
-
- margin-left: 2%;
+  position: relative;
+  margin-left: 2%;
   margin-top: 2%;
 }
-.maintitle h2{
- 
+
+.maintitle h2 {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   text-align: center;
-color: #FEFEFB;
+  color: #FEFEFB;
   font-size: 550%;
   font-weight: 500;
-   margin-top: 4%;
-   text-shadow:0 0 3px #000000;
- 
-    }
-
-.maintop{
-  text-align: center;
-  margin: 2%;
-  
+  margin-top: 4%;
+  text-shadow: 0 0 3px #000000;
 }
 
+.maintop {
+  text-align: center;
+  margin: 2%;
+}
 
 .back1 {
-   color: #A6A191;
+  color: #A6A191;
   cursor: pointer;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
-
-position: relative;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
-
-border: none;
- margin-left: 2%;
+  border: none;
+  margin-left: 2%;
   margin-top: 2%;
 }
-
 
 .calendar:hover {
   background: #484b4d;
-
   text-decoration: none;
 }
 
 .container1 {
-	position:relative;
-
-  text-align: center 
+  position: relative;
+  text-align: center
 }
-
 
 .calendar {
   color: #fff;
   cursor: pointer;
-text-align: center;
+  text-align: center;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
-position: relative;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
-background: #DC143C;
+  background: #DC143C;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 9px;
   padding: 10px 20px 10px 20px;
-border: none;
- 
-  
+  border: none;
 }
-
-
-
 
 footer {
   position: relative;
@@ -106,370 +85,406 @@ footer {
   padding-left: 10%;
   color: #A6A191;
   margin-top: 10%;
- 
-
 }
 
-.image7{
-  text-align:center;
+.image7 {
+  text-align: center;
 }
+
 footer img {
-
   width: 32px;
   height: 32px;
-  margin-left: 90% ;
+  margin-left: 90%;
   margin-top: -3%;
   margin-bottom: 5%;
 }
 
 
-
 /* Outer */
+
 .popup {
-    width:100%;
-    height:800px;
-    display: none;
-    position:absolute;
-    top:10px;
-    left:0px;
-    background:rgba(0,0,0,0.75);
+  width: 100%;
+  height: 800px;
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.75);
   z-index: 10;
   font-family: Arial, Helvetica, sans-serif;
-  color:#000000;
+  color: #000000;
   text-align: center;
 }
- 
+
+
 /* Inner */
+
 .popup-inner {
-    max-width:500px;
-    width:100%;
-    padding:50px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    -webkit-transform:translate(-50%, -50%);
-    transform:translate(-50%, -50%);
-    box-shadow:0px 2px 6px rgba(0,0,0,1);
-    border-radius:3px;
-    background:#fff;
-}
- 
-/* Close Button */
-.popup-close {
-    width:30px;
-    height:30px;
-    padding-top:4px;
-    display:inline-block;
-    position:absolute;
-    top:0px;
-    right:0px;
-    transition:ease 0.25s all;
-    -webkit-transform:translate(50%, -50%);
-    transform:translate(50%, -50%);
-    border-radius:1000px;
-    background:rgba(0,0,0,0.8);
-    font-family:Arial, Sans-Serif;
-    font-size:20px;
-    text-align:center;
-    line-height:100%;
-    color:#fff;
-}
- 
-.popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(180deg);
-    transform:translate(50%, -50%) rotate(180deg);
-    background:rgba(0,0,0,1);
-    text-decoration:none;
+  max-width: 500px;
+  width: 100%;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  background: #fff;
 }
 
+
+/* Close Button */
+
+.popup-close {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transition: ease 0.25s all;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  border-radius: 1000px;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Arial, Sans-Serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100%;
+  color: #fff;
+}
+
+.popup-close:hover {
+  -webkit-transform: translate(50%, -50%) rotate(180deg);
+  transform: translate(50%, -50%) rotate(180deg);
+  background: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
 
 fieldset {
   margin-bottom: 10px;
   padding: 10px;
-  color:#000000;
+  color: #000000;
 }
- 
+
 legend {
   padding: 0px 3px;
   font-weight: bold;
   font-variant: small-caps;
 }
- 
+
 label {
   width: 100px;
   display: inline-block;
   vertical-align: top;
   margin: 6px;
-  color:#000000;
+  color: #000000;
 }
- 
- 
+
 input:focus {
   background: #eaeaea;
-  color:#000000;
+  color: #000000;
 }
- 
-input, textarea {
+
+input,
+textarea {
   width: 252px;
-  color:black;
+  color: black;
 }
- 
+
 textarea {
   height: 50px;
-  color:#000000;
+  color: #000000;
 }
- 
+
 select {
   width: 252px;
-  color:#000000;
+  color: #000000;
 }
 
 #envoy {
-    background-color: #DC143C;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-	margin-top:60px;
-	border-radius: 8px;
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 60px;
+  border-radius: 8px;
 }
 
 input[type=checkbox] {
   width: 10px;
 }
- 
+
 input[type=submit] {
   width: 100px;
   padding: 10px;
 }
 
-.container1{
+.container1 {
   border-top: 1px solid Black;
 }
 
-.row1{
-margin-top: 2%;
-
-
+.row1 {
+  margin-top: 2%;
 }
-.row2{
+
+.row2 {
   text-align: center;
-border-bottom: 1px solid black;
-height: 250px;
-  margin-top: 5%;
-  font-family: "Abadi MT Condensed Light";
-  font-size: 20px;
-}
-.row4{
-
-
-height: 275px;
+  border-bottom: 1px solid black;
+  height: 250px;
   margin-top: 5%;
   font-family: "Abadi MT Condensed Light";
   font-size: 20px;
 }
 
-#image-5{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-
-     height: 210px;
-  width: 210px;
-margin-top: 2%;
+.row4 {
+  height: 275px;
+  margin-top: 5%;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
 }
 
-#image7{
-   /* Apparence circulaire de l'image */
-text-align:center;
-	border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-margin-top: 2%;
+#image-5 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 210px;
+  width: 210px;
+  margin-top: 2%;
 }
 
-#image-3{
-  border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
-height: 210px;
-  width: 210px;
-margin-top: 2%;
+#image7 {
+  /* Apparence circulaire de l'image */
+  text-align: center;
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  margin-top: 2%;
 }
-#image-2{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
- height: 210px;
+
+#image-3 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 210px;
   width: 210px;
-margin-top: 2%;
+  margin-top: 2%;
 }
-#image-6{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
- height: 125px;
+
+#image-2 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 210px;
+  width: 210px;
+  margin-top: 2%;
+}
+
+#image-6 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 125px;
   width: 125px;
-margin-top: 2%;
-
+  margin-top: 2%;
 }
-#image-7{
-  
-border-radius: 50%;   /* Apparence circulaire de l'image */
-border-color: Black;   /* Couleur de la bordure */
-border-style: solid;   /* Style de la bordure */
-border-width: 1px; 
- height: 125px;
+
+#image-7 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 125px;
   width: 125px;
-margin-top: 2%;
-
+  margin-top: 2%;
 }
-.row  p{
-  
+
+#image-8 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 125px;
+  width: 125px;
+  margin-top: 2%;
+}
+
+.row p {
   text-align: justify;
-	font-family: "Abadi MT Condensed Light";
-
-
+  font-family: "Abadi MT Condensed Light";
 }
-#flyers{
-	 
 
-text-align: center;
-margin-top: 5%;
+#flyers {
+  text-align: center;
+  margin-top: 5%;
 }
-#flyersimg{
-	text-align:center;
-	margin-bottom:2%;
+
+#flyersimg {
+  text-align: center;
+  margin-bottom: 2%;
 }
-#festival{
-display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
+
+#festival {
+  display: none;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
-   margin-bottom: 3%;
-  
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
 }
+
 #stage {
-   display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
+  display: none;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
-   margin-bottom: 3%;
-  
- color: #A6A191;
- font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
 }
+
 #retraite {
   display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
-   margin-bottom: 3%;
-  
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
 }
+
 #fracaban {
   display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
-   margin-bottom: 3%;
-  
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
 }
+
 #nvlfli {
   display: none;
-      text-align: justify;
- 
-  margin-left:5%;
-  margin-right:5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
-   margin-bottom: 3%;
-  
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
-   font-size: 20px;
- 
-   Line-Height: 1.5;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
 }
+
+#yeux {
+  display: none;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
+}
+
 .festival b {
- Color:#575757;
-font-weight: 900;
-	
+  Color: #575757;
+  font-weight: 900;
 }
+
 .retraite b {
- Color:#575757;
-font-weight: 900;
-	
+  Color: #575757;
+  font-weight: 900;
 }
+
 .stage b {
- Color:#575757;
-font-weight: 900;
-	
+  Color: #575757;
+  font-weight: 900;
 }
-.festival h3{
-Line-Height: 3;
+
+.festival h3 {
+  Line-Height: 3;
 }
-.retraite h3{
-Line-Height: 3;
+
+.retraite h3 {
+  Line-Height: 3;
 }
-.stage h3{
-Line-Height: 3;
+
+.stage h3 {
+  Line-Height: 3;
 }
-#festival a{
-      text-align: justify;
- color: #A6A191;
-font-family: "Abadi MT Condensed Light";
+
+#festival a {
+  text-align: justify;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
 }
+
 img {
-    cursor: pointer;
-   
+  cursor: pointer;
 }
-col-sm-4{
+
+col-sm-4 {
   text-align: center;
 }
-col-xs-4{
+
+col-xs-4 {
   text-align: center;
 }
-col-md-4{
+
+col-md-4 {
   text-align: center;
 }
-#fracabanvid{
-  margin-top:1%;
-	 text-align:center;
- }
- #nvlflivid{
-  margin-top:1%;
-  text-align:center;
- }
+
+#fracabanvid {
+  margin-top: 1%;
+  text-align: center;
+}
+
+#nvlflivid {
+  margin-top: 1%;
+  text-align: center;
+}
