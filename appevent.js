@@ -81,7 +81,31 @@ $('#image-5').click(function(){
     $("html, body").animate({ scrollTop: 320 }, 1000);
     return false;
 });
+$('#image-6').click(function(){
+    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    return false;
+});
+$('#image-7').click(function(){
+    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    return false;
+});
  
+  $(document).ready(function(){
+    $("#image-6").click(function(){
+             $("#stage").hide("#stage");
+      $("#nvlfli").hide("#nvlfli");
+      $("#fracaban").toggle("fracaban");
+      
+    });
+});
+  $(document).ready(function(){
+    $("#image-7").click(function(){
+             $("#stage").hide("#stage");
+      $("#fracaban").hide("#fracaban");
+      $("#nvlfli").toggle("nvlfli");
+      
+    });
+});
 $(document).ready(main);
 
 
