@@ -261,6 +261,14 @@ height: 250px;
   font-family: "Abadi MT Condensed Light";
   font-size: 20px;
 }
+.row4{
+
+
+height: 275px;
+  margin-top: 5%;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+}
 
 #image-5{
   border-radius: 50%;   /* Apparence circulaire de l'image */
@@ -301,8 +309,28 @@ border-width: 1px;
   width: 210px;
 margin-top: 2%;
 }
+#image-6{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 125px;
+  width: 125px;
+margin-top: 2%;
 
+}
+#image-7{
+  
+border-radius: 50%;   /* Apparence circulaire de l'image */
+border-color: Black;   /* Couleur de la bordure */
+border-style: solid;   /* Style de la bordure */
+border-width: 1px; 
+ height: 125px;
+  width: 125px;
+margin-top: 2%;
 
+}
 .row  p{
   
   text-align: justify;
@@ -364,6 +392,36 @@ font-family: "Abadi MT Condensed Light";
  
    Line-Height: 1.5;
 }
+#fracaban {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 2%;
+   margin-bottom: 3%;
+  
+ color: #A6A191;
+font-family: "Abadi MT Condensed Light";
+   font-size: 20px;
+ 
+   Line-Height: 1.5;
+}
+#nvlfli {
+  display: none;
+      text-align: justify;
+ 
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 2%;
+   margin-bottom: 3%;
+  
+ color: #A6A191;
+font-family: "Abadi MT Condensed Light";
+   font-size: 20px;
+ 
+   Line-Height: 1.5;
+}
 .festival b {
  Color:#575757;
 font-weight: 900;
@@ -406,6 +464,10 @@ col-xs-4{
 col-md-4{
   text-align: center;
 }
-#fracaban{
-  text-align: center;
-}
+#fracabanvid{
+  margin-top:5%;
+ }
+ #nvlflivid{
+  margin-top:1%;
+  text-align:center;
+ }
