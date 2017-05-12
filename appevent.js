@@ -49,6 +49,7 @@ var main = function() {
       $("#retraite").hide("#retraite");
          $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+        $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
       $("#festival").toggle("festival");
       
@@ -61,6 +62,7 @@ var main = function() {
       $("#stage").hide("#stage");
         $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+        $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
       $("#retraite").toggle("retraite");
       
@@ -72,6 +74,7 @@ var main = function() {
       $("#retraite").hide("#retraite");
          $("#fracaban").hide("#fracaban");
         $("#nvlfli").hide("#nvlfli");
+        $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
       $("#stage").toggle("stage");
       
@@ -107,6 +110,7 @@ $('#image-8').click(function(){
     $("#image-6").click(function(){
              $("#yeux").hide("#yeux");
       $("#nvlfli").hide("#nvlfli");
+      $("#caberdouche").hide("#caberdouche");
       $("#fracaban").toggle("fracaban");
       
     });
@@ -114,6 +118,7 @@ $('#image-8').click(function(){
   $(document).ready(function(){
     $("#image-7").click(function(){
              $("#yeux").hide("#yeux");
+      $("#caberdouche").hide("#caberdouche");
       $("#fracaban").hide("#fracaban");
       $("#nvlfli").toggle("nvlfli");
       
@@ -124,6 +129,7 @@ $('#image-8').click(function(){
              $("#nvlfli").hide("#nvlfli");
       $("#fracaban").hide("#fracaban");
       $("#yeux").toggle("yeux");
+      $("#caberdouche").toggle("caberdouche");
       
     });
 });
