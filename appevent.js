@@ -125,7 +125,7 @@ $('#image-8').click(function(){
     });
 });
   $(document).ready(function(){
-    $("#image-8").click(function(){
+    $("#image-9").click(function(){
              $("#nvlfli").hide("#nvlfli");
       $("#fracaban").hide("#fracaban");
       $("#yeux").toggle("yeux");
