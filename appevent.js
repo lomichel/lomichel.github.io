@@ -125,10 +125,21 @@ $('#image-8').click(function(){
     });
 });
   $(document).ready(function(){
+    $("#image-8").click(function(){
+             $("#nvlfli").hide("#nvlfli");
+      $("#fracaban").hide("#fracaban");
+      
+        $("#caberdouche").hide("#caberdouche");
+        $("#yeux").toggle("yeux");
+     
+      
+    });
+});
+  $(document).ready(function(){
     $("#image-9").click(function(){
              $("#nvlfli").hide("#nvlfli");
       $("#fracaban").hide("#fracaban");
-      $("#yeux").toggle("yeux");
+        $("#yeux").hide("#yeux");
       $("#caberdouche").toggle("caberdouche");
       
     });
