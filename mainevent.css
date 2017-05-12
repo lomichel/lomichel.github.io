@@ -403,7 +403,18 @@ input[type=submit] {
   font-size: 20px;
   Line-Height: 1.5;
 }
-
+#caberdouche {
+  display: none;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
+}
 #nvlfli {
   display: none;
   text-align: justify;
