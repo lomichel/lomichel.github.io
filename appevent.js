@@ -53,23 +53,23 @@ $('#image-5').click(function(){
     return false;
 });
 $('#image-6').click(function(){
-    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    $("html, body").animate({ scrollTop: 1720 }, 1000);
     return false;
 });
 $('#image-7').click(function(){
-    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    $("html, body").animate({ scrollTop: 1720 }, 1000);
     return false;
 });
 $('#image-8').click(function(){
-    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    $("html, body").animate({ scrollTop: 1720 }, 1000);
     return false;
 });
 $('#image-9').click(function(){
-    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    $("html, body").animate({ scrollTop: 1720 }, 1000);
     return false;
 });
 $('#image-10').click(function(){
-    $("html, body").animate({ scrollTop: 1820 }, 1000);
+    $("html, body").animate({ scrollTop: 1720 }, 1000);
     return false;
 });
  
