@@ -136,6 +136,18 @@ function returnToOriginalSize() {
     $(this).css({height: "", width: ""});
 }
  });
+ 
+ $(document).ready(function(){
+$('#flyersimg1').hover(makeBigger, returnToOriginalSize);
+
+function makeBigger() {
+    $(this).css({height: '+=100%', width: '+=100%'});
+}
+function returnToOriginalSize() {
+    $(this).css({height: "", width: ""});
+}
+ });
+ 
 $(document).ready(main);
 
 
