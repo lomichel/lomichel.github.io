@@ -374,6 +374,7 @@ input[type=submit] {
 #flyersimg {
   text-align: center;
   margin-bottom: 2%;
+  width:70%;
 }
 
 #festival {
