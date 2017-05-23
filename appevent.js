@@ -51,6 +51,7 @@ var main = function() {
         $("#nvlfli").hide("#nvlfli");
         $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
+         $("#Kola").hide("#Kola");
       $("#festival").toggle("festival");
       
     });
@@ -64,6 +65,7 @@ var main = function() {
         $("#nvlfli").hide("#nvlfli");
         $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
+         $("#Kola").hide("#Kola");
       $("#retraite").toggle("retraite");
       
     });
@@ -76,6 +78,7 @@ var main = function() {
         $("#nvlfli").hide("#nvlfli");
         $("#caberdouche").hide("#caberdouche");
          $("#yeux").hide("#yeux");
+         $("#Kola").hide("#Kola");
       $("#stage").toggle("stage");
       
     });
@@ -111,6 +114,7 @@ $('#image-8').click(function(){
              $("#yeux").hide("#yeux");
       $("#nvlfli").hide("#nvlfli");
       $("#caberdouche").hide("#caberdouche");
+      $("#Kola").hide("#Kola");
       $("#fracaban").toggle("fracaban");
       
     });
@@ -120,6 +124,7 @@ $('#image-8').click(function(){
              $("#yeux").hide("#yeux");
       $("#caberdouche").hide("#caberdouche");
       $("#fracaban").hide("#fracaban");
+      $("#Kola").hide("#Kola");
       $("#nvlfli").toggle("nvlfli");
       
     });
@@ -128,7 +133,7 @@ $('#image-8').click(function(){
     $("#image-8").click(function(){
              $("#nvlfli").hide("#nvlfli");
       $("#fracaban").hide("#fracaban");
-      
+      $("#Kola").hide("#Kola");
         $("#caberdouche").hide("#caberdouche");
         $("#yeux").toggle("yeux");
      
@@ -140,7 +145,18 @@ $('#image-8').click(function(){
              $("#nvlfli").hide("#nvlfli");
       $("#fracaban").hide("#fracaban");
         $("#yeux").hide("#yeux");
+        $("#Kola").hide("#Kola");
       $("#caberdouche").toggle("caberdouche");
+      
+    });
+});
+  $(document).ready(function(){
+    $("#image-10").click(function(){
+             $("#nvlfli").hide("#nvlfli");
+      $("#fracaban").hide("#fracaban");
+        $("#yeux").hide("#yeux");
+        $("#caberdouche").hide("#caberdouche");
+      $("#Kola").toggle("Kola");
       
     });
 });
