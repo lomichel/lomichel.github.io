@@ -231,7 +231,10 @@ input[type=submit] {
 .row1 {
   margin-top: 2%;
 }
-
+.row{
+  text-align: center;
+  font-family: "Abadi MT Condensed Light";
+}
 .row2 {
   text-align: center;
   border-bottom: 1px solid black;
