@@ -125,9 +125,17 @@ $('#image-10').click(function(){
     });
 });
 
+
+$(document).ready(function(){
+$('#flyersimg').hover(makeBigger, returnToOriginalSize);
+
+function makeBigger() {
+    $(this).css({height: '+=100%', width: '+=100%'});
+}
+function returnToOriginalSize() {
+    $(this).css({height: "", width: ""});
+}
+ });
 $(document).ready(main);
-
-
-
 
 
