@@ -349,6 +349,18 @@ input[type=submit] {
   width: 125px;
   margin-top: 2%;
 }
+#image-10 {
+  border-radius: 50%;
+  /* Apparence circulaire de l'image */
+  border-color: Black;
+  /* Couleur de la bordure */
+  border-style: solid;
+  /* Style de la bordure */
+  border-width: 1px;
+  height: 125px;
+  width: 125px;
+  margin-top: 2%;
+}
 .row p {
   text-align: justify;
   font-family: "Abadi MT Condensed Light";
@@ -416,6 +428,18 @@ input[type=submit] {
   Line-Height: 1.5;
 }
 #caberdouche {
+  display: none;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: #A6A191;
+  font-family: "Abadi MT Condensed Light";
+  font-size: 20px;
+  Line-Height: 1.5;
+}
+#Kola {
   display: none;
   text-align: justify;
   margin-left: 5%;
