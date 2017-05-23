@@ -372,14 +372,16 @@ input[type=submit] {
 }
 
 #flyersimg {
-  text-align: center;
-  margin-bottom: 2%;
-  width:70%;
-}
-#flyersimg1 {
  
   margin-bottom: 2%;
-  width:80%;
+    z-index: 10;
+  width:100%;
+}
+#flyersimg1 {
+ margin-top: 5%;
+  z-index: 5;
+  margin-bottom: 2%;
+  width:100%;
 }
 
 #festival {
