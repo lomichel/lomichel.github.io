@@ -4,6 +4,233 @@
 body{
    background-color: #FEFEFB;
  
+/* Basic background image styling. */
+
+body{
+   background-color: #FEFEFB;
+ 
+
+  
+}
+header {
+  background-image: url( 'https://github.com/lomichel/lomichel.github.io/blob/master/enssemble.jpg?raw=true');
+ : 300px;
+  background-size: 100% 180%;
+  border: 1px solid black;
+ margin-top: -2%;
+  margin-left: -2%;
+  width: 102.2%;
+}
+
+
+.maintitle h2{
+ 
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #FEFEFB;
+  font-size: 500%;
+  font-weight: 500;
+   text-shadow:0 0 3px #000000;
+    }
+.maintitle h3{
+
+  font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+color: #FEFEFB;
+  font-size: 150%;
+  font-weight: 500;
+  margin-top: -45px;
+   text-shadow:0 0 4px #000000;
+ 
+    }
+
+
+
+
+.back1 {
+   color: #A6A191;
+  cursor: pointer;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 16px;
+
+position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+    
+
+
+  
+  padding: 10px 20px 10px 20px;
+border: none;
+ margin-left: 2%;
+  margin-top: 2%;
+}
+
+.back1:hover {
+ 
+  text-decoration: underline;
+  
+}
+
+
+
+.maintop{
+  text-align: center;
+  margin: 2%;
+    
+  
+}
+
+
+.background-image {
+ position: relative;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+ 
+
+	
+}
+#jdmdessin {
+  text-align:center;
+  margin-top:2%;
+	 margin-left:10%;
+   margin-bottom:2%;
+   width: 70%;
+   height: 95%;
+   
+}
+.jdmdessin {
+  text-align:center;
+    border-top: 1px solid black;
+	   margin-bottom:2%;
+   width: 100%;
+   height: 95%;
+}
+.toggle-image {
+ 	  position: absolute;
+  width: 101%;
+	background-size: cover;
+ 	height: 450px;
+	transition: opacity 1s ease-in-out;
+  border: 1px solid Black;
+ margin-left: -2%;
+  
+  
+  
+    
+}
+
+/* Styles for the specific images. */
+.forth-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/iledesani.jpg?raw=true');	
+	z-index: -7;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardinneige.JPG?raw=true');
+	z-index: -8;
+	opacity: 0;
+}
+
+.nine-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Carre.JPG?raw=true');
+	z-index: -9;
+	opacity: 0;
+}
+.five-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/terasse.jpg?raw=true');
+	z-index:-4;
+	opacity:0;
+}
+.first-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/laclimp.jpg?raw=true');
+	z-index:-6;
+	opacity:0;
+}
+.six-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Etang.JPG?raw=true');
+	z-index:-5;
+	opacity:0;
+}
+.seven-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/pots.JPG?raw=true');
+	z-index:-3;
+	opacity:0;
+}
+.eight-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Yoga.JPG?raw=true');
+	z-index:-1;
+	opacity:0;
+}
+.third-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Chou.JPG?raw=true');
+	z-index:-2;
+	opacity:0;
+}
+
+.first-image.show {
+	opacity: 1;
+}
+
+.second-image.show {
+	opacity: 1;
+}
+
+.third-image.show {
+	opacity: 1;
+}
+.forth-image.show {
+	opacity: 1;
+}
+
+.five-image.show {
+	opacity: 1;
+}
+.seven-image.show {
+	opacity: 1;
+}
+.eight-image.show {
+	opacity: 1;
+}
+.nine-image.show {
+	opacity: 1;
+}
+.six-image.show {
+	opacity: 1;
+}
+.poeme {
+  position: relative;
+  text-align: justify;
+  margin:10%;
+ margin-top:520px;
+  font-size: 125%;
+	 color: #A6A191;
+
+}
+.poeme b {
+ Color:#575757;
+font-weight: 900;
+	
+}
+footer {
+  position: relative;
+  color: #A6A191;
+  margin: 10%;
+
+}
+
+
+footer img {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 90% ;
+  margin-top: -3%;
+  margin-bottom: 5%;
+}
+
 
   
 }
