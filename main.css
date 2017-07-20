@@ -351,13 +351,13 @@ background-repeat: no-repeat;
 }
 
 .second-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Jardinneige.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Semis.JPG?raw=true');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Carre.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/enss.JPG?raw=true');
 	z-index: -1;
 	opacity: 0;
 }
@@ -372,8 +372,23 @@ background-repeat: no-repeat;
 	opacity:0;
 }
 .six-image {
-	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Etang.JPG?raw=true');
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Bourache.JPG?raw=true');
 	z-index:-5;
+	opacity:0;
+}
+.seven-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Chou.JPG?raw=true');
+	z-index:-7;
+	opacity:0;
+}
+.eight-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/Yoga.JPG?raw=true');
+	z-index:-8;
+	opacity:0;
+}
+.nine-image {
+	background-image: url('https://github.com/lomichel/lomichel.github.io/blob/master/enssemble.jpg?raw=true');
+	z-index:-9;
 	opacity:0;
 }
 
@@ -395,6 +410,15 @@ background-repeat: no-repeat;
 	opacity: 1;
 }
 .six-image.show {
+	opacity: 1;
+}
+.seven-image.show {
+	opacity: 1;
+}
+.eight-image.show {
+	opacity: 1;
+}
+.nine-image.show {
 	opacity: 1;
 }
 .poeme {
